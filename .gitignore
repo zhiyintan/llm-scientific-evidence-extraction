@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.cursor/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific
+backup/
+mineru_output/
+data/results/figures/
+
+# Secrets
+.env.local
+.secrets
+.agent
+.claude
+debug_runs/
+src/extraction/pipeline.py.bak_20260413
+.openai_key
+paper_tables/
+scripts/eval/results/
+scripts/eval/archive/
+data/ground_truth_backup/

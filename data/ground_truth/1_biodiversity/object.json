@@ -1,0 +1,1259 @@
+[
+  {
+    "question_id": "O1.1",
+    "question": "<geolocation>",
+    "description": "Extract the geographical setting or spatial context of each study.",
+    "answer_format": {
+      "paper_id": "integer",
+      "answer": [
+        {
+          "geolocation": "string"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "paper_id": 1,
+        "answer": [
+          {
+            "geolocation": "South Africa"
+          }
+        ]
+      },
+      {
+        "paper_id": 2,
+        "answer": [
+          {
+            "geolocation": "England"
+          }
+        ]
+      },
+      {
+        "paper_id": 3,
+        "answer": [
+          {
+            "geolocation": "Central Kalimantan, Indonesia"
+          }
+        ]
+      },
+      {
+        "paper_id": 4,
+        "answer": [
+          {
+            "geolocation": "Yangtze River Economic Belt, China"
+          }
+        ]
+      },
+      {
+        "paper_id": 5,
+        "answer": [
+          {
+            "geolocation": "Peninsular Spain"
+          },
+          {
+            "geolocation": "Quebec Canada"
+          }
+        ]
+      },
+      {
+        "paper_id": 6,
+        "answer": [
+          {
+            "geolocation": "Indonesia"
+          }
+        ]
+      },
+      {
+        "paper_id": 7,
+        "answer": [
+          {
+            "geolocation": "Colombia"
+          }
+        ]
+      },
+      {
+        "paper_id": 8,
+        "answer": [
+          {
+            "geolocation": "Global"
+          }
+        ]
+      },
+      {
+        "paper_id": 9,
+        "answer": [
+          {
+            "geolocation": "Baiyangdian watershed, China"
+          }
+        ]
+      },
+      {
+        "paper_id": 10,
+        "answer": [
+          {
+            "geolocation": "Iron Quadrangle, Brazil"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "O1.2",
+    "question": "<sample size>",
+    "description": "Extract the total sample size reported for each study.",
+    "answer_format": {
+      "paper_id": "integer",
+      "answer": [
+        {
+          "sample_size": "integer"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "paper_id": 1,
+        "answer": [
+          {
+            "sample_size": 2014
+          }
+        ]
+      },
+      {
+        "paper_id": 2,
+        "answer": [
+          {
+            "sample_size": 1485
+          }
+        ]
+      },
+      {
+        "paper_id": 3,
+        "answer": [
+          {
+            "sample_size": 1000
+          }
+        ]
+      },
+      {
+        "paper_id": 4,
+        "answer": [
+          {
+            "sample_size": 131
+          }
+        ]
+      },
+      {
+        "paper_id": 5,
+        "answer": [
+          {
+            "sample_size": null
+          }
+        ]
+      },
+      {
+        "paper_id": 6,
+        "answer": [
+          {
+            "sample_size": 79555
+          }
+        ]
+      },
+      {
+        "paper_id": 7,
+        "answer": [
+          {
+            "sample_size": 9759
+          }
+        ]
+      },
+      {
+        "paper_id": 8,
+        "answer": [
+          {
+            "sample_size": 15018
+          }
+        ]
+      },
+      {
+        "paper_id": 9,
+        "answer": [
+          {
+            "sample_size": 15050
+          }
+        ]
+      },
+      {
+        "paper_id": 10,
+        "answer": [
+          {
+            "sample_size": 10000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "O1.3",
+    "question": "<study population>",
+    "description": "Extract the study population or unit of analysis described in each study.",
+    "answer_format": {
+      "paper_id": "integer",
+      "answer": [
+        {
+          "study_population": "string"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "paper_id": 1,
+        "answer": [
+          {
+            "study_population": "Grid squares spanning the semi-arid landscape of South Africa (quarter-degree squares, approximately 700 km²)"
+          }
+        ]
+      },
+      {
+        "paper_id": 2,
+        "answer": [
+          {
+            "study_population": "Grid squares in England (10×10 km British National Grid squares)"
+          }
+        ]
+      },
+      {
+        "paper_id": 3,
+        "answer": [
+          {
+            "study_population": "Hexagonal grid cells in the Ex-Mega Rice Project (EMRP) area (100 ha per cell)"
+          }
+        ]
+      },
+      {
+        "paper_id": 4,
+        "answer": [
+          {
+            "study_population": "prefectural cities in the Yangtze River Economic Belt"
+          }
+        ]
+      },
+      {
+        "paper_id": 5,
+        "answer": [
+          {
+            "study_population": "Grid cells (10×10 km) up-scaled from National Forest Inventories and Breeding Bird Atlases"
+          }
+        ]
+      },
+      {
+        "paper_id": 6,
+        "answer": [
+          {
+            "study_population": "Grid cells (5 km×5 km) clipped to the terrestrial land areas of the Indonesian Archipelago"
+          }
+        ]
+      },
+      {
+        "paper_id": 7,
+        "answer": [
+          {
+            "study_population": "Grid cells (10×10 km) covering the terrestrial area of Colombia"
+          }
+        ]
+      },
+      {
+        "paper_id": 8,
+        "answer": [
+          {
+            "study_population": "Hexagonal grid cells throughout the globe (∼12,500 km² per cell, geodesic discrete global grid system)"
+          }
+        ]
+      },
+      {
+        "paper_id": 9,
+        "answer": [
+          {
+            "study_population": "Planning units (sub-watershed areas extracted from a DEM)"
+          }
+        ]
+      },
+      {
+        "paper_id": 10,
+        "answer": [
+          {
+            "study_population": "Randomly selected pixels"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "O2.1",
+    "question": "<study population> <sample size>",
+    "description": "Extract the study population and its corresponding total sample size.",
+    "answer_format": {
+      "paper_id": "integer",
+      "answer": [
+        {
+          "study_population": "string",
+          "sample_size": "integer"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "paper_id": 1,
+        "answer": [
+          {
+            "study_population": "Grid squares spanning the semi-arid landscape of South Africa (quarter-degree squares, approximately 700 km²)",
+            "sample_size": 2014
+          }
+        ]
+      },
+      {
+        "paper_id": 2,
+        "answer": [
+          {
+            "study_population": "Grid squares in England (10×10 km British National Grid squares)",
+            "sample_size": 1485
+          }
+        ]
+      },
+      {
+        "paper_id": 3,
+        "answer": [
+          {
+            "study_population": "Hexagonal grid cells in the Ex-Mega Rice Project (EMRP) area (100 ha per cell)",
+            "sample_size": 1000
+          }
+        ]
+      },
+      {
+        "paper_id": 4,
+        "answer": [
+          {
+            "study_population": "prefectural cities in the Yangtze River Economic Belt",
+            "sample_size": 131
+          }
+        ]
+      },
+      {
+        "paper_id": 5,
+        "answer": [
+          {
+            "study_population": "Grid cells (10×10 km) up-scaled from National Forest Inventories and Breeding Bird Atlases",
+            "sample_size": null
+          }
+        ]
+      },
+      {
+        "paper_id": 6,
+        "answer": [
+          {
+            "study_population": "Grid cells (5 km×5 km) clipped to the terrestrial land areas of the Indonesian Archipelago",
+            "sample_size": 79555
+          }
+        ]
+      },
+      {
+        "paper_id": 7,
+        "answer": [
+          {
+            "study_population": "Grid cells (10×10 km) covering the terrestrial area of Colombia",
+            "sample_size": 9759
+          }
+        ]
+      },
+      {
+        "paper_id": 8,
+        "answer": [
+          {
+            "study_population": "Hexagonal grid cells throughout the globe (∼12,500 km² per cell, geodesic discrete global grid system)",
+            "sample_size": 15018
+          }
+        ]
+      },
+      {
+        "paper_id": 9,
+        "answer": [
+          {
+            "study_population": "Planning units (sub-watershed areas extracted from a DEM)",
+            "sample_size": 15050
+          }
+        ]
+      },
+      {
+        "paper_id": 10,
+        "answer": [
+          {
+            "study_population": "Randomly selected pixels",
+            "sample_size": 10000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "O2.2",
+    "question": "<study population> <geolocation>",
+    "description": "Extract the study population and its corresponding geographical setting.",
+    "answer_format": {
+      "paper_id": "integer",
+      "answer": [
+        {
+          "study_population": "string",
+          "geolocation": "string"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "paper_id": 1,
+        "answer": [
+          {
+            "study_population": "Grid squares spanning the semi-arid landscape of South Africa (quarter-degree squares, approximately 700 km²)",
+            "geolocation": "South Africa"
+          }
+        ]
+      },
+      {
+        "paper_id": 2,
+        "answer": [
+          {
+            "study_population": "Grid squares in England (10×10 km British National Grid squares)",
+            "geolocation": "England"
+          }
+        ]
+      },
+      {
+        "paper_id": 3,
+        "answer": [
+          {
+            "study_population": "Hexagonal grid cells in the Ex-Mega Rice Project (EMRP) area (100 ha per cell)",
+            "geolocation": "Central Kalimantan, Indonesia"
+          }
+        ]
+      },
+      {
+        "paper_id": 4,
+        "answer": [
+          {
+            "study_population": "prefectural cities in the Yangtze River Economic Belt",
+            "geolocation": "Yangtze River Economic Belt, China"
+          }
+        ]
+      },
+      {
+        "paper_id": 5,
+        "answer": [
+          {
+            "study_population": "Grid cells (10×10 km) up-scaled from National Forest Inventories and Breeding Bird Atlases",
+            "geolocation": "Peninsular Spain"
+          },
+          {
+            "study_population": "Grid cells (10×10 km) up-scaled from National Forest Inventories and Breeding Bird Atlases",
+            "geolocation": "Quebec Canada"
+          }
+        ]
+      },
+      {
+        "paper_id": 6,
+        "answer": [
+          {
+            "study_population": "Grid cells (5 km×5 km) clipped to the terrestrial land areas of the Indonesian Archipelago",
+            "geolocation": "Indonesia"
+          }
+        ]
+      },
+      {
+        "paper_id": 7,
+        "answer": [
+          {
+            "study_population": "Grid cells (10×10 km) covering the terrestrial area of Colombia",
+            "geolocation": "Colombia"
+          }
+        ]
+      },
+      {
+        "paper_id": 8,
+        "answer": [
+          {
+            "study_population": "Hexagonal grid cells throughout the globe (∼12,500 km² per cell, geodesic discrete global grid system)",
+            "geolocation": "Global"
+          }
+        ]
+      },
+      {
+        "paper_id": 9,
+        "answer": [
+          {
+            "study_population": "Planning units (sub-watershed areas extracted from a DEM)",
+            "geolocation": "Baiyangdian watershed, China"
+          }
+        ]
+      },
+      {
+        "paper_id": 10,
+        "answer": [
+          {
+            "study_population": "Randomly selected pixels",
+            "geolocation": "Iron Quadrangle, Brazil"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "O2.3",
+    "question": "<study population> <geolocation> <sample size>",
+    "description": "Extract the study population together with its corresponding geographical setting and total sample size (as a single aligned triple).",
+    "answer_format": {
+      "paper_id": "integer",
+      "answer": [
+        {
+          "study_population": "string",
+          "geolocation": "string",
+          "sample_size": "integer"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "paper_id": 1,
+        "answer": [
+          {
+            "study_population": "Grid squares spanning the semi-arid landscape of South Africa. The resolution is quarter-degree squares (QDS), approximately 700 km².",
+            "geolocation": "South Africa",
+            "sample_size": 2014
+          }
+        ]
+      },
+      {
+        "paper_id": 2,
+        "answer": [
+          {
+            "study_population": "Grid squares in England (10×10 km British National Grid squares)",
+            "geolocation": "England",
+            "sample_size": 1485
+          }
+        ]
+      },
+      {
+        "paper_id": 3,
+        "answer": [
+          {
+            "study_population": "Hexagonal grid cells in the Ex-Mega Rice Project (EMRP) area, Central Kalimantan, Indonesia (100 ha per cell)",
+            "geolocation": "Central Kalimantan, Indonesia",
+            "sample_size": 1000
+          }
+        ]
+      },
+      {
+        "paper_id": 4,
+        "answer": [
+          {
+            "study_population": "prefectural cities in the Yangtze River Economic Belt",
+            "geolocation": "Yangtze River Economic Belt, China",
+            "sample_size": 131
+          }
+        ]
+      },
+      {
+        "paper_id": 5,
+        "answer": [
+          {
+            "study_population": "Grid cells (10×10 km) up-scaled from National Forest Inventories and Breeding Bird Atlases",
+            "geolocation": "Peninsular Spain",
+            "sample_size": null
+          },
+          {
+            "study_population": "Grid cells (10×10 km) up-scaled from National Forest Inventories and Breeding Bird Atlases",
+            "geolocation": "Quebec Canada",
+            "sample_size": null
+          }
+        ]
+      },
+      {
+        "paper_id": 6,
+        "answer": [
+          {
+            "study_population": "Grid cells (5 km×5 km) clipped to the terrestrial land areas of the Indonesian Archipelago",
+            "geolocation": "Indonesia",
+            "sample_size": 79555
+          }
+        ]
+      },
+      {
+        "paper_id": 7,
+        "answer": [
+          {
+            "study_population": "Grid cells (10×10 km) covering the terrestrial area of Colombia",
+            "geolocation": "Colombia",
+            "sample_size": 9759
+          }
+        ]
+      },
+      {
+        "paper_id": 8,
+        "answer": [
+          {
+            "study_population": "Hexagonal grid cells throughout the globe (individual units are ∼ 12,500 km^2 each, geodesic discrete global grid system)",
+            "geolocation": "Global",
+            "sample_size": 15018
+          }
+        ]
+      },
+      {
+        "paper_id": 9,
+        "answer": [
+          {
+            "study_population": "Planning units (15,050 sub-watershed areas extracted from a DEM) within the Baiyangdian watershed",
+            "geolocation": "Baiyangdian watershed, China",
+            "sample_size": 15050
+          }
+        ]
+      },
+      {
+        "paper_id": 10,
+        "answer": [
+          {
+            "study_population": "Randomly selected pixels within the Iron Quadrangle, Brazil",
+            "geolocation": "Iron Quadrangle, Brazil",
+            "sample_size": 10000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "OC_O1.2.1",
+    "question": "count - <sample size> (sample size > 100)",
+    "description": "Count the number of records whose sample size is greater than 100.",
+    "answer_format": {
+      "evidences": [
+        {
+          "paper_id": "integer",
+          "sample_size": "integer"
+        }
+      ],
+      "final_list": [
+        "string"
+      ],
+      "final_answer": "integer"
+    },
+    "answers": {
+      "evidences": [
+        {
+          "paper_id": 1,
+          "answer": [
+            {
+              "sample_size": 2014
+            }
+          ]
+        },
+        {
+          "paper_id": 2,
+          "answer": [
+            {
+              "sample_size": 1485
+            }
+          ]
+        },
+        {
+          "paper_id": 3,
+          "answer": [
+            {
+              "sample_size": 1000
+            }
+          ]
+        },
+        {
+          "paper_id": 4,
+          "answer": [
+            {
+              "sample_size": 131
+            }
+          ]
+        },
+        {
+          "paper_id": 5,
+          "answer": [
+            {
+              "sample_size": null
+            }
+          ]
+        },
+        {
+          "paper_id": 6,
+          "answer": [
+            {
+              "sample_size": 79555
+            }
+          ]
+        },
+        {
+          "paper_id": 7,
+          "answer": [
+            {
+              "sample_size": 9759
+            }
+          ]
+        },
+        {
+          "paper_id": 8,
+          "answer": [
+            {
+              "sample_size": 15018
+            }
+          ]
+        },
+        {
+          "paper_id": 9,
+          "answer": [
+            {
+              "sample_size": 15050
+            }
+          ]
+        },
+        {
+          "paper_id": 10,
+          "answer": [
+            {
+              "sample_size": 10000
+            }
+          ]
+        }
+      ],
+      "final_list": [
+        {
+          "sample_size": 2014,
+          "paper_id": [
+            1
+          ]
+        },
+        {
+          "sample_size": 1485,
+          "paper_id": [
+            2
+          ]
+        },
+        {
+          "sample_size": 1000,
+          "paper_id": [
+            3
+          ]
+        },
+        {
+          "sample_size": 131,
+          "paper_id": [
+            4
+          ]
+        },
+        {
+          "sample_size": 79555,
+          "paper_id": [
+            6
+          ]
+        },
+        {
+          "sample_size": 9759,
+          "paper_id": [
+            7
+          ]
+        },
+        {
+          "sample_size": 15018,
+          "paper_id": [
+            8
+          ]
+        },
+        {
+          "sample_size": 15050,
+          "paper_id": [
+            9
+          ]
+        },
+        {
+          "sample_size": 10000,
+          "paper_id": [
+            10
+          ]
+        }
+      ],
+      "final_answer": 9
+    }
+  },
+  {
+    "question_id": "OC_O1.2.2",
+    "question": "average sample size over study populations",
+    "description": "Compute the average of total sample size across study populations.",
+    "answer_format": {
+      "evidences": [
+        {
+          "paper_id": "integer",
+          "sample_size": "integer"
+        }
+      ],
+      "final_list": [
+        "integer"
+      ],
+      "final_answer": "float"
+    },
+    "answers": {
+      "evidences": [
+        {
+          "paper_id": 1,
+          "answer": [
+            {
+              "sample_size": 2014
+            }
+          ]
+        },
+        {
+          "paper_id": 2,
+          "answer": [
+            {
+              "sample_size": 1485
+            }
+          ]
+        },
+        {
+          "paper_id": 3,
+          "answer": [
+            {
+              "sample_size": 1000
+            }
+          ]
+        },
+        {
+          "paper_id": 4,
+          "answer": [
+            {
+              "sample_size": 131
+            }
+          ]
+        },
+        {
+          "paper_id": 5,
+          "answer": [
+            {
+              "sample_size": null
+            }
+          ]
+        },
+        {
+          "paper_id": 6,
+          "answer": [
+            {
+              "sample_size": 79555
+            }
+          ]
+        },
+        {
+          "paper_id": 7,
+          "answer": [
+            {
+              "sample_size": 9759
+            }
+          ]
+        },
+        {
+          "paper_id": 8,
+          "answer": [
+            {
+              "sample_size": 15018
+            }
+          ]
+        },
+        {
+          "paper_id": 9,
+          "answer": [
+            {
+              "sample_size": 15050
+            }
+          ]
+        },
+        {
+          "paper_id": 10,
+          "answer": [
+            {
+              "sample_size": 10000
+            }
+          ]
+        }
+      ],
+      "final_list": [
+        {
+          "sample_size": 2014,
+          "paper_id": [
+            1
+          ]
+        },
+        {
+          "sample_size": 1485,
+          "paper_id": [
+            2
+          ]
+        },
+        {
+          "sample_size": 1000,
+          "paper_id": [
+            3
+          ]
+        },
+        {
+          "sample_size": 131,
+          "paper_id": [
+            4
+          ]
+        },
+        {
+          "sample_size": 79555,
+          "paper_id": [
+            6
+          ]
+        },
+        {
+          "sample_size": 9759,
+          "paper_id": [
+            7
+          ]
+        },
+        {
+          "sample_size": 15018,
+          "paper_id": [
+            8
+          ]
+        },
+        {
+          "sample_size": 15050,
+          "paper_id": [
+            9
+          ]
+        },
+        {
+          "sample_size": 10000,
+          "paper_id": [
+            10
+          ]
+        }
+      ],
+      "final_answer": 14890.22
+    }
+  },
+  {
+    "question_id": "OC_O1.2.3",
+    "question": "median sample size over study populations",
+    "description": "Compute the median of total sample size across study populations.",
+    "answer_format": {
+      "evidences": [
+        {
+          "paper_id": "integer",
+          "sample_size": "integer"
+        }
+      ],
+      "final_list": [
+        "integer"
+      ],
+      "final_answer": "float"
+    },
+    "answers": {
+      "evidences": [
+        {
+          "paper_id": 1,
+          "answer": [
+            {
+              "sample_size": 2014
+            }
+          ]
+        },
+        {
+          "paper_id": 2,
+          "answer": [
+            {
+              "sample_size": 1485
+            }
+          ]
+        },
+        {
+          "paper_id": 3,
+          "answer": [
+            {
+              "sample_size": 1000
+            }
+          ]
+        },
+        {
+          "paper_id": 4,
+          "answer": [
+            {
+              "sample_size": 131
+            }
+          ]
+        },
+        {
+          "paper_id": 5,
+          "answer": [
+            {
+              "sample_size": null
+            }
+          ]
+        },
+        {
+          "paper_id": 6,
+          "answer": [
+            {
+              "sample_size": 79555
+            }
+          ]
+        },
+        {
+          "paper_id": 7,
+          "answer": [
+            {
+              "sample_size": 9759
+            }
+          ]
+        },
+        {
+          "paper_id": 8,
+          "answer": [
+            {
+              "sample_size": 15018
+            }
+          ]
+        },
+        {
+          "paper_id": 9,
+          "answer": [
+            {
+              "sample_size": 15050
+            }
+          ]
+        },
+        {
+          "paper_id": 10,
+          "answer": [
+            {
+              "sample_size": 10000
+            }
+          ]
+        }
+      ],
+      "final_list": [
+        {
+          "sample_size": 131,
+          "paper_id": [
+            4
+          ]
+        },
+        {
+          "sample_size": 1000,
+          "paper_id": [
+            3
+          ]
+        },
+        {
+          "sample_size": 1485,
+          "paper_id": [
+            2
+          ]
+        },
+        {
+          "sample_size": 2014,
+          "paper_id": [
+            1
+          ]
+        },
+        {
+          "sample_size": 9759,
+          "paper_id": [
+            7
+          ]
+        },
+        {
+          "sample_size": 10000,
+          "paper_id": [
+            10
+          ]
+        },
+        {
+          "sample_size": 15018,
+          "paper_id": [
+            8
+          ]
+        },
+        {
+          "sample_size": 15050,
+          "paper_id": [
+            9
+          ]
+        },
+        {
+          "sample_size": 79555,
+          "paper_id": [
+            6
+          ]
+        }
+      ],
+      "final_answer": 9759.0
+    }
+  },
+  {
+    "question_id": "OC_O1.1",
+    "question": "count unique geolocations (countries)",
+    "description": "Count unique countries with step-by-step extraction for error diagnosis.",
+    "answer_format": {
+      "evidences": [
+        {
+          "paper_id": "integer",
+          "location": "string"
+        }
+      ],
+      "final_list": [
+        "string"
+      ],
+      "final_answer": "integer"
+    },
+    "answers": {
+      "evidences": [
+        {
+          "paper_id": 1,
+          "answer": [
+            {
+              "geolocation": "South Africa"
+            }
+          ]
+        },
+        {
+          "paper_id": 2,
+          "answer": [
+            {
+              "geolocation": "England"
+            }
+          ]
+        },
+        {
+          "paper_id": 3,
+          "answer": [
+            {
+              "geolocation": "Central Kalimantan, Indonesia"
+            }
+          ]
+        },
+        {
+          "paper_id": 4,
+          "answer": [
+            {
+              "geolocation": "Yangtze River Economic Belt, China"
+            }
+          ]
+        },
+        {
+          "paper_id": 5,
+          "answer": [
+            {
+              "geolocation": "Peninsular Spain"
+            },
+            {
+              "geolocation": "Quebec Canada"
+            }
+          ]
+        },
+        {
+          "paper_id": 6,
+          "answer": [
+            {
+              "geolocation": "Indonesia"
+            }
+          ]
+        },
+        {
+          "paper_id": 7,
+          "answer": [
+            {
+              "geolocation": "Colombia"
+            }
+          ]
+        },
+        {
+          "paper_id": 8,
+          "answer": [
+            {
+              "geolocation": "Global"
+            }
+          ]
+        },
+        {
+          "paper_id": 9,
+          "answer": [
+            {
+              "geolocation": "Baiyangdian watershed, China"
+            }
+          ]
+        },
+        {
+          "paper_id": 10,
+          "answer": [
+            {
+              "geolocation": "Iron Quadrangle, Brazil"
+            }
+          ]
+        }
+      ],
+      "final_list": [
+        {
+          "country": "Brazil",
+          "paper_id": [
+            10
+          ]
+        },
+        {
+          "country": "Canada",
+          "paper_id": [
+            5
+          ]
+        },
+        {
+          "country": "China",
+          "paper_id": [
+            4,
+            9
+          ]
+        },
+        {
+          "country": "Colombia",
+          "paper_id": [
+            7
+          ]
+        },
+        {
+          "country": "Indonesia",
+          "paper_id": [
+            3,
+            6
+          ]
+        },
+        {
+          "country": "South Africa",
+          "paper_id": [
+            1
+          ]
+        },
+        {
+          "country": "Spain",
+          "paper_id": [
+            5
+          ]
+        },
+        {
+          "country": "United Kingdom",
+          "paper_id": [
+            2
+          ]
+        }
+      ],
+      "final_answer": 8
+    }
+  }
+]

@@ -1,0 +1,1149 @@
+[
+  {
+    "question_id": "O1.1",
+    "question": "<geolocation>",
+    "description": "Extract the geographical setting or spatial context of each study.",
+    "answer_format": {
+      "paper_id": "integer",
+      "answer": [
+        {
+          "geolocation": "string"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "paper_id": 1,
+        "answer": [
+          {
+            "geolocation": "Hualien County, Taiwan"
+          }
+        ]
+      },
+      {
+        "paper_id": 2,
+        "answer": [
+          {
+            "geolocation": "South Korea"
+          }
+        ]
+      },
+      {
+        "paper_id": 3,
+        "answer": [
+          {
+            "geolocation": "Chia-Yi, Taiwan"
+          }
+        ]
+      },
+      {
+        "paper_id": 4,
+        "answer": [
+          {
+            "geolocation": "Korea"
+          }
+        ]
+      },
+      {
+        "paper_id": 5,
+        "answer": [
+          {
+            "geolocation": "Israel"
+          }
+        ]
+      },
+      {
+        "paper_id": 6,
+        "answer": [
+          {
+            "geolocation": "Vilnius, Lithuania"
+          }
+        ]
+      },
+      {
+        "paper_id": 7,
+        "answer": [
+          {
+            "geolocation": "United States"
+          }
+        ]
+      },
+      {
+        "paper_id": 8,
+        "answer": [
+          {
+            "geolocation": "Jinshan District, Shanghai, China"
+          }
+        ]
+      },
+      {
+        "paper_id": 9,
+        "answer": [
+          {
+            "geolocation": "China"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "O1.2",
+    "question": "<sample size>",
+    "description": "Extract the total sample size reported for each study.",
+    "answer_format": {
+      "paper_id": "integer",
+      "answer": [
+        {
+          "sample_size": "integer"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "paper_id": 1,
+        "answer": [
+          {
+            "sample_size": 11080
+          }
+        ]
+      },
+      {
+        "paper_id": 2,
+        "answer": [
+          {
+            "sample_size": 983
+          }
+        ]
+      },
+      {
+        "paper_id": 3,
+        "answer": [
+          {
+            "sample_size": 5417
+          }
+        ]
+      },
+      {
+        "paper_id": 4,
+        "answer": [
+          {
+            "sample_size": 1114
+          }
+        ]
+      },
+      {
+        "paper_id": 5,
+        "answer": [
+          {
+            "sample_size": 1323052
+          }
+        ]
+      },
+      {
+        "paper_id": 6,
+        "answer": [
+          {
+            "sample_size": 184
+          }
+        ]
+      },
+      {
+        "paper_id": 7,
+        "answer": [
+          {
+            "sample_size": 11180
+          }
+        ]
+      },
+      {
+        "paper_id": 8,
+        "answer": [
+          {
+            "sample_size": 3658
+          }
+        ]
+      },
+      {
+        "paper_id": 9,
+        "answer": [
+          {
+            "sample_size": 35108
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "O1.3",
+    "question": "<study population>",
+    "description": "Extract the study population or unit of analysis described in each study.",
+    "answer_format": {
+      "paper_id": "integer",
+      "answer": [
+        {
+          "study_population": "string"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "paper_id": 1,
+        "answer": [
+          {
+            "study_population": "students in grades 1 (aged 7–8), 4 (aged 10–11), and 7 (aged 13–14)"
+          }
+        ]
+      },
+      {
+        "paper_id": 2,
+        "answer": [
+          {
+            "study_population": "Children aged 5–18 years"
+          }
+        ]
+      },
+      {
+        "paper_id": 3,
+        "answer": [
+          {
+            "study_population": "students in Grade 1–6 (7–12 years) and Grade 7–9 (13–15 years)"
+          }
+        ]
+      },
+      {
+        "paper_id": 4,
+        "answer": [
+          {
+            "study_population": "Children and adolescents aged 5–18 years"
+          }
+        ]
+      },
+      {
+        "paper_id": 5,
+        "answer": [
+          {
+            "study_population": "Adolescents aged 16–19 years"
+          }
+        ]
+      },
+      {
+        "paper_id": 6,
+        "answer": [
+          {
+            "study_population": "myopic adolescents aged 15 to 19 years"
+          }
+        ]
+      },
+      {
+        "paper_id": 7,
+        "answer": [
+          {
+            "study_population": "individuals between the ages of 12 and 25"
+          }
+        ]
+      },
+      {
+        "paper_id": 8,
+        "answer": [
+          {
+            "study_population": "School children aged 7–18 years"
+          }
+        ]
+      },
+      {
+        "paper_id": 9,
+        "answer": [
+          {
+            "study_population": "Children and adolescents aged 6–17 years"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "O2.1",
+    "question": "<study population> <sample size>",
+    "description": "Extract the study population and its corresponding total sample size.",
+    "answer_format": {
+      "paper_id": "integer",
+      "answer": [
+        {
+          "study_population": "string",
+          "sample_size": "integer"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "paper_id": 1,
+        "answer": [
+          {
+            "study_population": "students in grades 1 (aged 7–8), 4 (aged 10–11), and 7 (aged 13–14)",
+            "sample_size": 11080
+          }
+        ]
+      },
+      {
+        "paper_id": 2,
+        "answer": [
+          {
+            "study_population": "Children aged 5–18 years",
+            "sample_size": 983
+          }
+        ]
+      },
+      {
+        "paper_id": 3,
+        "answer": [
+          {
+            "study_population": "students in Grade 1–6 (7–12 years) and Grade 7–9 (13–15 years)",
+            "sample_size": 5417
+          }
+        ]
+      },
+      {
+        "paper_id": 4,
+        "answer": [
+          {
+            "study_population": "Children and adolescents aged 5–18 years",
+            "sample_size": 1114
+          }
+        ]
+      },
+      {
+        "paper_id": 5,
+        "answer": [
+          {
+            "study_population": "Adolescents aged 16–19 years",
+            "sample_size": 1323052
+          }
+        ]
+      },
+      {
+        "paper_id": 6,
+        "answer": [
+          {
+            "study_population": "myopic adolescents aged 15 to 19 years",
+            "sample_size": 184
+          }
+        ]
+      },
+      {
+        "paper_id": 7,
+        "answer": [
+          {
+            "study_population": "individuals between the ages of 12 and 25",
+            "sample_size": 11180
+          }
+        ]
+      },
+      {
+        "paper_id": 8,
+        "answer": [
+          {
+            "study_population": "School children aged 7–18 years",
+            "sample_size": 3658
+          }
+        ]
+      },
+      {
+        "paper_id": 9,
+        "answer": [
+          {
+            "study_population": "Children and adolescents aged 6–17 years",
+            "sample_size": 35108
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "O2.2",
+    "question": "<study population> <geolocation>",
+    "description": "Extract the study population and its corresponding geographical setting.",
+    "answer_format": {
+      "paper_id": "integer",
+      "answer": [
+        {
+          "study_population": "string",
+          "geolocation": "string"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "paper_id": 1,
+        "answer": [
+          {
+            "study_population": "students in grades 1 (aged 7–8), 4 (aged 10–11), and 7 (aged 13–14)",
+            "geolocation": "Hualien County, Taiwan"
+          }
+        ]
+      },
+      {
+        "paper_id": 2,
+        "answer": [
+          {
+            "study_population": "Children aged 5–18 years",
+            "geolocation": "South Korea"
+          }
+        ]
+      },
+      {
+        "paper_id": 3,
+        "answer": [
+          {
+            "study_population": "students in Grade 1–6 (7–12 years) and Grade 7–9 (13–15 years)",
+            "geolocation": "Chia-Yi, Taiwan"
+          }
+        ]
+      },
+      {
+        "paper_id": 4,
+        "answer": [
+          {
+            "study_population": "Children and adolescents aged 5–18 years",
+            "geolocation": "Korea"
+          }
+        ]
+      },
+      {
+        "paper_id": 5,
+        "answer": [
+          {
+            "study_population": "Adolescents aged 16–19 years",
+            "geolocation": "Israel"
+          }
+        ]
+      },
+      {
+        "paper_id": 6,
+        "answer": [
+          {
+            "study_population": "myopic adolescents aged 15 to 19 years",
+            "geolocation": "Vilnius, Lithuania"
+          }
+        ]
+      },
+      {
+        "paper_id": 7,
+        "answer": [
+          {
+            "study_population": "individuals between the ages of 12 and 25",
+            "geolocation": "United States"
+          }
+        ]
+      },
+      {
+        "paper_id": 8,
+        "answer": [
+          {
+            "study_population": "School children aged 7–18 years",
+            "geolocation": "Jinshan District, Shanghai, China"
+          }
+        ]
+      },
+      {
+        "paper_id": 9,
+        "answer": [
+          {
+            "study_population": "Children and adolescents aged 6–17 years",
+            "geolocation": "China"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "O2.3",
+    "question": "<study population> <geolocation> <sample size>",
+    "description": "Extract the study population together with its corresponding geographical setting and total sample size (as a single aligned triple).",
+    "answer_format": {
+      "paper_id": "integer",
+      "answer": [
+        {
+          "study_population": "string",
+          "geolocation": "string",
+          "sample_size": "integer"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "paper_id": 1,
+        "answer": [
+          {
+            "study_population": "students in grades 1 (aged 7–8), 4 (aged 10–11), and 7 (aged 13–14)",
+            "geolocation": "Hualien County, Taiwan",
+            "sample_size": 11080
+          }
+        ]
+      },
+      {
+        "paper_id": 2,
+        "answer": [
+          {
+            "study_population": "Children aged 5–18 years",
+            "geolocation": "South Korea",
+            "sample_size": 983
+          }
+        ]
+      },
+      {
+        "paper_id": 3,
+        "answer": [
+          {
+            "study_population": "students in Grade 1–6 (7–12 years) and Grade 7–9 (13–15 years)",
+            "geolocation": "Chia-Yi, Taiwan",
+            "sample_size": 5417
+          }
+        ]
+      },
+      {
+        "paper_id": 4,
+        "answer": [
+          {
+            "study_population": "Children and adolescents aged 5–18 years",
+            "geolocation": "Korea",
+            "sample_size": 1114
+          }
+        ]
+      },
+      {
+        "paper_id": 5,
+        "answer": [
+          {
+            "study_population": "Adolescents aged 16–19 years",
+            "geolocation": "Israel",
+            "sample_size": 1323052
+          }
+        ]
+      },
+      {
+        "paper_id": 6,
+        "answer": [
+          {
+            "study_population": "myopic adolescents aged 15 to 19 years",
+            "geolocation": "Vilnius, Lithuania",
+            "sample_size": 184
+          }
+        ]
+      },
+      {
+        "paper_id": 7,
+        "answer": [
+          {
+            "study_population": "individuals between the ages of 12 and 25",
+            "geolocation": "United States",
+            "sample_size": 11180
+          }
+        ]
+      },
+      {
+        "paper_id": 8,
+        "answer": [
+          {
+            "study_population": "School children aged 7–18 years",
+            "geolocation": "Jinshan District, Shanghai, China",
+            "sample_size": 3658
+          }
+        ]
+      },
+      {
+        "paper_id": 9,
+        "answer": [
+          {
+            "study_population": "Children and adolescents aged 6–17 years",
+            "geolocation": "China",
+            "sample_size": 35108
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "OC_O1.2.1",
+    "question": "count - <sample size> (sample size > 100)",
+    "description": "Count the number of records whose sample size is greater than 100.",
+    "answer_format": {
+      "evidences": [
+        {
+          "paper_id": "integer",
+          "sample_size": "integer"
+        }
+      ],
+      "final_list": [
+        "string"
+      ],
+      "final_answer": "integer"
+    },
+    "answers": {
+      "evidences": [
+        {
+          "paper_id": 1,
+          "answer": [
+            {
+              "sample_size": 11080
+            }
+          ]
+        },
+        {
+          "paper_id": 2,
+          "answer": [
+            {
+              "sample_size": 983
+            }
+          ]
+        },
+        {
+          "paper_id": 3,
+          "answer": [
+            {
+              "sample_size": 5417
+            }
+          ]
+        },
+        {
+          "paper_id": 4,
+          "answer": [
+            {
+              "sample_size": 1114
+            }
+          ]
+        },
+        {
+          "paper_id": 5,
+          "answer": [
+            {
+              "sample_size": 1323052
+            }
+          ]
+        },
+        {
+          "paper_id": 6,
+          "answer": [
+            {
+              "sample_size": 184
+            }
+          ]
+        },
+        {
+          "paper_id": 7,
+          "answer": [
+            {
+              "sample_size": 11180
+            }
+          ]
+        },
+        {
+          "paper_id": 8,
+          "answer": [
+            {
+              "sample_size": 3658
+            }
+          ]
+        },
+        {
+          "paper_id": 9,
+          "answer": [
+            {
+              "sample_size": 35108
+            }
+          ]
+        }
+      ],
+      "final_list": [
+        {
+          "sample_size": 11080,
+          "paper_id": [
+            1
+          ]
+        },
+        {
+          "sample_size": 983,
+          "paper_id": [
+            2
+          ]
+        },
+        {
+          "sample_size": 5417,
+          "paper_id": [
+            3
+          ]
+        },
+        {
+          "sample_size": 1114,
+          "paper_id": [
+            4
+          ]
+        },
+        {
+          "sample_size": 1323052,
+          "paper_id": [
+            5
+          ]
+        },
+        {
+          "sample_size": 184,
+          "paper_id": [
+            6
+          ]
+        },
+        {
+          "sample_size": 11180,
+          "paper_id": [
+            7
+          ]
+        },
+        {
+          "sample_size": 3658,
+          "paper_id": [
+            8
+          ]
+        },
+        {
+          "sample_size": 35108,
+          "paper_id": [
+            9
+          ]
+        }
+      ],
+      "final_answer": 9
+    }
+  },
+  {
+    "question_id": "OC_O1.2.2",
+    "question": "average sample size over study populations",
+    "description": "Compute the average of total sample size across study populations.",
+    "answer_format": {
+      "evidences": [
+        {
+          "paper_id": "integer",
+          "sample_size": "integer"
+        }
+      ],
+      "final_list": [
+        "integer"
+      ],
+      "final_answer": "float"
+    },
+    "answers": {
+      "evidences": [
+        {
+          "paper_id": 1,
+          "answer": [
+            {
+              "sample_size": 11080
+            }
+          ]
+        },
+        {
+          "paper_id": 2,
+          "answer": [
+            {
+              "sample_size": 983
+            }
+          ]
+        },
+        {
+          "paper_id": 3,
+          "answer": [
+            {
+              "sample_size": 5417
+            }
+          ]
+        },
+        {
+          "paper_id": 4,
+          "answer": [
+            {
+              "sample_size": 1114
+            }
+          ]
+        },
+        {
+          "paper_id": 5,
+          "answer": [
+            {
+              "sample_size": 1323052
+            }
+          ]
+        },
+        {
+          "paper_id": 6,
+          "answer": [
+            {
+              "sample_size": 184
+            }
+          ]
+        },
+        {
+          "paper_id": 7,
+          "answer": [
+            {
+              "sample_size": 11180
+            }
+          ]
+        },
+        {
+          "paper_id": 8,
+          "answer": [
+            {
+              "sample_size": 3658
+            }
+          ]
+        },
+        {
+          "paper_id": 9,
+          "answer": [
+            {
+              "sample_size": 35108
+            }
+          ]
+        }
+      ],
+      "final_list": [
+        {
+          "sample_size": 11080,
+          "paper_id": [
+            1
+          ]
+        },
+        {
+          "sample_size": 983,
+          "paper_id": [
+            2
+          ]
+        },
+        {
+          "sample_size": 5417,
+          "paper_id": [
+            3
+          ]
+        },
+        {
+          "sample_size": 1114,
+          "paper_id": [
+            4
+          ]
+        },
+        {
+          "sample_size": 1323052,
+          "paper_id": [
+            5
+          ]
+        },
+        {
+          "sample_size": 184,
+          "paper_id": [
+            6
+          ]
+        },
+        {
+          "sample_size": 11180,
+          "paper_id": [
+            7
+          ]
+        },
+        {
+          "sample_size": 3658,
+          "paper_id": [
+            8
+          ]
+        },
+        {
+          "sample_size": 35108,
+          "paper_id": [
+            9
+          ]
+        }
+      ],
+      "final_answer": 154641.78
+    }
+  },
+  {
+    "question_id": "OC_O1.2.3",
+    "question": "median sample size over study populations",
+    "description": "Compute the median of total sample size across study populations.",
+    "answer_format": {
+      "evidences": [
+        {
+          "paper_id": "integer",
+          "sample_size": "integer"
+        }
+      ],
+      "final_list": [
+        "integer"
+      ],
+      "final_answer": "float"
+    },
+    "answers": {
+      "evidences": [
+        {
+          "paper_id": 1,
+          "answer": [
+            {
+              "sample_size": 11080
+            }
+          ]
+        },
+        {
+          "paper_id": 2,
+          "answer": [
+            {
+              "sample_size": 983
+            }
+          ]
+        },
+        {
+          "paper_id": 3,
+          "answer": [
+            {
+              "sample_size": 5417
+            }
+          ]
+        },
+        {
+          "paper_id": 4,
+          "answer": [
+            {
+              "sample_size": 1114
+            }
+          ]
+        },
+        {
+          "paper_id": 5,
+          "answer": [
+            {
+              "sample_size": 1323052
+            }
+          ]
+        },
+        {
+          "paper_id": 6,
+          "answer": [
+            {
+              "sample_size": 184
+            }
+          ]
+        },
+        {
+          "paper_id": 7,
+          "answer": [
+            {
+              "sample_size": 11180
+            }
+          ]
+        },
+        {
+          "paper_id": 8,
+          "answer": [
+            {
+              "sample_size": 3658
+            }
+          ]
+        },
+        {
+          "paper_id": 9,
+          "answer": [
+            {
+              "sample_size": 35108
+            }
+          ]
+        }
+      ],
+      "final_list": [
+        {
+          "sample_size": 184,
+          "paper_id": [
+            6
+          ]
+        },
+        {
+          "sample_size": 983,
+          "paper_id": [
+            2
+          ]
+        },
+        {
+          "sample_size": 1114,
+          "paper_id": [
+            4
+          ]
+        },
+        {
+          "sample_size": 3658,
+          "paper_id": [
+            8
+          ]
+        },
+        {
+          "sample_size": 5417,
+          "paper_id": [
+            3
+          ]
+        },
+        {
+          "sample_size": 11080,
+          "paper_id": [
+            1
+          ]
+        },
+        {
+          "sample_size": 11180,
+          "paper_id": [
+            7
+          ]
+        },
+        {
+          "sample_size": 35108,
+          "paper_id": [
+            9
+          ]
+        },
+        {
+          "sample_size": 1323052,
+          "paper_id": [
+            5
+          ]
+        }
+      ],
+      "final_answer": 5417.0
+    }
+  },
+  {
+    "question_id": "OC_O1.1",
+    "question": "count unique geolocations (countries)",
+    "description": "Count unique countries with step-by-step extraction for error diagnosis.",
+    "answer_format": {
+      "evidences": [
+        {
+          "paper_id": "integer",
+          "location": "string"
+        }
+      ],
+      "final_list": [
+        "string"
+      ],
+      "final_answer": "integer"
+    },
+    "answers": {
+      "evidences": [
+        {
+          "paper_id": 1,
+          "answer": [
+            {
+              "geolocation": "Hualien County, Taiwan"
+            }
+          ]
+        },
+        {
+          "paper_id": 2,
+          "answer": [
+            {
+              "geolocation": "South Korea"
+            }
+          ]
+        },
+        {
+          "paper_id": 3,
+          "answer": [
+            {
+              "geolocation": "Chia-Yi, Taiwan"
+            }
+          ]
+        },
+        {
+          "paper_id": 4,
+          "answer": [
+            {
+              "geolocation": "Korea"
+            }
+          ]
+        },
+        {
+          "paper_id": 5,
+          "answer": [
+            {
+              "geolocation": "Israel"
+            }
+          ]
+        },
+        {
+          "paper_id": 6,
+          "answer": [
+            {
+              "geolocation": "Vilnius, Lithuania"
+            }
+          ]
+        },
+        {
+          "paper_id": 7,
+          "answer": [
+            {
+              "geolocation": "United States"
+            }
+          ]
+        },
+        {
+          "paper_id": 8,
+          "answer": [
+            {
+              "geolocation": "Jinshan District, Shanghai, China"
+            }
+          ]
+        },
+        {
+          "paper_id": 9,
+          "answer": [
+            {
+              "geolocation": "China"
+            }
+          ]
+        }
+      ],
+      "final_list": [
+        {
+          "country": "China",
+          "paper_id": [
+            8,
+            9
+          ]
+        },
+        {
+          "country": "Israel",
+          "paper_id": [
+            5
+          ]
+        },
+        {
+          "country": "Lithuania",
+          "paper_id": [
+            6
+          ]
+        },
+        {
+          "country": "South Korea",
+          "paper_id": [
+            2,
+            4
+          ]
+        },
+        {
+          "country": "Taiwan",
+          "paper_id": [
+            1,
+            3
+          ]
+        },
+        {
+          "country": "United States",
+          "paper_id": [
+            7
+          ]
+        }
+      ],
+      "final_answer": 6
+    }
+  }
+]

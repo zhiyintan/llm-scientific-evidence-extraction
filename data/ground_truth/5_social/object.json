@@ -1,0 +1,1376 @@
+[
+  {
+    "question_id": "O1.1",
+    "question": "<geolocation>",
+    "description": "Extract the geographical setting or spatial context of each study.",
+    "answer_format": {
+      "paper_id": "integer",
+      "answer": [
+        {
+          "geolocation": "string"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "paper_id": 1,
+        "answer": [
+          {
+            "geolocation": "north-west of England, UK"
+          }
+        ]
+      },
+      {
+        "paper_id": 2,
+        "answer": [
+          {
+            "geolocation": "North of England"
+          }
+        ]
+      },
+      {
+        "paper_id": 3,
+        "answer": [
+          {
+            "geolocation": "the North and Center region of Portugal"
+          }
+        ]
+      },
+      {
+        "paper_id": 4,
+        "answer": [
+          {
+            "geolocation": "United States"
+          }
+        ]
+      },
+      {
+        "paper_id": 5,
+        "answer": [
+          {
+            "geolocation": "five middle size cities in the Netherlands"
+          }
+        ]
+      },
+      {
+        "paper_id": 6,
+        "answer": [
+          {
+            "geolocation": "USA"
+          },
+          {
+            "geolocation": "Japan"
+          }
+        ]
+      },
+      {
+        "paper_id": 7,
+        "answer": [
+          {
+            "geolocation": "Rome, Italy"
+          }
+        ]
+      },
+      {
+        "paper_id": 8,
+        "answer": [
+          {
+            "geolocation": "Western United States"
+          }
+        ]
+      },
+      {
+        "paper_id": 9,
+        "answer": [
+          {
+            "geolocation": "Lima, Peru"
+          }
+        ]
+      },
+      {
+        "paper_id": 10,
+        "answer": [
+          {
+            "geolocation": "Japan"
+          }
+        ]
+      },
+      {
+        "paper_id": 11,
+        "answer": [
+          {
+            "geolocation": "Inner Mongolia Autonomous Region, China"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "O1.2",
+    "question": "<sample size>",
+    "description": "Extract the total sample size reported for each study.",
+    "answer_format": {
+      "paper_id": "integer",
+      "answer": [
+        {
+          "sample_size": "integer"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "paper_id": 1,
+        "answer": [
+          {
+            "sample_size": 103
+          }
+        ]
+      },
+      {
+        "paper_id": 2,
+        "answer": [
+          {
+            "sample_size": 37
+          }
+        ]
+      },
+      {
+        "paper_id": 3,
+        "answer": [
+          {
+            "sample_size": 610
+          }
+        ]
+      },
+      {
+        "paper_id": 4,
+        "answer": [
+          {
+            "sample_size": 86
+          }
+        ]
+      },
+      {
+        "paper_id": 5,
+        "answer": [
+          {
+            "sample_size": 328
+          }
+        ]
+      },
+      {
+        "paper_id": 6,
+        "answer": [
+          {
+            "sample_size": 505
+          }
+        ]
+      },
+      {
+        "paper_id": 7,
+        "answer": [
+          {
+            "sample_size": 319
+          }
+        ]
+      },
+      {
+        "paper_id": 8,
+        "answer": [
+          {
+            "sample_size": 171
+          }
+        ]
+      },
+      {
+        "paper_id": 9,
+        "answer": [
+          {
+            "sample_size": 273
+          }
+        ]
+      },
+      {
+        "paper_id": 10,
+        "answer": [
+          {
+            "sample_size": 1742
+          }
+        ]
+      },
+      {
+        "paper_id": 11,
+        "answer": [
+          {
+            "sample_size": 441
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "O1.3",
+    "question": "<study population>",
+    "description": "Extract the study population or unit of analysis described in each study.",
+    "answer_format": {
+      "paper_id": "integer",
+      "answer": [
+        {
+          "study_population": "string"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "paper_id": 1,
+        "answer": [
+          {
+            "study_population": "student midwives studying at university"
+          }
+        ]
+      },
+      {
+        "paper_id": 2,
+        "answer": [
+          {
+            "study_population": "Registered community nurses"
+          }
+        ]
+      },
+      {
+        "paper_id": 3,
+        "answer": [
+          {
+            "study_population": "Portuguese adults"
+          }
+        ]
+      },
+      {
+        "paper_id": 4,
+        "answer": [
+          {
+            "study_population": "master’s-level counseling students"
+          }
+        ]
+      },
+      {
+        "paper_id": 5,
+        "answer": [
+          {
+            "study_population": "Adults from the general population"
+          }
+        ]
+      },
+      {
+        "paper_id": 6,
+        "answer": [
+          {
+            "study_population": "Adults from USA"
+          },
+          {
+            "study_population": "Adults from Japan"
+          }
+        ]
+      },
+      {
+        "paper_id": 7,
+        "answer": [
+          {
+            "study_population": "full-time in-service teachers in public kindergartens"
+          }
+        ]
+      },
+      {
+        "paper_id": 8,
+        "answer": [
+          {
+            "study_population": "Adult first responders"
+          }
+        ]
+      },
+      {
+        "paper_id": 9,
+        "answer": [
+          {
+            "study_population": "University students"
+          }
+        ]
+      },
+      {
+        "paper_id": 10,
+        "answer": [
+          {
+            "study_population": "Japanese adults"
+          }
+        ]
+      },
+      {
+        "paper_id": 11,
+        "answer": [
+          {
+            "study_population": "University students"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "O2.1",
+    "question": "<study population> <sample size>",
+    "description": "Extract the study population and its corresponding total sample size.",
+    "answer_format": {
+      "paper_id": "integer",
+      "answer": [
+        {
+          "study_population": "string",
+          "sample_size": "integer"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "paper_id": 1,
+        "answer": [
+          {
+            "study_population": "student midwives studying at university",
+            "sample_size": 103
+          }
+        ]
+      },
+      {
+        "paper_id": 2,
+        "answer": [
+          {
+            "study_population": "Registered community nurses",
+            "sample_size": 37
+          }
+        ]
+      },
+      {
+        "paper_id": 3,
+        "answer": [
+          {
+            "study_population": "Portuguese adults",
+            "sample_size": 610
+          }
+        ]
+      },
+      {
+        "paper_id": 4,
+        "answer": [
+          {
+            "study_population": "master’s-level counseling students",
+            "sample_size": 86
+          }
+        ]
+      },
+      {
+        "paper_id": 5,
+        "answer": [
+          {
+            "study_population": "Adults from the general population",
+            "sample_size": 328
+          }
+        ]
+      },
+      {
+        "paper_id": 6,
+        "answer": [
+          {
+            "study_population": "Adults from USA",
+            "sample_size": 505
+          },
+          {
+            "study_population": "Adults from Japan",
+            "sample_size": 505
+          }
+        ]
+      },
+      {
+        "paper_id": 7,
+        "answer": [
+          {
+            "study_population": "full-time in-service teachers in public kindergartens",
+            "sample_size": 319
+          }
+        ]
+      },
+      {
+        "paper_id": 8,
+        "answer": [
+          {
+            "study_population": "Adult first responders",
+            "sample_size": 171
+          }
+        ]
+      },
+      {
+        "paper_id": 9,
+        "answer": [
+          {
+            "study_population": "University students",
+            "sample_size": 273
+          }
+        ]
+      },
+      {
+        "paper_id": 10,
+        "answer": [
+          {
+            "study_population": "Japanese adults",
+            "sample_size": 1742
+          }
+        ]
+      },
+      {
+        "paper_id": 11,
+        "answer": [
+          {
+            "study_population": "University students",
+            "sample_size": 441
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "O2.2",
+    "question": "<study population> <geolocation>",
+    "description": "Extract the study population and its corresponding geographical setting.",
+    "answer_format": {
+      "paper_id": "integer",
+      "answer": [
+        {
+          "study_population": "string",
+          "geolocation": "string"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "paper_id": 1,
+        "answer": [
+          {
+            "study_population": "student midwives studying at university",
+            "geolocation": "north-west of England, UK"
+          }
+        ]
+      },
+      {
+        "paper_id": 2,
+        "answer": [
+          {
+            "study_population": "Registered community nurses",
+            "geolocation": "North of England"
+          }
+        ]
+      },
+      {
+        "paper_id": 3,
+        "answer": [
+          {
+            "study_population": "Portuguese adults",
+            "geolocation": "the North and Center region of Portugal"
+          }
+        ]
+      },
+      {
+        "paper_id": 4,
+        "answer": [
+          {
+            "study_population": "master’s-level counseling students",
+            "geolocation": "United States"
+          }
+        ]
+      },
+      {
+        "paper_id": 5,
+        "answer": [
+          {
+            "study_population": "Adults from the general population",
+            "geolocation": "five middle size cities in the Netherlands"
+          }
+        ]
+      },
+      {
+        "paper_id": 6,
+        "answer": [
+          {
+            "study_population": "Adults from USA",
+            "geolocation": "USA"
+          },
+          {
+            "study_population": "Adults from Japan",
+            "geolocation": "Japan"
+          }
+        ]
+      },
+      {
+        "paper_id": 7,
+        "answer": [
+          {
+            "study_population": "full-time in-service teachers in public kindergartens",
+            "geolocation": "Rome, Italy"
+          }
+        ]
+      },
+      {
+        "paper_id": 8,
+        "answer": [
+          {
+            "study_population": "Adult first responders",
+            "geolocation": "Western United States"
+          }
+        ]
+      },
+      {
+        "paper_id": 9,
+        "answer": [
+          {
+            "study_population": "University students",
+            "geolocation": "Lima, Peru"
+          }
+        ]
+      },
+      {
+        "paper_id": 10,
+        "answer": [
+          {
+            "study_population": "Japanese adults",
+            "geolocation": "Japan"
+          }
+        ]
+      },
+      {
+        "paper_id": 11,
+        "answer": [
+          {
+            "study_population": "University students",
+            "geolocation": "Inner Mongolia Autonomous Region, China"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "O2.3",
+    "question": "<study population> <geolocation> <sample size>",
+    "description": "Extract the study population together with its corresponding geographical setting and total sample size (as a single aligned triple).",
+    "answer_format": {
+      "paper_id": "integer",
+      "answer": [
+        {
+          "study_population": "string",
+          "geolocation": "string",
+          "sample_size": "integer"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "paper_id": 1,
+        "answer": [
+          {
+            "study_population": "student midwives studying at university",
+            "geolocation": "north-west of England, UK",
+            "sample_size": 103
+          }
+        ]
+      },
+      {
+        "paper_id": 2,
+        "answer": [
+          {
+            "study_population": "Registered community nurses",
+            "geolocation": "North of England",
+            "sample_size": 37
+          }
+        ]
+      },
+      {
+        "paper_id": 3,
+        "answer": [
+          {
+            "study_population": "Portuguese adults",
+            "geolocation": "the North and Center region of Portugal",
+            "sample_size": 610
+          }
+        ]
+      },
+      {
+        "paper_id": 4,
+        "answer": [
+          {
+            "study_population": "master’s-level counseling students",
+            "geolocation": "United States",
+            "sample_size": 86
+          }
+        ]
+      },
+      {
+        "paper_id": 5,
+        "answer": [
+          {
+            "study_population": "Adults from the general population",
+            "geolocation": "five middle size cities in the Netherlands",
+            "sample_size": 328
+          }
+        ]
+      },
+      {
+        "paper_id": 6,
+        "answer": [
+          {
+            "study_population": "Adults from USA",
+            "geolocation": "USA",
+            "sample_size": 258
+          },
+          {
+            "study_population": "Adults from Japan",
+            "geolocation": "Japan",
+            "sample_size": 247
+          }
+        ]
+      },
+      {
+        "paper_id": 7,
+        "answer": [
+          {
+            "study_population": "full-time in-service teachers in public kindergartens",
+            "geolocation": "Rome, Italy",
+            "sample_size": 319
+          }
+        ]
+      },
+      {
+        "paper_id": 8,
+        "answer": [
+          {
+            "study_population": "Adult first responders",
+            "geolocation": "Western United States",
+            "sample_size": 171
+          }
+        ]
+      },
+      {
+        "paper_id": 9,
+        "answer": [
+          {
+            "study_population": "University students",
+            "geolocation": "Lima, Peru",
+            "sample_size": 273
+          }
+        ]
+      },
+      {
+        "paper_id": 10,
+        "answer": [
+          {
+            "study_population": "Japanese adults",
+            "geolocation": "Japan",
+            "sample_size": 1742
+          }
+        ]
+      },
+      {
+        "paper_id": 11,
+        "answer": [
+          {
+            "study_population": "University students",
+            "geolocation": "Inner Mongolia Autonomous Region, China",
+            "sample_size": 441
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "OC_O1.2.1",
+    "question": "count - <sample size> (sample size > 100)",
+    "description": "Count the number of records whose sample size is greater than 100.",
+    "answer_format": {
+      "evidences": [
+        {
+          "paper_id": "integer",
+          "sample_size": "integer"
+        }
+      ],
+      "final_list": [
+        "string"
+      ],
+      "final_answer": "integer"
+    },
+    "answers": {
+      "evidences": [
+        {
+          "paper_id": 1,
+          "answer": [
+            {
+              "sample_size": 103
+            }
+          ]
+        },
+        {
+          "paper_id": 2,
+          "answer": [
+            {
+              "sample_size": 37
+            }
+          ]
+        },
+        {
+          "paper_id": 3,
+          "answer": [
+            {
+              "sample_size": 610
+            }
+          ]
+        },
+        {
+          "paper_id": 4,
+          "answer": [
+            {
+              "sample_size": 86
+            }
+          ]
+        },
+        {
+          "paper_id": 5,
+          "answer": [
+            {
+              "sample_size": 328
+            }
+          ]
+        },
+        {
+          "paper_id": 6,
+          "answer": [
+            {
+              "sample_size": 505
+            }
+          ]
+        },
+        {
+          "paper_id": 7,
+          "answer": [
+            {
+              "sample_size": 319
+            }
+          ]
+        },
+        {
+          "paper_id": 8,
+          "answer": [
+            {
+              "sample_size": 171
+            }
+          ]
+        },
+        {
+          "paper_id": 9,
+          "answer": [
+            {
+              "sample_size": 273
+            }
+          ]
+        },
+        {
+          "paper_id": 10,
+          "answer": [
+            {
+              "sample_size": 1742
+            }
+          ]
+        },
+        {
+          "paper_id": 11,
+          "answer": [
+            {
+              "sample_size": 441
+            }
+          ]
+        }
+      ],
+      "final_list": [
+        {
+          "sample_size": 103,
+          "paper_id": [
+            1
+          ]
+        },
+        {
+          "sample_size": 610,
+          "paper_id": [
+            3
+          ]
+        },
+        {
+          "sample_size": 328,
+          "paper_id": [
+            5
+          ]
+        },
+        {
+          "sample_size": 505,
+          "paper_id": [
+            6
+          ]
+        },
+        {
+          "sample_size": 319,
+          "paper_id": [
+            7
+          ]
+        },
+        {
+          "sample_size": 171,
+          "paper_id": [
+            8
+          ]
+        },
+        {
+          "sample_size": 273,
+          "paper_id": [
+            9
+          ]
+        },
+        {
+          "sample_size": 1742,
+          "paper_id": [
+            10
+          ]
+        },
+        {
+          "sample_size": 441,
+          "paper_id": [
+            11
+          ]
+        }
+      ],
+      "final_answer": 9
+    }
+  },
+  {
+    "question_id": "OC_O1.2.2",
+    "question": "average sample size over study populations",
+    "description": "Compute the average of total sample size across study populations.",
+    "answer_format": {
+      "evidences": [
+        {
+          "paper_id": "integer",
+          "sample_size": "integer"
+        }
+      ],
+      "final_list": [
+        "integer"
+      ],
+      "final_answer": "float"
+    },
+    "answers": {
+      "evidences": [
+        {
+          "paper_id": 1,
+          "answer": [
+            {
+              "sample_size": 103
+            }
+          ]
+        },
+        {
+          "paper_id": 2,
+          "answer": [
+            {
+              "sample_size": 37
+            }
+          ]
+        },
+        {
+          "paper_id": 3,
+          "answer": [
+            {
+              "sample_size": 610
+            }
+          ]
+        },
+        {
+          "paper_id": 4,
+          "answer": [
+            {
+              "sample_size": 86
+            }
+          ]
+        },
+        {
+          "paper_id": 5,
+          "answer": [
+            {
+              "sample_size": 328
+            }
+          ]
+        },
+        {
+          "paper_id": 6,
+          "answer": [
+            {
+              "sample_size": 505
+            }
+          ]
+        },
+        {
+          "paper_id": 7,
+          "answer": [
+            {
+              "sample_size": 319
+            }
+          ]
+        },
+        {
+          "paper_id": 8,
+          "answer": [
+            {
+              "sample_size": 171
+            }
+          ]
+        },
+        {
+          "paper_id": 9,
+          "answer": [
+            {
+              "sample_size": 273
+            }
+          ]
+        },
+        {
+          "paper_id": 10,
+          "answer": [
+            {
+              "sample_size": 1742
+            }
+          ]
+        },
+        {
+          "paper_id": 11,
+          "answer": [
+            {
+              "sample_size": 441
+            }
+          ]
+        }
+      ],
+      "final_list": [
+        {
+          "sample_size": 103,
+          "paper_id": [
+            1
+          ]
+        },
+        {
+          "sample_size": 37,
+          "paper_id": [
+            2
+          ]
+        },
+        {
+          "sample_size": 610,
+          "paper_id": [
+            3
+          ]
+        },
+        {
+          "sample_size": 86,
+          "paper_id": [
+            4
+          ]
+        },
+        {
+          "sample_size": 328,
+          "paper_id": [
+            5
+          ]
+        },
+        {
+          "sample_size": 505,
+          "paper_id": [
+            6
+          ]
+        },
+        {
+          "sample_size": 319,
+          "paper_id": [
+            7
+          ]
+        },
+        {
+          "sample_size": 171,
+          "paper_id": [
+            8
+          ]
+        },
+        {
+          "sample_size": 273,
+          "paper_id": [
+            9
+          ]
+        },
+        {
+          "sample_size": 1742,
+          "paper_id": [
+            10
+          ]
+        },
+        {
+          "sample_size": 441,
+          "paper_id": [
+            11
+          ]
+        }
+      ],
+      "final_answer": 419.55
+    }
+  },
+  {
+    "question_id": "OC_O1.2.3",
+    "question": "median sample size over study populations",
+    "description": "Compute the median of total sample size across study populations.",
+    "answer_format": {
+      "evidences": [
+        {
+          "paper_id": "integer",
+          "sample_size": "integer"
+        }
+      ],
+      "final_list": [
+        "integer"
+      ],
+      "final_answer": "float"
+    },
+    "answers": {
+      "evidences": [
+        {
+          "paper_id": 1,
+          "answer": [
+            {
+              "sample_size": 103
+            }
+          ]
+        },
+        {
+          "paper_id": 2,
+          "answer": [
+            {
+              "sample_size": 37
+            }
+          ]
+        },
+        {
+          "paper_id": 3,
+          "answer": [
+            {
+              "sample_size": 610
+            }
+          ]
+        },
+        {
+          "paper_id": 4,
+          "answer": [
+            {
+              "sample_size": 86
+            }
+          ]
+        },
+        {
+          "paper_id": 5,
+          "answer": [
+            {
+              "sample_size": 328
+            }
+          ]
+        },
+        {
+          "paper_id": 6,
+          "answer": [
+            {
+              "sample_size": 505
+            }
+          ]
+        },
+        {
+          "paper_id": 7,
+          "answer": [
+            {
+              "sample_size": 319
+            }
+          ]
+        },
+        {
+          "paper_id": 8,
+          "answer": [
+            {
+              "sample_size": 171
+            }
+          ]
+        },
+        {
+          "paper_id": 9,
+          "answer": [
+            {
+              "sample_size": 273
+            }
+          ]
+        },
+        {
+          "paper_id": 10,
+          "answer": [
+            {
+              "sample_size": 1742
+            }
+          ]
+        },
+        {
+          "paper_id": 11,
+          "answer": [
+            {
+              "sample_size": 441
+            }
+          ]
+        }
+      ],
+      "final_list": [
+        {
+          "sample_size": 37,
+          "paper_id": [
+            2
+          ]
+        },
+        {
+          "sample_size": 86,
+          "paper_id": [
+            4
+          ]
+        },
+        {
+          "sample_size": 103,
+          "paper_id": [
+            1
+          ]
+        },
+        {
+          "sample_size": 171,
+          "paper_id": [
+            8
+          ]
+        },
+        {
+          "sample_size": 273,
+          "paper_id": [
+            9
+          ]
+        },
+        {
+          "sample_size": 319,
+          "paper_id": [
+            7
+          ]
+        },
+        {
+          "sample_size": 328,
+          "paper_id": [
+            5
+          ]
+        },
+        {
+          "sample_size": 441,
+          "paper_id": [
+            11
+          ]
+        },
+        {
+          "sample_size": 505,
+          "paper_id": [
+            6
+          ]
+        },
+        {
+          "sample_size": 610,
+          "paper_id": [
+            3
+          ]
+        },
+        {
+          "sample_size": 1742,
+          "paper_id": [
+            10
+          ]
+        }
+      ],
+      "final_answer": 319.0
+    }
+  },
+  {
+    "question_id": "OC_O1.1",
+    "question": "count unique geolocations (countries)",
+    "description": "Count unique countries with step-by-step extraction for error diagnosis.",
+    "answer_format": {
+      "evidences": [
+        {
+          "paper_id": "integer",
+          "location": "string"
+        }
+      ],
+      "final_list": [
+        "string"
+      ],
+      "final_answer": "integer"
+    },
+    "answers": {
+      "evidences": [
+        {
+          "paper_id": 1,
+          "answer": [
+            {
+              "geolocation": "north-west of England, UK"
+            }
+          ]
+        },
+        {
+          "paper_id": 2,
+          "answer": [
+            {
+              "geolocation": "North of England"
+            }
+          ]
+        },
+        {
+          "paper_id": 3,
+          "answer": [
+            {
+              "geolocation": "the North and Center region of Portugal"
+            }
+          ]
+        },
+        {
+          "paper_id": 4,
+          "answer": [
+            {
+              "geolocation": "United States"
+            }
+          ]
+        },
+        {
+          "paper_id": 5,
+          "answer": [
+            {
+              "geolocation": "five middle size cities in the Netherlands"
+            }
+          ]
+        },
+        {
+          "paper_id": 6,
+          "answer": [
+            {
+              "geolocation": "USA"
+            },
+            {
+              "geolocation": "Japan"
+            }
+          ]
+        },
+        {
+          "paper_id": 7,
+          "answer": [
+            {
+              "geolocation": "Rome, Italy"
+            }
+          ]
+        },
+        {
+          "paper_id": 8,
+          "answer": [
+            {
+              "geolocation": "Western United States"
+            }
+          ]
+        },
+        {
+          "paper_id": 9,
+          "answer": [
+            {
+              "geolocation": "Lima, Peru"
+            }
+          ]
+        },
+        {
+          "paper_id": 10,
+          "answer": [
+            {
+              "geolocation": "Japan"
+            }
+          ]
+        },
+        {
+          "paper_id": 11,
+          "answer": [
+            {
+              "geolocation": "Inner Mongolia Autonomous Region, China"
+            }
+          ]
+        }
+      ],
+      "final_list": [
+        {
+          "country": "China",
+          "paper_id": [
+            11
+          ]
+        },
+        {
+          "country": "Italy",
+          "paper_id": [
+            7
+          ]
+        },
+        {
+          "country": "Japan",
+          "paper_id": [
+            6,
+            10
+          ]
+        },
+        {
+          "country": "Netherlands",
+          "paper_id": [
+            5
+          ]
+        },
+        {
+          "country": "Peru",
+          "paper_id": [
+            9
+          ]
+        },
+        {
+          "country": "Portugal",
+          "paper_id": [
+            3
+          ]
+        },
+        {
+          "country": "United Kingdom",
+          "paper_id": [
+            1,
+            2
+          ]
+        },
+        {
+          "country": "United States",
+          "paper_id": [
+            4,
+            6,
+            8
+          ]
+        }
+      ],
+      "final_answer": 8
+    }
+  }
+]

@@ -1,0 +1,5070 @@
+[
+  {
+    "question_id": "M_L1_Q1",
+    "question": "<statistical method>",
+    "description": "Extract all statistical methods explicitly reported in the Association Test Method column. If multiple methods are reported in one study, split them into separate entries.",
+    "answer_format": {
+      "id": "integer",
+      "statistical_method": "string"
+    },
+    "answers": [
+      {
+        "id": 1,
+        "statistical_method": "Pearson correlations (r)"
+      },
+      {
+        "id": 1,
+        "statistical_method": "linear fitting (R^2)"
+      },
+      {
+        "id": 2,
+        "statistical_method": "Linear regression (R^2)"
+      },
+      {
+        "id": 3,
+        "statistical_method": "statistically significant correlation (R^2)"
+      },
+      {
+        "id": 4,
+        "statistical_method": "correlation analysis (correlation r)"
+      },
+      {
+        "id": 4,
+        "statistical_method": "linear function (linear R^2)"
+      },
+      {
+        "id": 4,
+        "statistical_method": "binomial function (binomial R^2)"
+      },
+      {
+        "id": 4,
+        "statistical_method": "trinomial function (trinomial R^2)"
+      },
+      {
+        "id": 4,
+        "statistical_method": "quaternion function (quaternion R^2)"
+      },
+      {
+        "id": 4,
+        "statistical_method": "random forest (RF R^2)"
+      },
+      {
+        "id": 5,
+        "statistical_method": "Linear regression analysis (R^2)"
+      },
+      {
+        "id": 6,
+        "statistical_method": "linear relationship (airborne R^2)"
+      },
+      {
+        "id": 6,
+        "statistical_method": "linear function (baseline R^2)"
+      },
+      {
+        "id": 6,
+        "statistical_method": "linear correlation (CWSI R^2)"
+      },
+      {
+        "id": 6,
+        "statistical_method": "ANCOVA (F)"
+      },
+      {
+        "id": 7,
+        "statistical_method": "linear regressions (R^2)"
+      },
+      {
+        "id": 8,
+        "statistical_method": "linear regression (linear R^2)"
+      },
+      {
+        "id": 8,
+        "statistical_method": "second order polynomial regression (polynomial R^2)"
+      },
+      {
+        "id": 8,
+        "statistical_method": "partial least squares regression (PLSR R^2)"
+      },
+      {
+        "id": 9,
+        "statistical_method": "Correlation analysis (LMC R^2)"
+      },
+      {
+        "id": 9,
+        "statistical_method": "Linear regression model (yield r^2)"
+      },
+      {
+        "id": 9,
+        "statistical_method": "Regression relationship (validation r^2)"
+      },
+      {
+        "id": 10,
+        "statistical_method": "Linear regression analysis (R^2)"
+      },
+      {
+        "id": 11,
+        "statistical_method": "Linear regression analysis (r^2)"
+      }
+    ]
+  },
+  {
+    "question_id": "M_L1_Q2",
+    "question": "<variables>",
+    "description": "Extract all variables explicitly reported in the Independent Variable Unit and Dependent Variable Unit columns.",
+    "answer_format": {
+      "id": "integer",
+      "variable": "string"
+    },
+    "answers": [
+      {
+        "id": 1,
+        "variable": "leaf water potential"
+      },
+      {
+        "id": 1,
+        "variable": "relative water content"
+      },
+      {
+        "id": 1,
+        "variable": "stomatal conductance"
+      },
+      {
+        "id": 1,
+        "variable": "electron transport rate (not applicable | μmol⋅m^−2 ⋅ s^−1"
+      },
+      {
+        "id": 1,
+        "variable": "leaf rolling index"
+      },
+      {
+        "id": 2,
+        "variable": "adaptive crop water stress index (CWSI)"
+      },
+      {
+        "id": 2,
+        "variable": "conventional CWSI"
+      },
+      {
+        "id": 2,
+        "variable": "stem water potential (SWP, ψ_stem)"
+      },
+      {
+        "id": 2,
+        "variable": "stomatal conductance (g_s)"
+      },
+      {
+        "id": 3,
+        "variable": "midday leaf water potential"
+      },
+      {
+        "id": 3,
+        "variable": "stomatal conductance"
+      },
+      {
+        "id": 3,
+        "variable": "soil water deficit"
+      },
+      {
+        "id": 3,
+        "variable": "crop water stress index"
+      },
+      {
+        "id": 3,
+        "variable": "measured average canopy temperature"
+      },
+      {
+        "id": 3,
+        "variable": "measured canopy temperature standard deviation"
+      },
+      {
+        "id": 3,
+        "variable": "volumetric soil samples"
+      },
+      {
+        "id": 3,
+        "variable": "canopy temperature standard deviation"
+      },
+      {
+        "id": 3,
+        "variable": "estimated average canopy temperature"
+      },
+      {
+        "id": 3,
+        "variable": "estimated canopy temperature standard deviation"
+      },
+      {
+        "id": 3,
+        "variable": "neutron moisture meter"
+      },
+      {
+        "id": 4,
+        "variable": "normalized relative canopy temperature"
+      },
+      {
+        "id": 4,
+        "variable": "temperature vegetation drought index"
+      },
+      {
+        "id": 4,
+        "variable": "three-dimension drought index"
+      },
+      {
+        "id": 4,
+        "variable": "normalized difference vegetation index"
+      },
+      {
+        "id": 4,
+        "variable": "air temperature"
+      },
+      {
+        "id": 4,
+        "variable": "vegetation moisture content"
+      },
+      {
+        "id": 4,
+        "variable": "surface temperature"
+      },
+      {
+        "id": 5,
+        "variable": "stem water potential (Ψ)"
+      },
+      {
+        "id": 5,
+        "variable": "projected shoot area (PSA)"
+      },
+      {
+        "id": 5,
+        "variable": "measured leaf area (LA)"
+      },
+      {
+        "id": 5,
+        "variable": "leaf angle (with three regions of the canopy: lower is nodes 1-5 from ground, middle is nodes 6-11, upper is nodes >11)"
+      },
+      {
+        "id": 5,
+        "variable": "measured Leaf area"
+      },
+      {
+        "id": 6,
+        "variable": "leaf water potential (ΨL)"
+      },
+      {
+        "id": 6,
+        "variable": "vapour pressure deficit (VPD)"
+      },
+      {
+        "id": 6,
+        "variable": "difference of canopy and air temperatures (Tc - Ta)"
+      },
+      {
+        "id": 6,
+        "variable": "crop water stress index (CWSI)"
+      },
+      {
+        "id": 7,
+        "variable": "water content"
+      },
+      {
+        "id": 7,
+        "variable": "water potential"
+      },
+      {
+        "id": 7,
+        "variable": "Absorption Index at 970 nm"
+      },
+      {
+        "id": 7,
+        "variable": "Absorption Index at 1200 nm"
+      },
+      {
+        "id": 7,
+        "variable": "Normalized Difference Vegetation Index (NDVI)"
+      },
+      {
+        "id": 7,
+        "variable": "Normalized Difference Water Index (NDWI)"
+      },
+      {
+        "id": 7,
+        "variable": "red edge position"
+      },
+      {
+        "id": 8,
+        "variable": "plant projected area (pixel count)"
+      },
+      {
+        "id": 8,
+        "variable": "leaf reflectance spectra"
+      },
+      {
+        "id": 8,
+        "variable": "Measured Leaf Water Content"
+      },
+      {
+        "id": 8,
+        "variable": "Leaf Area"
+      },
+      {
+        "id": 8,
+        "variable": "Shoot Fresh Weight"
+      },
+      {
+        "id": 8,
+        "variable": "Shoot Dry Weight"
+      },
+      {
+        "id": 8,
+        "variable": "plant leaf water content"
+      },
+      {
+        "id": 8,
+        "variable": "Predicted Leaf Water Content"
+      },
+      {
+        "id": 9,
+        "variable": "leaf moisture content"
+      },
+      {
+        "id": 9,
+        "variable": "crop water stress index"
+      },
+      {
+        "id": 9,
+        "variable": "Normalized Difference Vegetation Index"
+      },
+      {
+        "id": 9,
+        "variable": "Optimized Soil Adjusted Vegetation Index"
+      },
+      {
+        "id": 9,
+        "variable": "eggplant yields"
+      },
+      {
+        "id": 9,
+        "variable": "predicted eggplant yields"
+      },
+      {
+        "id": 10,
+        "variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)"
+      },
+      {
+        "id": 10,
+        "variable": "vapor pressure deficit (VPD)"
+      },
+      {
+        "id": 10,
+        "variable": "leaf water potential (LWP)"
+      },
+      {
+        "id": 10,
+        "variable": "degrees above non-stressed"
+      },
+      {
+        "id": 10,
+        "variable": "standard deviation of canopy temperature (CTSD)"
+      },
+      {
+        "id": 10,
+        "variable": "maize canopy temperature (Tc)"
+      },
+      {
+        "id": 10,
+        "variable": "canopy-to-air temperature difference (Tc-Ta)"
+      },
+      {
+        "id": 10,
+        "variable": "crop water stress index (CWSI)"
+      },
+      {
+        "id": 10,
+        "variable": "maize leaf water potential (LWP)"
+      },
+      {
+        "id": 10,
+        "variable": "sap flow"
+      },
+      {
+        "id": 11,
+        "variable": "stem water potential (Ψstem)"
+      },
+      {
+        "id": 11,
+        "variable": "stomatal conductance (gs)"
+      },
+      {
+        "id": 11,
+        "variable": "quantum yield of photosystem II photochemistry (ΦPSII)"
+      },
+      {
+        "id": 11,
+        "variable": "canopy temperature (Tc)"
+      },
+      {
+        "id": 11,
+        "variable": "crop water stress index (CWSI)"
+      },
+      {
+        "id": 11,
+        "variable": "whole-tree evapotranspiration (ET)"
+      },
+      {
+        "id": 11,
+        "variable": "area under daily pressure probe data (PPA)"
+      }
+    ]
+  },
+  {
+    "question_id": "M_L1_Q3",
+    "question": "<independent variables>",
+    "description": "Extract all independent variables explicitly reported in the Independent Variable Unit column.",
+    "answer_format": {
+      "id": "integer",
+      "independent_variable": "string"
+    },
+    "answers": [
+      {
+        "id": 1,
+        "independent_variable": "leaf water potential"
+      },
+      {
+        "id": 1,
+        "independent_variable": "relative water content"
+      },
+      {
+        "id": 1,
+        "independent_variable": "stomatal conductance"
+      },
+      {
+        "id": 1,
+        "independent_variable": "electron transport rate (not applicable | μmol⋅m^−2 ⋅ s^−1"
+      },
+      {
+        "id": 2,
+        "independent_variable": "adaptive crop water stress index (CWSI)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "conventional CWSI"
+      },
+      {
+        "id": 3,
+        "independent_variable": "midday leaf water potential"
+      },
+      {
+        "id": 3,
+        "independent_variable": "stomatal conductance"
+      },
+      {
+        "id": 3,
+        "independent_variable": "soil water deficit"
+      },
+      {
+        "id": 3,
+        "independent_variable": "crop water stress index"
+      },
+      {
+        "id": 3,
+        "independent_variable": "measured average canopy temperature"
+      },
+      {
+        "id": 3,
+        "independent_variable": "measured canopy temperature standard deviation"
+      },
+      {
+        "id": 3,
+        "independent_variable": "volumetric soil samples"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature"
+      },
+      {
+        "id": 4,
+        "independent_variable": "temperature vegetation drought index"
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized difference vegetation index"
+      },
+      {
+        "id": 4,
+        "independent_variable": "air temperature"
+      },
+      {
+        "id": 5,
+        "independent_variable": "stem water potential (Ψ)"
+      },
+      {
+        "id": 5,
+        "independent_variable": "projected shoot area (PSA)"
+      },
+      {
+        "id": 5,
+        "independent_variable": "measured leaf area (LA)"
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential (ΨL)"
+      },
+      {
+        "id": 6,
+        "independent_variable": "vapour pressure deficit (VPD)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content"
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential"
+      },
+      {
+        "id": 8,
+        "independent_variable": "plant projected area (pixel count)"
+      },
+      {
+        "id": 8,
+        "independent_variable": "leaf reflectance spectra"
+      },
+      {
+        "id": 8,
+        "independent_variable": "Measured Leaf Water Content"
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content"
+      },
+      {
+        "id": 9,
+        "independent_variable": "crop water stress index"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Normalized Difference Vegetation Index"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Optimized Soil Adjusted Vegetation Index"
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "vapor pressure deficit (VPD)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "leaf water potential (LWP)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "degrees above non-stressed"
+      },
+      {
+        "id": 10,
+        "independent_variable": "standard deviation of canopy temperature (CTSD)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "stem water potential (Ψstem)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "stomatal conductance (gs)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "quantum yield of photosystem II photochemistry (ΦPSII)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "canopy temperature (Tc)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "crop water stress index (CWSI)"
+      }
+    ]
+  },
+  {
+    "question_id": "M_L1_Q4",
+    "question": "<dependent variables>",
+    "description": "Extract all dependent variables explicitly reported in the Dependent Variable Unit column.",
+    "answer_format": {
+      "id": "integer",
+      "dependent_variable": "string"
+    },
+    "answers": [
+      {
+        "id": 1,
+        "dependent_variable": "leaf rolling index"
+      },
+      {
+        "id": 2,
+        "dependent_variable": "stem water potential (SWP, ψ_stem)"
+      },
+      {
+        "id": 2,
+        "dependent_variable": "stomatal conductance (g_s)"
+      },
+      {
+        "id": 3,
+        "dependent_variable": "canopy temperature standard deviation"
+      },
+      {
+        "id": 3,
+        "dependent_variable": "crop water stress index"
+      },
+      {
+        "id": 3,
+        "dependent_variable": "estimated average canopy temperature"
+      },
+      {
+        "id": 3,
+        "dependent_variable": "estimated canopy temperature standard deviation"
+      },
+      {
+        "id": 3,
+        "dependent_variable": "neutron moisture meter"
+      },
+      {
+        "id": 4,
+        "dependent_variable": "vegetation moisture content"
+      },
+      {
+        "id": 4,
+        "dependent_variable": "surface temperature"
+      },
+      {
+        "id": 4,
+        "dependent_variable": "temperature vegetation drought index"
+      },
+      {
+        "id": 4,
+        "dependent_variable": "normalized relative canopy temperature"
+      },
+      {
+        "id": 5,
+        "dependent_variable": "leaf angle (with three regions of the canopy: lower is nodes 1-5 from ground, middle is nodes 6-11, upper is nodes >11)"
+      },
+      {
+        "id": 5,
+        "dependent_variable": "measured Leaf area"
+      },
+      {
+        "id": 6,
+        "dependent_variable": "difference of canopy and air temperatures (Tc - Ta)"
+      },
+      {
+        "id": 6,
+        "dependent_variable": "crop water stress index (CWSI)"
+      },
+      {
+        "id": 7,
+        "dependent_variable": "Absorption Index at 970 nm"
+      },
+      {
+        "id": 7,
+        "dependent_variable": "Absorption Index at 1200 nm"
+      },
+      {
+        "id": 7,
+        "dependent_variable": "Normalized Difference Vegetation Index (NDVI)"
+      },
+      {
+        "id": 7,
+        "dependent_variable": "Normalized Difference Water Index (NDWI)"
+      },
+      {
+        "id": 7,
+        "dependent_variable": "red edge position"
+      },
+      {
+        "id": 8,
+        "dependent_variable": "Leaf Area"
+      },
+      {
+        "id": 8,
+        "dependent_variable": "Shoot Fresh Weight"
+      },
+      {
+        "id": 8,
+        "dependent_variable": "Shoot Dry Weight"
+      },
+      {
+        "id": 8,
+        "dependent_variable": "plant leaf water content"
+      },
+      {
+        "id": 8,
+        "dependent_variable": "Predicted Leaf Water Content"
+      },
+      {
+        "id": 9,
+        "dependent_variable": "Normalized Difference Vegetation Index"
+      },
+      {
+        "id": 9,
+        "dependent_variable": "Optimized Soil Adjusted Vegetation Index"
+      },
+      {
+        "id": 9,
+        "dependent_variable": "crop water stress index"
+      },
+      {
+        "id": 9,
+        "dependent_variable": "eggplant yields"
+      },
+      {
+        "id": 9,
+        "dependent_variable": "predicted eggplant yields"
+      },
+      {
+        "id": 10,
+        "dependent_variable": "maize canopy temperature (Tc)"
+      },
+      {
+        "id": 10,
+        "dependent_variable": "canopy-to-air temperature difference (Tc-Ta)"
+      },
+      {
+        "id": 10,
+        "dependent_variable": "crop water stress index (CWSI)"
+      },
+      {
+        "id": 10,
+        "dependent_variable": "maize leaf water potential (LWP)"
+      },
+      {
+        "id": 10,
+        "dependent_variable": "sap flow"
+      },
+      {
+        "id": 11,
+        "dependent_variable": "whole-tree evapotranspiration (ET)"
+      },
+      {
+        "id": 11,
+        "dependent_variable": "stem water potential (Ψstem)"
+      },
+      {
+        "id": 11,
+        "dependent_variable": "stomatal conductance (gs)"
+      },
+      {
+        "id": 11,
+        "dependent_variable": "quantum yield of photosystem II photochemistry (ΦPSII)"
+      },
+      {
+        "id": 11,
+        "dependent_variable": "canopy temperature (Tc)"
+      },
+      {
+        "id": 11,
+        "dependent_variable": "crop water stress index (CWSI)"
+      },
+      {
+        "id": 11,
+        "dependent_variable": "area under daily pressure probe data (PPA)"
+      }
+    ]
+  },
+  {
+    "question_id": "M_L2_Q1",
+    "question": "<variables> <scale> <unit>",
+    "description": "Extract all variables together with their explicitly reported measurement scales and units.",
+    "answer_format": {
+      "id": "integer",
+      "variable": "string",
+      "scale": "string",
+      "unit": "string"
+    },
+    "answers": [
+      {
+        "id": 1,
+        "variable": "leaf water potential",
+        "scale": "not applicable",
+        "unit": "MPa"
+      },
+      {
+        "id": 1,
+        "variable": "relative water content",
+        "scale": "not applicable",
+        "unit": "%"
+      },
+      {
+        "id": 1,
+        "variable": "stomatal conductance",
+        "scale": "not applicable",
+        "unit": "mol⋅m^−2 ⋅ s^−1"
+      },
+      {
+        "id": 1,
+        "variable": "electron transport rate (not applicable | μmol⋅m^−2 ⋅ s^−1",
+        "scale": "not reported",
+        "unit": "not applicable"
+      },
+      {
+        "id": 1,
+        "variable": "leaf rolling index",
+        "scale": "not applicable",
+        "unit": "%"
+      },
+      {
+        "id": 2,
+        "variable": "adaptive crop water stress index (CWSI)",
+        "scale": "0 to 1",
+        "unit": "not applicable"
+      },
+      {
+        "id": 2,
+        "variable": "conventional CWSI",
+        "scale": "0 to 1",
+        "unit": "not applicable"
+      },
+      {
+        "id": 2,
+        "variable": "stem water potential (SWP, ψ_stem)",
+        "scale": "-3.0 to -1.0",
+        "unit": "MPa"
+      },
+      {
+        "id": 2,
+        "variable": "stomatal conductance (g_s)",
+        "scale": "0 to 0.3",
+        "unit": "mol m^-2 s^-1"
+      },
+      {
+        "id": 3,
+        "variable": "midday leaf water potential",
+        "scale": "-1.0 to -3.0",
+        "unit": "MPa"
+      },
+      {
+        "id": 3,
+        "variable": "stomatal conductance",
+        "scale": "0-1500",
+        "unit": "mmol m^-2 s^-1"
+      },
+      {
+        "id": 3,
+        "variable": "soil water deficit",
+        "scale": "0-100",
+        "unit": "mm"
+      },
+      {
+        "id": 3,
+        "variable": "crop water stress index",
+        "scale": "-0.5-1.0",
+        "unit": "not applicable"
+      },
+      {
+        "id": 3,
+        "variable": "measured average canopy temperature",
+        "scale": "25-50",
+        "unit": "°C"
+      },
+      {
+        "id": 3,
+        "variable": "measured canopy temperature standard deviation",
+        "scale": "0-5",
+        "unit": "°C"
+      },
+      {
+        "id": 3,
+        "variable": "volumetric soil samples",
+        "scale": "not applicable",
+        "unit": "not applicable"
+      },
+      {
+        "id": 3,
+        "variable": "canopy temperature standard deviation",
+        "scale": "0.5-4.0",
+        "unit": "°C"
+      },
+      {
+        "id": 3,
+        "variable": "estimated average canopy temperature",
+        "scale": "25-50",
+        "unit": "°C"
+      },
+      {
+        "id": 3,
+        "variable": "estimated canopy temperature standard deviation",
+        "scale": "0-5",
+        "unit": "°C"
+      },
+      {
+        "id": 3,
+        "variable": "neutron moisture meter",
+        "scale": "not applicable",
+        "unit": "not applicable"
+      },
+      {
+        "id": 4,
+        "variable": "normalized relative canopy temperature",
+        "scale": "0-1",
+        "unit": "not applicable"
+      },
+      {
+        "id": 4,
+        "variable": "temperature vegetation drought index",
+        "scale": "0-1",
+        "unit": "not applicable"
+      },
+      {
+        "id": 4,
+        "variable": "three-dimension drought index",
+        "scale": "0-1",
+        "unit": "not applicable"
+      },
+      {
+        "id": 4,
+        "variable": "normalized difference vegetation index",
+        "scale": "0.0-1.0",
+        "unit": "not applicable"
+      },
+      {
+        "id": 4,
+        "variable": "air temperature",
+        "scale": "27.33-36.25",
+        "unit": "°C"
+      },
+      {
+        "id": 4,
+        "variable": "vegetation moisture content",
+        "scale": "64.00-94.98",
+        "unit": "%"
+      },
+      {
+        "id": 4,
+        "variable": "surface temperature",
+        "scale": "28.53-44.21",
+        "unit": "°C"
+      },
+      {
+        "id": 5,
+        "variable": "stem water potential (Ψ)",
+        "scale": "-0.4 to -1.1",
+        "unit": "MPa"
+      },
+      {
+        "id": 5,
+        "variable": "projected shoot area (PSA)",
+        "scale": "700 to 1200",
+        "unit": "pixel"
+      },
+      {
+        "id": 5,
+        "variable": "measured leaf area (LA)",
+        "scale": "2000 to 3600",
+        "unit": "cm^2 p^-1"
+      },
+      {
+        "id": 5,
+        "variable": "leaf angle (with three regions of the canopy: lower is nodes 1-5 from ground, middle is nodes 6-11, upper is nodes >11)",
+        "scale": "60 to 130",
+        "unit": "°"
+      },
+      {
+        "id": 5,
+        "variable": "measured Leaf area",
+        "scale": "2000 to 3600",
+        "unit": "cm^2 p^-1"
+      },
+      {
+        "id": 6,
+        "variable": "leaf water potential (ΨL)",
+        "scale": "-1.8 to -0.4",
+        "unit": "MPa"
+      },
+      {
+        "id": 6,
+        "variable": "vapour pressure deficit (VPD)",
+        "scale": "0 to 6",
+        "unit": "kPa"
+      },
+      {
+        "id": 6,
+        "variable": "difference of canopy and air temperatures (Tc - Ta)",
+        "scale": "-10 to 10",
+        "unit": "°C"
+      },
+      {
+        "id": 6,
+        "variable": "crop water stress index (CWSI)",
+        "scale": "-0.2 to 1.2",
+        "unit": "not applicable"
+      },
+      {
+        "id": 7,
+        "variable": "water content",
+        "scale": "0 to 60",
+        "unit": "% mass"
+      },
+      {
+        "id": 7,
+        "variable": "water potential",
+        "scale": "-6.5 to -1.0",
+        "unit": "MPa"
+      },
+      {
+        "id": 7,
+        "variable": "Absorption Index at 970 nm",
+        "scale": "0 to 0.02",
+        "unit": "not applicable"
+      },
+      {
+        "id": 7,
+        "variable": "Absorption Index at 1200 nm",
+        "scale": "-0.01 to 0.04",
+        "unit": "not applicable"
+      },
+      {
+        "id": 7,
+        "variable": "Normalized Difference Vegetation Index (NDVI)",
+        "scale": "0.0 to 1.0",
+        "unit": "not applicable"
+      },
+      {
+        "id": 7,
+        "variable": "Normalized Difference Water Index (NDWI)",
+        "scale": "-0.02 to 0.10",
+        "unit": "not applicable"
+      },
+      {
+        "id": 7,
+        "variable": "red edge position",
+        "scale": "640 to 740",
+        "unit": "nm"
+      },
+      {
+        "id": 8,
+        "variable": "plant projected area (pixel count)",
+        "scale": "0 to 160",
+        "unit": "pixel * 1000"
+      },
+      {
+        "id": 8,
+        "variable": "leaf reflectance spectra",
+        "scale": "not applicable",
+        "unit": "not applicable"
+      },
+      {
+        "id": 8,
+        "variable": "Measured Leaf Water Content",
+        "scale": "60 to 100",
+        "unit": "%"
+      },
+      {
+        "id": 8,
+        "variable": "Leaf Area",
+        "scale": "0 to 2000",
+        "unit": "cm^2"
+      },
+      {
+        "id": 8,
+        "variable": "Shoot Fresh Weight",
+        "scale": "0 to 100",
+        "unit": "g"
+      },
+      {
+        "id": 8,
+        "variable": "Shoot Dry Weight",
+        "scale": "0 to 20",
+        "unit": "g"
+      },
+      {
+        "id": 8,
+        "variable": "plant leaf water content",
+        "scale": "68.1 to 92.3",
+        "unit": "%"
+      },
+      {
+        "id": 8,
+        "variable": "Predicted Leaf Water Content",
+        "scale": "60 to 100",
+        "unit": "%"
+      },
+      {
+        "id": 9,
+        "variable": "leaf moisture content",
+        "scale": "0.6 to 0.9",
+        "unit": "%"
+      },
+      {
+        "id": 9,
+        "variable": "crop water stress index",
+        "scale": "0.23 to 0.61",
+        "unit": "not applicable"
+      },
+      {
+        "id": 9,
+        "variable": "Normalized Difference Vegetation Index",
+        "scale": "0.32 to 0.74",
+        "unit": "not applicable"
+      },
+      {
+        "id": 9,
+        "variable": "Optimized Soil Adjusted Vegetation Index",
+        "scale": "0.32 to 0.72",
+        "unit": "not applicable"
+      },
+      {
+        "id": 9,
+        "variable": "eggplant yields",
+        "scale": "not reported",
+        "unit": "t/ha"
+      },
+      {
+        "id": 9,
+        "variable": "predicted eggplant yields",
+        "scale": "not reported",
+        "unit": "t/ha"
+      },
+      {
+        "id": 10,
+        "variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "scale": "0.10 to 0.40",
+        "unit": "not applicable"
+      },
+      {
+        "id": 10,
+        "variable": "vapor pressure deficit (VPD)",
+        "scale": "0.6 to 4.0",
+        "unit": "kPa"
+      },
+      {
+        "id": 10,
+        "variable": "leaf water potential (LWP)",
+        "scale": "-2.0 to -1.1",
+        "unit": "MPa"
+      },
+      {
+        "id": 10,
+        "variable": "degrees above non-stressed",
+        "scale": "not reported",
+        "unit": "not applicable"
+      },
+      {
+        "id": 10,
+        "variable": "standard deviation of canopy temperature (CTSD)",
+        "scale": "not reported",
+        "unit": "not applicable"
+      },
+      {
+        "id": 10,
+        "variable": "maize canopy temperature (Tc)",
+        "scale": "24.0 to 40.0",
+        "unit": "°C"
+      },
+      {
+        "id": 10,
+        "variable": "canopy-to-air temperature difference (Tc-Ta)",
+        "scale": "-10.0 to 6.0",
+        "unit": "°C"
+      },
+      {
+        "id": 10,
+        "variable": "crop water stress index (CWSI)",
+        "scale": "-0.03 to 1.17",
+        "unit": "not applicable"
+      },
+      {
+        "id": 10,
+        "variable": "maize leaf water potential (LWP)",
+        "scale": "-2.0 to -1.1",
+        "unit": "MPa"
+      },
+      {
+        "id": 10,
+        "variable": "sap flow",
+        "scale": "0.0 to 1.4",
+        "unit": "mm h^-1"
+      },
+      {
+        "id": 11,
+        "variable": "stem water potential (Ψstem)",
+        "scale": "-3.5 to -1.3",
+        "unit": "MPa"
+      },
+      {
+        "id": 11,
+        "variable": "stomatal conductance (gs)",
+        "scale": "30 to 150",
+        "unit": "mmol m^-2 s^-1"
+      },
+      {
+        "id": 11,
+        "variable": "quantum yield of photosystem II photochemistry (ΦPSII)",
+        "scale": "0.2 to 0.6",
+        "unit": "not applicable"
+      },
+      {
+        "id": 11,
+        "variable": "canopy temperature (Tc)",
+        "scale": "30 to 36",
+        "unit": "°C"
+      },
+      {
+        "id": 11,
+        "variable": "crop water stress index (CWSI)",
+        "scale": "0.2 to 0.6",
+        "unit": "not applicable"
+      },
+      {
+        "id": 11,
+        "variable": "whole-tree evapotranspiration (ET)",
+        "scale": "10 to 90",
+        "unit": "L d^-1 tree^-1"
+      },
+      {
+        "id": 11,
+        "variable": "area under daily pressure probe data (PPA)",
+        "scale": "90 to 180",
+        "unit": "kPa*min"
+      }
+    ]
+  },
+  {
+    "question_id": "M_L2_Q2",
+    "question": "<independent variable> <scale> <unit>",
+    "description": "Extract measurement scales and units for independent variables only.",
+    "answer_format": {
+      "id": "integer",
+      "independent_variable": "string",
+      "scale": "string",
+      "unit": "string"
+    },
+    "answers": [
+      {
+        "id": 1,
+        "independent_variable": "leaf water potential",
+        "scale": "not applicable",
+        "unit": "MPa"
+      },
+      {
+        "id": 1,
+        "independent_variable": "relative water content",
+        "scale": "not applicable",
+        "unit": "%"
+      },
+      {
+        "id": 1,
+        "independent_variable": "stomatal conductance",
+        "scale": "not applicable",
+        "unit": "mol⋅m^−2 ⋅ s^−1"
+      },
+      {
+        "id": 1,
+        "independent_variable": "electron transport rate (not applicable | μmol⋅m^−2 ⋅ s^−1",
+        "scale": "not reported",
+        "unit": "not applicable"
+      },
+      {
+        "id": 2,
+        "independent_variable": "adaptive crop water stress index (CWSI)",
+        "scale": "0 to 1",
+        "unit": "not applicable"
+      },
+      {
+        "id": 2,
+        "independent_variable": "conventional CWSI",
+        "scale": "0 to 1",
+        "unit": "not applicable"
+      },
+      {
+        "id": 3,
+        "independent_variable": "midday leaf water potential",
+        "scale": "-1.0 to -3.0",
+        "unit": "MPa"
+      },
+      {
+        "id": 3,
+        "independent_variable": "stomatal conductance",
+        "scale": "0-1500",
+        "unit": "mmol m^-2 s^-1"
+      },
+      {
+        "id": 3,
+        "independent_variable": "soil water deficit",
+        "scale": "0-100",
+        "unit": "mm"
+      },
+      {
+        "id": 3,
+        "independent_variable": "crop water stress index",
+        "scale": "-0.5-1.0",
+        "unit": "not applicable"
+      },
+      {
+        "id": 3,
+        "independent_variable": "measured average canopy temperature",
+        "scale": "25-50",
+        "unit": "°C"
+      },
+      {
+        "id": 3,
+        "independent_variable": "measured canopy temperature standard deviation",
+        "scale": "0-5",
+        "unit": "°C"
+      },
+      {
+        "id": 3,
+        "independent_variable": "volumetric soil samples",
+        "scale": "not applicable",
+        "unit": "not applicable"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature",
+        "scale": "0-1",
+        "unit": "not applicable"
+      },
+      {
+        "id": 4,
+        "independent_variable": "temperature vegetation drought index",
+        "scale": "0-1",
+        "unit": "not applicable"
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "scale": "0-1",
+        "unit": "not applicable"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized difference vegetation index",
+        "scale": "0.0-1.0",
+        "unit": "not applicable"
+      },
+      {
+        "id": 4,
+        "independent_variable": "air temperature",
+        "scale": "27.33-36.25",
+        "unit": "°C"
+      },
+      {
+        "id": 5,
+        "independent_variable": "stem water potential (Ψ)",
+        "scale": "-0.4 to -1.1",
+        "unit": "MPa"
+      },
+      {
+        "id": 5,
+        "independent_variable": "projected shoot area (PSA)",
+        "scale": "700 to 1200",
+        "unit": "pixel"
+      },
+      {
+        "id": 5,
+        "independent_variable": "measured leaf area (LA)",
+        "scale": "2000 to 3600",
+        "unit": "cm^2 p^-1"
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential (ΨL)",
+        "scale": "-1.8 to -0.4",
+        "unit": "MPa"
+      },
+      {
+        "id": 6,
+        "independent_variable": "vapour pressure deficit (VPD)",
+        "scale": "0 to 6",
+        "unit": "kPa"
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "scale": "0 to 60",
+        "unit": "% mass"
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "scale": "-6.5 to -1.0",
+        "unit": "MPa"
+      },
+      {
+        "id": 8,
+        "independent_variable": "plant projected area (pixel count)",
+        "scale": "0 to 160",
+        "unit": "pixel * 1000"
+      },
+      {
+        "id": 8,
+        "independent_variable": "leaf reflectance spectra",
+        "scale": "not applicable",
+        "unit": "not applicable"
+      },
+      {
+        "id": 8,
+        "independent_variable": "Measured Leaf Water Content",
+        "scale": "60 to 100",
+        "unit": "%"
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "scale": "0.6 to 0.9",
+        "unit": "%"
+      },
+      {
+        "id": 9,
+        "independent_variable": "crop water stress index",
+        "scale": "0.23 to 0.61",
+        "unit": "not applicable"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Normalized Difference Vegetation Index",
+        "scale": "0.32 to 0.74",
+        "unit": "not applicable"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "scale": "0.32 to 0.72",
+        "unit": "not applicable"
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "scale": "0.10 to 0.40",
+        "unit": "not applicable"
+      },
+      {
+        "id": 10,
+        "independent_variable": "vapor pressure deficit (VPD)",
+        "scale": "0.6 to 4.0",
+        "unit": "kPa"
+      },
+      {
+        "id": 10,
+        "independent_variable": "leaf water potential (LWP)",
+        "scale": "-2.0 to -1.1",
+        "unit": "MPa"
+      },
+      {
+        "id": 10,
+        "independent_variable": "degrees above non-stressed",
+        "scale": "not reported",
+        "unit": "not applicable"
+      },
+      {
+        "id": 10,
+        "independent_variable": "standard deviation of canopy temperature (CTSD)",
+        "scale": "not reported",
+        "unit": "not applicable"
+      },
+      {
+        "id": 11,
+        "independent_variable": "stem water potential (Ψstem)",
+        "scale": "-3.5 to -1.3",
+        "unit": "MPa"
+      },
+      {
+        "id": 11,
+        "independent_variable": "stomatal conductance (gs)",
+        "scale": "30 to 150",
+        "unit": "mmol m^-2 s^-1"
+      },
+      {
+        "id": 11,
+        "independent_variable": "quantum yield of photosystem II photochemistry (ΦPSII)",
+        "scale": "0.2 to 0.6",
+        "unit": "not applicable"
+      },
+      {
+        "id": 11,
+        "independent_variable": "canopy temperature (Tc)",
+        "scale": "30 to 36",
+        "unit": "°C"
+      },
+      {
+        "id": 11,
+        "independent_variable": "crop water stress index (CWSI)",
+        "scale": "0.2 to 0.6",
+        "unit": "not applicable"
+      }
+    ]
+  },
+  {
+    "question_id": "M_L2_Q3",
+    "question": "<dependent variable> <scale> <unit>",
+    "description": "Extract measurement scales and units for dependent variables only.",
+    "answer_format": {
+      "id": "integer",
+      "dependent_variable": "string",
+      "scale": "string",
+      "unit": "string"
+    },
+    "answers": [
+      {
+        "id": 1,
+        "dependent_variable": "leaf rolling index",
+        "scale": "not applicable",
+        "unit": "%"
+      },
+      {
+        "id": 2,
+        "dependent_variable": "stem water potential (SWP, ψ_stem)",
+        "scale": "-3.0 to -1.0",
+        "unit": "MPa"
+      },
+      {
+        "id": 2,
+        "dependent_variable": "stomatal conductance (g_s)",
+        "scale": "0 to 0.3",
+        "unit": "mol m^-2 s^-1"
+      },
+      {
+        "id": 3,
+        "dependent_variable": "canopy temperature standard deviation",
+        "scale": "0.5-4.0",
+        "unit": "°C"
+      },
+      {
+        "id": 3,
+        "dependent_variable": "crop water stress index",
+        "scale": "-0.5-1.0",
+        "unit": "not applicable"
+      },
+      {
+        "id": 3,
+        "dependent_variable": "estimated average canopy temperature",
+        "scale": "25-50",
+        "unit": "°C"
+      },
+      {
+        "id": 3,
+        "dependent_variable": "estimated canopy temperature standard deviation",
+        "scale": "0-5",
+        "unit": "°C"
+      },
+      {
+        "id": 3,
+        "dependent_variable": "neutron moisture meter",
+        "scale": "not applicable",
+        "unit": "not applicable"
+      },
+      {
+        "id": 4,
+        "dependent_variable": "vegetation moisture content",
+        "scale": "64.00-94.98",
+        "unit": "%"
+      },
+      {
+        "id": 4,
+        "dependent_variable": "surface temperature",
+        "scale": "28.53-44.21",
+        "unit": "°C"
+      },
+      {
+        "id": 4,
+        "dependent_variable": "temperature vegetation drought index",
+        "scale": "0-1",
+        "unit": "not applicable"
+      },
+      {
+        "id": 4,
+        "dependent_variable": "normalized relative canopy temperature",
+        "scale": "0-1",
+        "unit": "not applicable"
+      },
+      {
+        "id": 5,
+        "dependent_variable": "leaf angle (with three regions of the canopy: lower is nodes 1-5 from ground, middle is nodes 6-11, upper is nodes >11)",
+        "scale": "60 to 130",
+        "unit": "°"
+      },
+      {
+        "id": 5,
+        "dependent_variable": "measured Leaf area",
+        "scale": "2000 to 3600",
+        "unit": "cm^2 p^-1"
+      },
+      {
+        "id": 6,
+        "dependent_variable": "difference of canopy and air temperatures (Tc - Ta)",
+        "scale": "-10 to 10",
+        "unit": "°C"
+      },
+      {
+        "id": 6,
+        "dependent_variable": "crop water stress index (CWSI)",
+        "scale": "-0.2 to 1.2",
+        "unit": "not applicable"
+      },
+      {
+        "id": 7,
+        "dependent_variable": "Absorption Index at 970 nm",
+        "scale": "0 to 0.02",
+        "unit": "not applicable"
+      },
+      {
+        "id": 7,
+        "dependent_variable": "Absorption Index at 1200 nm",
+        "scale": "-0.01 to 0.04",
+        "unit": "not applicable"
+      },
+      {
+        "id": 7,
+        "dependent_variable": "Normalized Difference Vegetation Index (NDVI)",
+        "scale": "0.0 to 1.0",
+        "unit": "not applicable"
+      },
+      {
+        "id": 7,
+        "dependent_variable": "Normalized Difference Water Index (NDWI)",
+        "scale": "-0.02 to 0.10",
+        "unit": "not applicable"
+      },
+      {
+        "id": 7,
+        "dependent_variable": "red edge position",
+        "scale": "640 to 740",
+        "unit": "nm"
+      },
+      {
+        "id": 8,
+        "dependent_variable": "Leaf Area",
+        "scale": "0 to 2000",
+        "unit": "cm^2"
+      },
+      {
+        "id": 8,
+        "dependent_variable": "Shoot Fresh Weight",
+        "scale": "0 to 100",
+        "unit": "g"
+      },
+      {
+        "id": 8,
+        "dependent_variable": "Shoot Dry Weight",
+        "scale": "0 to 20",
+        "unit": "g"
+      },
+      {
+        "id": 8,
+        "dependent_variable": "plant leaf water content",
+        "scale": "68.1 to 92.3",
+        "unit": "%"
+      },
+      {
+        "id": 8,
+        "dependent_variable": "Predicted Leaf Water Content",
+        "scale": "60 to 100",
+        "unit": "%"
+      },
+      {
+        "id": 9,
+        "dependent_variable": "Normalized Difference Vegetation Index",
+        "scale": "0 to 0.8",
+        "unit": "not applicable"
+      },
+      {
+        "id": 9,
+        "dependent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "scale": "0 to 0.8",
+        "unit": "not applicable"
+      },
+      {
+        "id": 9,
+        "dependent_variable": "crop water stress index",
+        "scale": "0 to 0.8",
+        "unit": "not applicable"
+      },
+      {
+        "id": 9,
+        "dependent_variable": "eggplant yields",
+        "scale": "not reported",
+        "unit": "t/ha"
+      },
+      {
+        "id": 9,
+        "dependent_variable": "predicted eggplant yields",
+        "scale": "not reported",
+        "unit": "t/ha"
+      },
+      {
+        "id": 10,
+        "dependent_variable": "maize canopy temperature (Tc)",
+        "scale": "24.0 to 40.0",
+        "unit": "°C"
+      },
+      {
+        "id": 10,
+        "dependent_variable": "canopy-to-air temperature difference (Tc-Ta)",
+        "scale": "-10.0 to 6.0",
+        "unit": "°C"
+      },
+      {
+        "id": 10,
+        "dependent_variable": "crop water stress index (CWSI)",
+        "scale": "-0.03 to 1.17",
+        "unit": "not applicable"
+      },
+      {
+        "id": 10,
+        "dependent_variable": "maize leaf water potential (LWP)",
+        "scale": "-2.0 to -1.1",
+        "unit": "MPa"
+      },
+      {
+        "id": 10,
+        "dependent_variable": "sap flow",
+        "scale": "0.0 to 1.4",
+        "unit": "mm h^-1"
+      },
+      {
+        "id": 11,
+        "dependent_variable": "whole-tree evapotranspiration (ET)",
+        "scale": "10 to 90",
+        "unit": "L d^-1 tree^-1"
+      },
+      {
+        "id": 11,
+        "dependent_variable": "stem water potential (Ψstem)",
+        "scale": "-3.5 to -1",
+        "unit": "MPa"
+      },
+      {
+        "id": 11,
+        "dependent_variable": "stomatal conductance (gs)",
+        "scale": "30 to 150",
+        "unit": "mmol m^-2 s^-1"
+      },
+      {
+        "id": 11,
+        "dependent_variable": "quantum yield of photosystem II photochemistry (ΦPSII)",
+        "scale": "0.2 to 0.6",
+        "unit": "not applicable"
+      },
+      {
+        "id": 11,
+        "dependent_variable": "canopy temperature (Tc)",
+        "scale": "30 to 36",
+        "unit": "°C"
+      },
+      {
+        "id": 11,
+        "dependent_variable": "crop water stress index (CWSI)",
+        "scale": "0.2 to 0.6",
+        "unit": "not applicable"
+      },
+      {
+        "id": 11,
+        "dependent_variable": "area under daily pressure probe data (PPA)",
+        "scale": "90 to 180",
+        "unit": "kPa*min"
+      }
+    ]
+  },
+  {
+    "question_id": "M_L2_Q4",
+    "question": "<independent variable> <dependent variable>",
+    "description": "Extract all explicitly reported independent-dependent variable pairs. Each pair should be listed once per study, regardless of the number of statistical methods used.",
+    "answer_format": {
+      "id": "integer",
+      "independent_variable": "string",
+      "dependent_variable": "string"
+    },
+    "answers": [
+      {
+        "id": 1,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "leaf rolling index"
+      },
+      {
+        "id": 1,
+        "independent_variable": "relative water content",
+        "dependent_variable": "leaf rolling index"
+      },
+      {
+        "id": 1,
+        "independent_variable": "stomatal conductance",
+        "dependent_variable": "leaf rolling index"
+      },
+      {
+        "id": 1,
+        "independent_variable": "electron transport rate",
+        "dependent_variable": "leaf rolling index"
+      },
+      {
+        "id": 2,
+        "independent_variable": "adaptive crop water stress index (CWSI)",
+        "dependent_variable": "stem water potential"
+      },
+      {
+        "id": 2,
+        "independent_variable": "adaptive crop water stress index (CWSI)",
+        "dependent_variable": "stomatal conductance"
+      },
+      {
+        "id": 2,
+        "independent_variable": "conventional CWSI",
+        "dependent_variable": "stem water potential"
+      },
+      {
+        "id": 2,
+        "independent_variable": "conventional CWSI",
+        "dependent_variable": "stomatal conductance"
+      },
+      {
+        "id": 3,
+        "independent_variable": "midday leaf water potential",
+        "dependent_variable": "canopy temperature standard deviation"
+      },
+      {
+        "id": 3,
+        "independent_variable": "stomatal conductance",
+        "dependent_variable": "canopy temperature standard deviation"
+      },
+      {
+        "id": 3,
+        "independent_variable": "soil water deficit",
+        "dependent_variable": "canopy temperature standard deviation"
+      },
+      {
+        "id": 3,
+        "independent_variable": "soil water deficit",
+        "dependent_variable": "crop water stress index"
+      },
+      {
+        "id": 3,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "canopy temperature standard deviation"
+      },
+      {
+        "id": 3,
+        "independent_variable": "measured average canopy temperature",
+        "dependent_variable": "estimated average canopy temperature"
+      },
+      {
+        "id": 3,
+        "independent_variable": "measured canopy temperature standard deviation",
+        "dependent_variable": "estimated canopy temperature standard deviation"
+      },
+      {
+        "id": 3,
+        "independent_variable": "volumetric soil samples",
+        "dependent_variable": "neutron moisture meter"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature",
+        "dependent_variable": "vegetation moisture content"
+      },
+      {
+        "id": 4,
+        "independent_variable": "temperature vegetation drought index",
+        "dependent_variable": "vegetation moisture content"
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "vegetation moisture content"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized difference vegetation index",
+        "dependent_variable": "surface temperature"
+      },
+      {
+        "id": 4,
+        "independent_variable": "air temperature",
+        "dependent_variable": "surface temperature"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature",
+        "dependent_variable": "temperature vegetation drought index"
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "normalized relative canopy temperature"
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "temperature vegetation drought index"
+      },
+      {
+        "id": 5,
+        "independent_variable": "stem water potential",
+        "dependent_variable": "leaf angle"
+      },
+      {
+        "id": 5,
+        "independent_variable": "projected shoot area",
+        "dependent_variable": "measured Leaf area"
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "difference of canopy and air temperatures"
+      },
+      {
+        "id": 6,
+        "independent_variable": "vapour pressure deficit",
+        "dependent_variable": "difference of canopy and air temperatures"
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "crop water stress index"
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "Absorption Index at 970 nm"
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "Absorption Index at 1200 nm"
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "Normalized Difference Vegetation Index"
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "Normalized Difference Water Index"
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "red edge position"
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "Absorption Index at 970 nm"
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "Absorption Index at 1200 nm"
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "Normalized Difference Vegetation Index"
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "Normalized Difference Water Index"
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "red edge position"
+      },
+      {
+        "id": 8,
+        "independent_variable": "plant projected area (pixel count)",
+        "dependent_variable": "Leaf Area"
+      },
+      {
+        "id": 8,
+        "independent_variable": "plant projected area (pixel count)",
+        "dependent_variable": "Shoot Fresh Weight"
+      },
+      {
+        "id": 8,
+        "independent_variable": "plant projected area (pixel count)",
+        "dependent_variable": "Shoot Dry Weight"
+      },
+      {
+        "id": 8,
+        "independent_variable": "leaf reflectance spectra",
+        "dependent_variable": "plant leaf water content"
+      },
+      {
+        "id": 8,
+        "independent_variable": "Measured Leaf Water Content",
+        "dependent_variable": "Predicted Leaf Water Content"
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "Normalized Difference Vegetation Index"
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "Optimized Soil Adjusted Vegetation Index"
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "crop water stress index"
+      },
+      {
+        "id": 9,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "eggplant yields"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Normalized Difference Vegetation Index",
+        "dependent_variable": "eggplant yields"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "dependent_variable": "eggplant yields"
+      },
+      {
+        "id": 9,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "predicted eggplant yields"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Normalized Difference Vegetation Index",
+        "dependent_variable": "predicted eggplant yields"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "dependent_variable": "predicted eggplant yields"
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "crop water stress index"
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "maize canopy temperature"
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "canopy-to-air temperature difference"
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "maize leaf water potential"
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "sap flow"
+      },
+      {
+        "id": 10,
+        "independent_variable": "vapor pressure deficit (VPD)",
+        "dependent_variable": "canopy-to-air temperature difference"
+      },
+      {
+        "id": 10,
+        "independent_variable": "degrees above non-stressed",
+        "dependent_variable": "maize leaf water potential"
+      },
+      {
+        "id": 10,
+        "independent_variable": "standard deviation of canopy temperature (CTSD)",
+        "dependent_variable": "crop water stress index"
+      },
+      {
+        "id": 11,
+        "independent_variable": "stem water potential",
+        "dependent_variable": "whole-tree evapotranspiration"
+      },
+      {
+        "id": 11,
+        "independent_variable": "stomatal conductance",
+        "dependent_variable": "whole-tree evapotranspiration"
+      },
+      {
+        "id": 11,
+        "independent_variable": "quantum yield of photosystem II photochemistry",
+        "dependent_variable": "whole-tree evapotranspiration"
+      },
+      {
+        "id": 11,
+        "independent_variable": "canopy temperature",
+        "dependent_variable": "whole-tree evapotranspiration"
+      },
+      {
+        "id": 11,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "whole-tree evapotranspiration"
+      },
+      {
+        "id": 11,
+        "independent_variable": "area under daily pressure probe data",
+        "dependent_variable": "whole-tree evapotranspiration"
+      },
+      {
+        "id": 11,
+        "independent_variable": "stomatal conductance",
+        "dependent_variable": "stem water potential"
+      },
+      {
+        "id": 11,
+        "independent_variable": "quantum yield of photosystem II photochemistry",
+        "dependent_variable": "stem water potential"
+      },
+      {
+        "id": 11,
+        "independent_variable": "canopy temperature",
+        "dependent_variable": "stem water potential"
+      },
+      {
+        "id": 11,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "stem water potential"
+      },
+      {
+        "id": 11,
+        "independent_variable": "area under daily pressure probe data",
+        "dependent_variable": "stem water potential"
+      },
+      {
+        "id": 11,
+        "independent_variable": "quantum yield of photosystem II photochemistry",
+        "dependent_variable": "stomatal conductance"
+      },
+      {
+        "id": 11,
+        "independent_variable": "canopy temperature",
+        "dependent_variable": "stomatal conductance"
+      },
+      {
+        "id": 11,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "stomatal conductance"
+      },
+      {
+        "id": 11,
+        "independent_variable": "area under daily pressure probe data",
+        "dependent_variable": "stomatal conductance"
+      },
+      {
+        "id": 11,
+        "independent_variable": "canopy temperature",
+        "dependent_variable": "quantum yield of photosystem II photochemistry"
+      },
+      {
+        "id": 11,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "quantum yield of photosystem II photochemistry"
+      },
+      {
+        "id": 11,
+        "independent_variable": "area under daily pressure probe data",
+        "dependent_variable": "quantum yield of photosystem II photochemistry"
+      },
+      {
+        "id": 11,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "canopy temperature"
+      },
+      {
+        "id": 11,
+        "independent_variable": "area under daily pressure probe data",
+        "dependent_variable": "canopy temperature"
+      },
+      {
+        "id": 11,
+        "independent_variable": "area under daily pressure probe data",
+        "dependent_variable": "crop water stress index"
+      }
+    ]
+  },
+  {
+    "question_id": "M_L2_Q5",
+    "question": "<independent variable> <dependent variable> <statistical method>",
+    "description": "Extract all atomic relationships between independent variables and dependent variables, each paired with a single explicitly reported statistical method. If the same variable pair is analyzed with multiple methods, extract multiple records.",
+    "answer_format": {
+      "id": "integer",
+      "independent_variable": "string",
+      "dependent_variable": "string",
+      "statistical_method": "string"
+    },
+    "answers": [
+      {
+        "id": 1,
+        "independent_variable": "stomatal conductance",
+        "dependent_variable": "leaf rolling index",
+        "statistical_method": "Pearson correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "stomatal conductance",
+        "dependent_variable": "leaf rolling index",
+        "statistical_method": "linear fitting (R^2)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "electron transport rate",
+        "dependent_variable": "leaf rolling index",
+        "statistical_method": "Pearson correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "electron transport rate",
+        "dependent_variable": "leaf rolling index",
+        "statistical_method": "linear fitting (R^2)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "relative water content",
+        "dependent_variable": "leaf rolling index",
+        "statistical_method": "Pearson correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "relative water content",
+        "dependent_variable": "leaf rolling index",
+        "statistical_method": "linear fitting (R^2)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "leaf rolling index",
+        "statistical_method": "Pearson correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "leaf rolling index",
+        "statistical_method": "linear fitting (R^2)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "adaptive crop water stress index (CWSI)",
+        "dependent_variable": "stem water potential",
+        "statistical_method": "Linear regression (R^2)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "adaptive crop water stress index (CWSI)",
+        "dependent_variable": "stomatal conductance",
+        "statistical_method": "Linear regression (R^2)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "conventional CWSI",
+        "dependent_variable": "stomatal conductance",
+        "statistical_method": "Linear regression (R^2)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "conventional CWSI",
+        "dependent_variable": "stem water potential",
+        "statistical_method": "Linear regression (R^2)"
+      },
+      {
+        "id": 3,
+        "independent_variable": "midday leaf water potential",
+        "dependent_variable": "canopy temperature standard deviation",
+        "statistical_method": "statistically significant correlation (R^2)"
+      },
+      {
+        "id": 3,
+        "independent_variable": "soil water deficit",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "statistically significant correlation (R^2)"
+      },
+      {
+        "id": 3,
+        "independent_variable": "stomatal conductance",
+        "dependent_variable": "canopy temperature standard deviation",
+        "statistical_method": "statistically significant correlation (R^2)"
+      },
+      {
+        "id": 3,
+        "independent_variable": "measured average canopy temperature",
+        "dependent_variable": "estimated average canopy temperature",
+        "statistical_method": "statistically significant correlation (R^2)"
+      },
+      {
+        "id": 3,
+        "independent_variable": "soil water deficit",
+        "dependent_variable": "canopy temperature standard deviation",
+        "statistical_method": "statistically significant correlation (R^2)"
+      },
+      {
+        "id": 3,
+        "independent_variable": "volumetric soil samples",
+        "dependent_variable": "neutron moisture meter",
+        "statistical_method": "statistically significant correlation (R^2)"
+      },
+      {
+        "id": 3,
+        "independent_variable": "measured canopy temperature standard deviation",
+        "dependent_variable": "estimated canopy temperature standard deviation",
+        "statistical_method": "statistically significant correlation (R^2)"
+      },
+      {
+        "id": 3,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "canopy temperature standard deviation",
+        "statistical_method": "statistically significant correlation (R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "temperature vegetation drought index",
+        "statistical_method": "correlation analysis (correlation r)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "temperature vegetation drought index",
+        "statistical_method": "linear function (linear R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "temperature vegetation drought index",
+        "statistical_method": "binomial function (binomial R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "temperature vegetation drought index",
+        "statistical_method": "trinomial function (trinomial R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "temperature vegetation drought index",
+        "statistical_method": "quaternion function (quaternion R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "temperature vegetation drought index",
+        "statistical_method": "random forest (RF R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature",
+        "dependent_variable": "temperature vegetation drought index",
+        "statistical_method": "correlation analysis (correlation r)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature",
+        "dependent_variable": "temperature vegetation drought index",
+        "statistical_method": "linear function (linear R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature",
+        "dependent_variable": "temperature vegetation drought index",
+        "statistical_method": "binomial function (binomial R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature",
+        "dependent_variable": "temperature vegetation drought index",
+        "statistical_method": "trinomial function (trinomial R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature",
+        "dependent_variable": "temperature vegetation drought index",
+        "statistical_method": "quaternion function (quaternion R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature",
+        "dependent_variable": "temperature vegetation drought index",
+        "statistical_method": "random forest (RF R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized difference vegetation index",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "correlation analysis (correlation r)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized difference vegetation index",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "linear function (linear R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized difference vegetation index",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "binomial function (binomial R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized difference vegetation index",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "trinomial function (trinomial R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized difference vegetation index",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "quaternion function (quaternion R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized difference vegetation index",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "random forest (RF R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation analysis (correlation r)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "linear function (linear R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "binomial function (binomial R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "trinomial function (trinomial R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "quaternion function (quaternion R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "random forest (RF R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation analysis (correlation r)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "linear function (linear R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "binomial function (binomial R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "trinomial function (trinomial R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "quaternion function (quaternion R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "random forest (RF R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "temperature vegetation drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation analysis (correlation r)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "temperature vegetation drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "linear function (linear R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "temperature vegetation drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "binomial function (binomial R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "temperature vegetation drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "trinomial function (trinomial R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "temperature vegetation drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "quaternion function (quaternion R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "temperature vegetation drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "random forest (RF R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "air temperature",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "correlation analysis (correlation r)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "air temperature",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "linear function (linear R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "air temperature",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "binomial function (binomial R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "air temperature",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "trinomial function (trinomial R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "air temperature",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "quaternion function (quaternion R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "air temperature",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "random forest (RF R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "normalized relative canopy temperature",
+        "statistical_method": "correlation analysis (correlation r)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "normalized relative canopy temperature",
+        "statistical_method": "linear function (linear R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "normalized relative canopy temperature",
+        "statistical_method": "binomial function (binomial R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "normalized relative canopy temperature",
+        "statistical_method": "trinomial function (trinomial R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "normalized relative canopy temperature",
+        "statistical_method": "quaternion function (quaternion R^2)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "normalized relative canopy temperature",
+        "statistical_method": "random forest (RF R^2)"
+      },
+      {
+        "id": 5,
+        "independent_variable": "stem water potential",
+        "dependent_variable": "leaf angle",
+        "statistical_method": "Linear regression analysis (R^2)"
+      },
+      {
+        "id": 5,
+        "independent_variable": "projected shoot area",
+        "dependent_variable": "measured Leaf area",
+        "statistical_method": "Linear regression analysis (R^2)"
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "linear relationship (airborne R^2)"
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "linear function (baseline R^2)"
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "linear correlation (CWSI R^2)"
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "ANCOVA (F)"
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "linear relationship (airborne R^2)"
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "linear function (baseline R^2)"
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "linear correlation (CWSI R^2)"
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "ANCOVA (F)"
+      },
+      {
+        "id": 6,
+        "independent_variable": "vapour pressure deficit",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "linear relationship (airborne R^2)"
+      },
+      {
+        "id": 6,
+        "independent_variable": "vapour pressure deficit",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "linear function (baseline R^2)"
+      },
+      {
+        "id": 6,
+        "independent_variable": "vapour pressure deficit",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "linear correlation (CWSI R^2)"
+      },
+      {
+        "id": 6,
+        "independent_variable": "vapour pressure deficit",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "ANCOVA (F)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "Absorption Index at 970 nm",
+        "statistical_method": "linear regressions (R^2)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "Absorption Index at 1200 nm",
+        "statistical_method": "linear regressions (R^2)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "Absorption Index at 970 nm",
+        "statistical_method": "linear regressions (R^2)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "red edge position",
+        "statistical_method": "linear regressions (R^2)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "red edge position",
+        "statistical_method": "linear regressions (R^2)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "Absorption Index at 1200 nm",
+        "statistical_method": "linear regressions (R^2)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "Normalized Difference Water Index",
+        "statistical_method": "linear regressions (R^2)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "Normalized Difference Water Index",
+        "statistical_method": "linear regressions (R^2)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "Normalized Difference Vegetation Index",
+        "statistical_method": "linear regressions (R^2)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "Normalized Difference Vegetation Index",
+        "statistical_method": "linear regressions (R^2)"
+      },
+      {
+        "id": 8,
+        "independent_variable": "leaf reflectance spectra",
+        "dependent_variable": "plant leaf water content",
+        "statistical_method": "linear regression (linear R^2)"
+      },
+      {
+        "id": 8,
+        "independent_variable": "leaf reflectance spectra",
+        "dependent_variable": "plant leaf water content",
+        "statistical_method": "second order polynomial regression (polynomial R^2)"
+      },
+      {
+        "id": 8,
+        "independent_variable": "leaf reflectance spectra",
+        "dependent_variable": "plant leaf water content",
+        "statistical_method": "partial least squares regression (PLSR R^2)"
+      },
+      {
+        "id": 8,
+        "independent_variable": "Measured Leaf Water Content",
+        "dependent_variable": "Predicted Leaf Water Content",
+        "statistical_method": "linear regression (linear R^2)"
+      },
+      {
+        "id": 8,
+        "independent_variable": "Measured Leaf Water Content",
+        "dependent_variable": "Predicted Leaf Water Content",
+        "statistical_method": "second order polynomial regression (polynomial R^2)"
+      },
+      {
+        "id": 8,
+        "independent_variable": "Measured Leaf Water Content",
+        "dependent_variable": "Predicted Leaf Water Content",
+        "statistical_method": "partial least squares regression (PLSR R^2)"
+      },
+      {
+        "id": 8,
+        "independent_variable": "plant projected area (pixel count)",
+        "dependent_variable": "Leaf Area",
+        "statistical_method": "linear regression (linear R^2)"
+      },
+      {
+        "id": 8,
+        "independent_variable": "plant projected area (pixel count)",
+        "dependent_variable": "Leaf Area",
+        "statistical_method": "second order polynomial regression (polynomial R^2)"
+      },
+      {
+        "id": 8,
+        "independent_variable": "plant projected area (pixel count)",
+        "dependent_variable": "Leaf Area",
+        "statistical_method": "partial least squares regression (PLSR R^2)"
+      },
+      {
+        "id": 8,
+        "independent_variable": "plant projected area (pixel count)",
+        "dependent_variable": "Shoot Dry Weight",
+        "statistical_method": "linear regression (linear R^2)"
+      },
+      {
+        "id": 8,
+        "independent_variable": "plant projected area (pixel count)",
+        "dependent_variable": "Shoot Dry Weight",
+        "statistical_method": "second order polynomial regression (polynomial R^2)"
+      },
+      {
+        "id": 8,
+        "independent_variable": "plant projected area (pixel count)",
+        "dependent_variable": "Shoot Dry Weight",
+        "statistical_method": "partial least squares regression (PLSR R^2)"
+      },
+      {
+        "id": 8,
+        "independent_variable": "plant projected area (pixel count)",
+        "dependent_variable": "Shoot Fresh Weight",
+        "statistical_method": "linear regression (linear R^2)"
+      },
+      {
+        "id": 8,
+        "independent_variable": "plant projected area (pixel count)",
+        "dependent_variable": "Shoot Fresh Weight",
+        "statistical_method": "second order polynomial regression (polynomial R^2)"
+      },
+      {
+        "id": 8,
+        "independent_variable": "plant projected area (pixel count)",
+        "dependent_variable": "Shoot Fresh Weight",
+        "statistical_method": "partial least squares regression (PLSR R^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "predicted eggplant yields",
+        "statistical_method": "Correlation analysis (LMC R^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "predicted eggplant yields",
+        "statistical_method": "Linear regression model (yield r^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "predicted eggplant yields",
+        "statistical_method": "Regression relationship (validation r^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "Normalized Difference Vegetation Index",
+        "statistical_method": "Correlation analysis (LMC R^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "Normalized Difference Vegetation Index",
+        "statistical_method": "Linear regression model (yield r^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "Normalized Difference Vegetation Index",
+        "statistical_method": "Regression relationship (validation r^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "Correlation analysis (LMC R^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "Linear regression model (yield r^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "Regression relationship (validation r^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Normalized Difference Vegetation Index",
+        "dependent_variable": "eggplant yields",
+        "statistical_method": "Correlation analysis (LMC R^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Normalized Difference Vegetation Index",
+        "dependent_variable": "eggplant yields",
+        "statistical_method": "Linear regression model (yield r^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Normalized Difference Vegetation Index",
+        "dependent_variable": "eggplant yields",
+        "statistical_method": "Regression relationship (validation r^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "statistical_method": "Correlation analysis (LMC R^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "statistical_method": "Linear regression model (yield r^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "statistical_method": "Regression relationship (validation r^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "eggplant yields",
+        "statistical_method": "Correlation analysis (LMC R^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "eggplant yields",
+        "statistical_method": "Linear regression model (yield r^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "eggplant yields",
+        "statistical_method": "Regression relationship (validation r^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "dependent_variable": "predicted eggplant yields",
+        "statistical_method": "Correlation analysis (LMC R^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "dependent_variable": "predicted eggplant yields",
+        "statistical_method": "Linear regression model (yield r^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "dependent_variable": "predicted eggplant yields",
+        "statistical_method": "Regression relationship (validation r^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "dependent_variable": "eggplant yields",
+        "statistical_method": "Correlation analysis (LMC R^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "dependent_variable": "eggplant yields",
+        "statistical_method": "Linear regression model (yield r^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "dependent_variable": "eggplant yields",
+        "statistical_method": "Regression relationship (validation r^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Normalized Difference Vegetation Index",
+        "dependent_variable": "predicted eggplant yields",
+        "statistical_method": "Correlation analysis (LMC R^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Normalized Difference Vegetation Index",
+        "dependent_variable": "predicted eggplant yields",
+        "statistical_method": "Linear regression model (yield r^2)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Normalized Difference Vegetation Index",
+        "dependent_variable": "predicted eggplant yields",
+        "statistical_method": "Regression relationship (validation r^2)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "maize leaf water potential",
+        "statistical_method": "Linear regression analysis (R^2)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "standard deviation of canopy temperature (CTSD)",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "Linear regression analysis (R^2)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "degrees above non-stressed",
+        "dependent_variable": "maize leaf water potential",
+        "statistical_method": "Linear regression analysis (R^2)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "Linear regression analysis (R^2)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "vapor pressure deficit (VPD)",
+        "dependent_variable": "canopy-to-air temperature difference",
+        "statistical_method": "Linear regression analysis (R^2)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "sap flow",
+        "statistical_method": "Linear regression analysis (R^2)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "canopy-to-air temperature difference",
+        "statistical_method": "Linear regression analysis (R^2)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "maize canopy temperature",
+        "statistical_method": "Linear regression analysis (R^2)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "area under daily pressure probe data",
+        "dependent_variable": "canopy temperature",
+        "statistical_method": "Linear regression analysis (r^2)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "area under daily pressure probe data",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "Linear regression analysis (r^2)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "canopy temperature",
+        "dependent_variable": "stomatal conductance",
+        "statistical_method": "Linear regression analysis (r^2)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "stem water potential",
+        "statistical_method": "Linear regression analysis (r^2)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "whole-tree evapotranspiration",
+        "statistical_method": "Linear regression analysis (r^2)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "area under daily pressure probe data",
+        "dependent_variable": "stomatal conductance",
+        "statistical_method": "Linear regression analysis (r^2)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "quantum yield of photosystem II photochemistry",
+        "dependent_variable": "stomatal conductance",
+        "statistical_method": "Linear regression analysis (r^2)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "canopy temperature",
+        "dependent_variable": "stem water potential",
+        "statistical_method": "Linear regression analysis (r^2)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "canopy temperature",
+        "dependent_variable": "whole-tree evapotranspiration",
+        "statistical_method": "Linear regression analysis (r^2)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "stomatal conductance",
+        "dependent_variable": "stem water potential",
+        "statistical_method": "Linear regression analysis (r^2)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "stomatal conductance",
+        "dependent_variable": "whole-tree evapotranspiration",
+        "statistical_method": "Linear regression analysis (r^2)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "quantum yield of photosystem II photochemistry",
+        "dependent_variable": "stem water potential",
+        "statistical_method": "Linear regression analysis (r^2)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "quantum yield of photosystem II photochemistry",
+        "dependent_variable": "whole-tree evapotranspiration",
+        "statistical_method": "Linear regression analysis (r^2)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "area under daily pressure probe data",
+        "dependent_variable": "stem water potential",
+        "statistical_method": "Linear regression analysis (r^2)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "area under daily pressure probe data",
+        "dependent_variable": "whole-tree evapotranspiration",
+        "statistical_method": "Linear regression analysis (r^2)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "quantum yield of photosystem II photochemistry",
+        "statistical_method": "Linear regression analysis (r^2)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "canopy temperature",
+        "dependent_variable": "quantum yield of photosystem II photochemistry",
+        "statistical_method": "Linear regression analysis (r^2)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "stem water potential",
+        "dependent_variable": "whole-tree evapotranspiration",
+        "statistical_method": "Linear regression analysis (r^2)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "area under daily pressure probe data",
+        "dependent_variable": "quantum yield of photosystem II photochemistry",
+        "statistical_method": "Linear regression analysis (r^2)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "canopy temperature",
+        "statistical_method": "Linear regression analysis (r^2)"
+      },
+      {
+        "id": 11,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "stomatal conductance",
+        "statistical_method": "Linear regression analysis (r^2)"
+      }
+    ]
+  },
+  {
+    "question_id": "M_L2_Q6",
+    "question": "<independent variable> <dependent variable> <statistical method> <conditions> <effect size>",
+    "description": "Extract all reported effect sizes with IV, DV, method, and conditions.",
+    "answer_format": {
+      "id": "integer",
+      "independent_variable": "string",
+      "dependent_variable": "string",
+      "statistical_method": "string",
+      "conditions": "string",
+      "effect_size": "float"
+    },
+    "answers": [
+      {
+        "id": 1,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "leaf rolling index",
+        "statistical_method": "R^2",
+        "conditions": "Flowering stage",
+        "effect_size": 0.7162
+      },
+      {
+        "id": 1,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "leaf rolling index",
+        "statistical_method": "R^2",
+        "conditions": "Seedling stage",
+        "effect_size": 0.7311
+      },
+      {
+        "id": 1,
+        "independent_variable": "relative water content",
+        "dependent_variable": "leaf rolling index",
+        "statistical_method": "R^2",
+        "conditions": "Flowering stage",
+        "effect_size": 0.8723
+      },
+      {
+        "id": 1,
+        "independent_variable": "relative water content",
+        "dependent_variable": "leaf rolling index",
+        "statistical_method": "R^2",
+        "conditions": "Seedling stage",
+        "effect_size": 0.7775
+      },
+      {
+        "id": 1,
+        "independent_variable": "stomatal conductance",
+        "dependent_variable": "leaf rolling index",
+        "statistical_method": "R^2",
+        "conditions": "Flowering stage",
+        "effect_size": 0.6199
+      },
+      {
+        "id": 1,
+        "independent_variable": "stomatal conductance",
+        "dependent_variable": "leaf rolling index",
+        "statistical_method": "R^2",
+        "conditions": "Seedling stage",
+        "effect_size": 0.6088
+      },
+      {
+        "id": 1,
+        "independent_variable": "electron transport rate",
+        "dependent_variable": "leaf rolling index",
+        "statistical_method": "R^2",
+        "conditions": "Flowering stage",
+        "effect_size": 0.2352
+      },
+      {
+        "id": 1,
+        "independent_variable": "electron transport rate",
+        "dependent_variable": "leaf rolling index",
+        "statistical_method": "R^2",
+        "conditions": "Seedling stage",
+        "effect_size": 0.89
+      },
+      {
+        "id": 2,
+        "independent_variable": "adaptive crop water stress index (CWSI)",
+        "dependent_variable": "stem water potential",
+        "statistical_method": "R^2",
+        "conditions": "SWP, ψ_stem",
+        "effect_size": 0.72
+      },
+      {
+        "id": 2,
+        "independent_variable": "adaptive crop water stress index (CWSI)",
+        "dependent_variable": "stomatal conductance",
+        "statistical_method": "R^2",
+        "conditions": "g_s",
+        "effect_size": 0.82
+      },
+      {
+        "id": 2,
+        "independent_variable": "conventional CWSI",
+        "dependent_variable": "stem water potential",
+        "statistical_method": "R^2",
+        "conditions": "SWP, ψ_stem",
+        "effect_size": 0.27
+      },
+      {
+        "id": 2,
+        "independent_variable": "conventional CWSI",
+        "dependent_variable": "stomatal conductance",
+        "statistical_method": "R^2",
+        "conditions": "g_s",
+        "effect_size": 0.34
+      },
+      {
+        "id": 3,
+        "independent_variable": "midday leaf water potential",
+        "dependent_variable": "canopy temperature standard deviation",
+        "statistical_method": "R^2",
+        "conditions": "2012",
+        "effect_size": 0.94
+      },
+      {
+        "id": 3,
+        "independent_variable": "midday leaf water potential",
+        "dependent_variable": "canopy temperature standard deviation",
+        "statistical_method": "R^2",
+        "conditions": "2013",
+        "effect_size": 0.61
+      },
+      {
+        "id": 3,
+        "independent_variable": "stomatal conductance",
+        "dependent_variable": "canopy temperature standard deviation",
+        "statistical_method": "R^2",
+        "conditions": "2012",
+        "effect_size": 0.69
+      },
+      {
+        "id": 3,
+        "independent_variable": "stomatal conductance",
+        "dependent_variable": "canopy temperature standard deviation",
+        "statistical_method": "R^2",
+        "conditions": "2013",
+        "effect_size": 0.68
+      },
+      {
+        "id": 3,
+        "independent_variable": "soil water deficit",
+        "dependent_variable": "canopy temperature standard deviation",
+        "statistical_method": "R^2",
+        "conditions": "2012",
+        "effect_size": 0.48
+      },
+      {
+        "id": 3,
+        "independent_variable": "soil water deficit",
+        "dependent_variable": "canopy temperature standard deviation",
+        "statistical_method": "R^2",
+        "conditions": "2013",
+        "effect_size": 0.56
+      },
+      {
+        "id": 3,
+        "independent_variable": "soil water deficit",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "R^2",
+        "conditions": "2012",
+        "effect_size": 0.37
+      },
+      {
+        "id": 3,
+        "independent_variable": "soil water deficit",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "R^2",
+        "conditions": "2013",
+        "effect_size": 0.78
+      },
+      {
+        "id": 3,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "canopy temperature standard deviation",
+        "statistical_method": "R^2",
+        "conditions": "2012",
+        "effect_size": 0.76
+      },
+      {
+        "id": 3,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "canopy temperature standard deviation",
+        "statistical_method": "R^2",
+        "conditions": "2013",
+        "effect_size": 0.54
+      },
+      {
+        "id": 3,
+        "independent_variable": "measured average canopy temperature",
+        "dependent_variable": "estimated average canopy temperature",
+        "statistical_method": "R^2",
+        "conditions": "none",
+        "effect_size": 0.98
+      },
+      {
+        "id": 3,
+        "independent_variable": "measured canopy temperature standard deviation",
+        "dependent_variable": "estimated canopy temperature standard deviation",
+        "statistical_method": "R^2",
+        "conditions": "none",
+        "effect_size": 0.97
+      },
+      {
+        "id": 3,
+        "independent_variable": "volumetric soil samples",
+        "dependent_variable": "neutron moisture meter",
+        "statistical_method": "R^2",
+        "conditions": "none",
+        "effect_size": 0.92
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "July 9",
+        "effect_size": 0.07
+      },
+      {
+        "id": 4,
+        "independent_variable": "temperature vegetation drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "July 9",
+        "effect_size": 0.31
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "July 9",
+        "effect_size": 0.35
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "July 15",
+        "effect_size": 0.69
+      },
+      {
+        "id": 4,
+        "independent_variable": "temperature vegetation drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "July 15",
+        "effect_size": 0.81
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "July 15",
+        "effect_size": 0.86
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "July 24",
+        "effect_size": 0.73
+      },
+      {
+        "id": 4,
+        "independent_variable": "temperature vegetation drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "July 24",
+        "effect_size": 0.81
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "July 24",
+        "effect_size": 0.85
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "Aug. 4",
+        "effect_size": 0.2
+      },
+      {
+        "id": 4,
+        "independent_variable": "temperature vegetation drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "Aug. 4",
+        "effect_size": 0.46
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "Aug. 4",
+        "effect_size": 0.49
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "Aug. 14",
+        "effect_size": 0.13
+      },
+      {
+        "id": 4,
+        "independent_variable": "temperature vegetation drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "Aug. 14",
+        "effect_size": 0.44
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "Aug. 14",
+        "effect_size": 0.49
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "Aug. 20",
+        "effect_size": 0.44
+      },
+      {
+        "id": 4,
+        "independent_variable": "temperature vegetation drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "Aug. 20",
+        "effect_size": 0.69
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "Aug. 20",
+        "effect_size": 0.55
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "All",
+        "effect_size": 0.59
+      },
+      {
+        "id": 4,
+        "independent_variable": "temperature vegetation drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "All",
+        "effect_size": 0.64
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "All",
+        "effect_size": 0.71
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized difference vegetation index",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "linear R^2",
+        "conditions": "Dry edge, July 9",
+        "effect_size": 0.62
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized difference vegetation index",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "linear R^2",
+        "conditions": "Wet edge, July 9",
+        "effect_size": 0.41
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized difference vegetation index",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "linear R^2",
+        "conditions": "Dry edge, July 15",
+        "effect_size": 0.56
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized difference vegetation index",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "linear R^2",
+        "conditions": "Wet edge, July 15",
+        "effect_size": 0.49
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized difference vegetation index",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "linear R^2",
+        "conditions": "Dry edge, July 24",
+        "effect_size": 0.41
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized difference vegetation index",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "linear R^2",
+        "conditions": "Wet edge, July 24",
+        "effect_size": 0.39
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized difference vegetation index",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "linear R^2",
+        "conditions": "Dry edge, Aug. 4",
+        "effect_size": 0.41
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized difference vegetation index",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "linear R^2",
+        "conditions": "Wet edge, Aug. 4",
+        "effect_size": 0.42
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized difference vegetation index",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "linear R^2",
+        "conditions": "Dry edge, Aug. 14",
+        "effect_size": 0.53
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized difference vegetation index",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "linear R^2",
+        "conditions": "Wet edge, Aug. 14",
+        "effect_size": 0.52
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized difference vegetation index",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "linear R^2",
+        "conditions": "Dry edge, Aug. 20",
+        "effect_size": 0.49
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized difference vegetation index",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "linear R^2",
+        "conditions": "Wet edge, Aug. 20",
+        "effect_size": 0.45
+      },
+      {
+        "id": 4,
+        "independent_variable": "air temperature",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "linear R^2",
+        "conditions": "Dry surface, Linear function",
+        "effect_size": 0.26
+      },
+      {
+        "id": 4,
+        "independent_variable": "air temperature",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "linear R^2",
+        "conditions": "Wet surface, Linear function",
+        "effect_size": 0.19
+      },
+      {
+        "id": 4,
+        "independent_variable": "air temperature",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "binomial R^2",
+        "conditions": "Dry surface, Binomial function",
+        "effect_size": 0.45
+      },
+      {
+        "id": 4,
+        "independent_variable": "air temperature",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "binomial R^2",
+        "conditions": "Wet surface, Binomial function",
+        "effect_size": 0.42
+      },
+      {
+        "id": 4,
+        "independent_variable": "air temperature",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "trinomial R^2",
+        "conditions": "Dry surface, Trinomial function",
+        "effect_size": 0.41
+      },
+      {
+        "id": 4,
+        "independent_variable": "air temperature",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "trinomial R^2",
+        "conditions": "Wet surface, Trinomial function",
+        "effect_size": 0.37
+      },
+      {
+        "id": 4,
+        "independent_variable": "air temperature",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "quaternion R^2",
+        "conditions": "Dry surface, Quaternion function",
+        "effect_size": 0.43
+      },
+      {
+        "id": 4,
+        "independent_variable": "air temperature",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "quaternion R^2",
+        "conditions": "Wet surface, Quaternion function",
+        "effect_size": 0.44
+      },
+      {
+        "id": 4,
+        "independent_variable": "air temperature",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "RF R^2",
+        "conditions": "Dry surface, Random forest",
+        "effect_size": 0.79
+      },
+      {
+        "id": 4,
+        "independent_variable": "air temperature",
+        "dependent_variable": "surface temperature",
+        "statistical_method": "RF R^2",
+        "conditions": "Wet surface, Random forest",
+        "effect_size": 0.8
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature",
+        "dependent_variable": "temperature vegetation drought index",
+        "statistical_method": "correlation r",
+        "conditions": "none",
+        "effect_size": 0.92
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "normalized relative canopy temperature",
+        "statistical_method": "correlation r",
+        "conditions": "none",
+        "effect_size": 0.49
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "temperature vegetation drought index",
+        "statistical_method": "correlation r",
+        "conditions": "none",
+        "effect_size": 0.58
+      },
+      {
+        "id": 4,
+        "independent_variable": "normalized relative canopy temperature",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "temporal variation",
+        "effect_size": -0.07
+      },
+      {
+        "id": 4,
+        "independent_variable": "temperature vegetation drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "temporal variation",
+        "effect_size": 0.06
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "temporal variation",
+        "effect_size": 0.67
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "maize varieties",
+        "effect_size": 0.78
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "45 000 plants/hm^2",
+        "effect_size": 0.85
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "60 000 plants/hm^2",
+        "effect_size": 0.76
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "75 000 plants/hm^2",
+        "effect_size": 0.64
+      },
+      {
+        "id": 4,
+        "independent_variable": "three-dimension drought index",
+        "dependent_variable": "vegetation moisture content",
+        "statistical_method": "correlation r",
+        "conditions": "90 000 plants/hm^2",
+        "effect_size": 0.51
+      },
+      {
+        "id": 5,
+        "independent_variable": "stem water potential",
+        "dependent_variable": "leaf angle",
+        "statistical_method": "R^2",
+        "conditions": "goniometer",
+        "effect_size": 0.86
+      },
+      {
+        "id": 5,
+        "independent_variable": "stem water potential",
+        "dependent_variable": "leaf angle",
+        "statistical_method": "R^2",
+        "conditions": "3D images",
+        "effect_size": 0.73
+      },
+      {
+        "id": 5,
+        "independent_variable": "stem water potential",
+        "dependent_variable": "leaf angle",
+        "statistical_method": "R^2",
+        "conditions": "goniometer, upper region of canopy where nodes >11",
+        "effect_size": 0.76
+      },
+      {
+        "id": 5,
+        "independent_variable": "stem water potential",
+        "dependent_variable": "leaf angle",
+        "statistical_method": "R^2",
+        "conditions": "goniometer, middle region of canopy where nodes 6-11",
+        "effect_size": 0.86
+      },
+      {
+        "id": 5,
+        "independent_variable": "stem water potential",
+        "dependent_variable": "leaf angle",
+        "statistical_method": "R^2",
+        "conditions": "goniometer, lower region of canopy where nodes 1-5 from ground",
+        "effect_size": 0.66
+      },
+      {
+        "id": 5,
+        "independent_variable": "projected shoot area",
+        "dependent_variable": "measured Leaf area",
+        "statistical_method": "R^2",
+        "conditions": "none",
+        "effect_size": 0.78
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "airborne R^2",
+        "conditions": "09:30 h, 0.3 m pixel resolution",
+        "effect_size": 0.46
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "airborne R^2",
+        "conditions": "09:30 h, 0.6 m pixel resolution",
+        "effect_size": 0.42
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "airborne R^2",
+        "conditions": "09:30 h, 0.8 m pixel resolution",
+        "effect_size": 0.41
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "airborne R^2",
+        "conditions": "09:30 h, 1.0 m pixel resolution",
+        "effect_size": 0.39
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "airborne R^2",
+        "conditions": "09:30 h, 1.2 m pixel resolution",
+        "effect_size": 0.36
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "airborne R^2",
+        "conditions": "09:30 h, 1.5 m pixel resolution",
+        "effect_size": 0.34
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "airborne R^2",
+        "conditions": "09:30 h, 2.0 m pixel resolution",
+        "effect_size": 0.3
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "airborne R^2",
+        "conditions": "12:30 h, 0.3 m pixel resolution",
+        "effect_size": 0.71
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "airborne R^2",
+        "conditions": "12:30 h, 0.6 m pixel resolution",
+        "effect_size": 0.38
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "airborne R^2",
+        "conditions": "12:30 h, 0.8 m pixel resolution",
+        "effect_size": 0.27
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "airborne R^2",
+        "conditions": "12:30 h, 1.0 m pixel resolution",
+        "effect_size": 0.22
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "airborne R^2",
+        "conditions": "12:30 h, 1.2 m pixel resolution",
+        "effect_size": 0.05
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "airborne R^2",
+        "conditions": "12:30 h, 1.5 m pixel resolution",
+        "effect_size": 0.28
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "airborne R^2",
+        "conditions": "12:30 h, 2.0 m pixel resolution",
+        "effect_size": 0.29
+      },
+      {
+        "id": 6,
+        "independent_variable": "vapour pressure deficit",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "baseline R^2",
+        "conditions": "2009",
+        "effect_size": 0.79
+      },
+      {
+        "id": 6,
+        "independent_variable": "vapour pressure deficit",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "baseline R^2",
+        "conditions": "2010",
+        "effect_size": 0.61
+      },
+      {
+        "id": 6,
+        "independent_variable": "vapour pressure deficit",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "F",
+        "conditions": "intercept differences between years",
+        "effect_size": 28.73
+      },
+      {
+        "id": 6,
+        "independent_variable": "vapour pressure deficit",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "baseline R^2",
+        "conditions": "minimum values",
+        "effect_size": 0.72
+      },
+      {
+        "id": 6,
+        "independent_variable": "vapour pressure deficit",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "baseline R^2",
+        "conditions": "upper limit",
+        "effect_size": 0.82
+      },
+      {
+        "id": 6,
+        "independent_variable": "vapour pressure deficit",
+        "dependent_variable": "difference of canopy and air temperatures",
+        "statistical_method": "baseline R^2",
+        "conditions": "lower limit",
+        "effect_size": 1.0
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "CWSI R^2",
+        "conditions": "ground measurements using IRTS, 2009",
+        "effect_size": 0.43
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "CWSI R^2",
+        "conditions": "ground measurements using IRTS, 2010",
+        "effect_size": 0.85
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "CWSI R^2",
+        "conditions": "ground measurements using IRTS, pooled 2009 and 2010",
+        "effect_size": 0.83
+      },
+      {
+        "id": 6,
+        "independent_variable": "leaf water potential",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "CWSI R^2",
+        "conditions": "airborne imagery, 12:30 hours",
+        "effect_size": 0.71
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "Absorption Index at 970 nm",
+        "statistical_method": "R^2",
+        "conditions": "Pinus edulis, excluding trees undergoing mortality",
+        "effect_size": 0.57
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "Absorption Index at 1200 nm",
+        "statistical_method": "R^2",
+        "conditions": "Pinus edulis, excluding trees undergoing mortality",
+        "effect_size": 0.06
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "Normalized Difference Vegetation Index",
+        "statistical_method": "R^2",
+        "conditions": "Pinus edulis, excluding trees undergoing mortality",
+        "effect_size": 0.71
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "Normalized Difference Water Index",
+        "statistical_method": "R^2",
+        "conditions": "Pinus edulis, excluding trees undergoing mortality",
+        "effect_size": 0.68
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "red edge position",
+        "statistical_method": "R^2",
+        "conditions": "Pinus edulis, excluding trees undergoing mortality",
+        "effect_size": 0.45
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "Absorption Index at 970 nm",
+        "statistical_method": "R^2",
+        "conditions": "Pinus edulis, excluding trees undergoing mortality",
+        "effect_size": 0.44
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "Absorption Index at 1200 nm",
+        "statistical_method": "R^2",
+        "conditions": "Pinus edulis, excluding trees undergoing mortality",
+        "effect_size": 0.4
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "Normalized Difference Vegetation Index",
+        "statistical_method": "R^2",
+        "conditions": "Pinus edulis, excluding trees undergoing mortality",
+        "effect_size": 0.35
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "Normalized Difference Water Index",
+        "statistical_method": "R^2",
+        "conditions": "Pinus edulis, excluding trees undergoing mortality",
+        "effect_size": 0.49
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "red edge position",
+        "statistical_method": "R^2",
+        "conditions": "Pinus edulis, excluding trees undergoing mortality",
+        "effect_size": 0.34
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "Absorption Index at 970 nm",
+        "statistical_method": "R^2",
+        "conditions": "Pinus edulis, including trees undergoing mortality",
+        "effect_size": 0.93
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "Absorption Index at 1200 nm",
+        "statistical_method": "R^2",
+        "conditions": "Pinus edulis, including trees undergoing mortality",
+        "effect_size": 0.6
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "Normalized Difference Vegetation Index",
+        "statistical_method": "R^2",
+        "conditions": "Pinus edulis, including trees undergoing mortality",
+        "effect_size": 0.82
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "Normalized Difference Water Index",
+        "statistical_method": "R^2",
+        "conditions": "Pinus edulis, including trees undergoing mortality",
+        "effect_size": 0.93
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "red edge position",
+        "statistical_method": "R^2",
+        "conditions": "Pinus edulis, including trees undergoing mortality",
+        "effect_size": 0.65
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "Absorption Index at 970 nm",
+        "statistical_method": "R^2",
+        "conditions": "Pinus edulis, including trees undergoing mortality",
+        "effect_size": 0.86
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "Absorption Index at 1200 nm",
+        "statistical_method": "R^2",
+        "conditions": "Pinus edulis, including trees undergoing mortality",
+        "effect_size": 0.6
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "Normalized Difference Vegetation Index",
+        "statistical_method": "R^2",
+        "conditions": "Pinus edulis, including trees undergoing mortality",
+        "effect_size": 0.7
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "Normalized Difference Water Index",
+        "statistical_method": "R^2",
+        "conditions": "Pinus edulis, including trees undergoing mortality",
+        "effect_size": 0.85
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "red edge position",
+        "statistical_method": "R^2",
+        "conditions": "Pinus edulis, including trees undergoing mortality",
+        "effect_size": 0.51
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "Absorption Index at 970 nm",
+        "statistical_method": "R^2",
+        "conditions": "Juniperus monosperma",
+        "effect_size": 0.5
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "Absorption Index at 1200 nm",
+        "statistical_method": "R^2",
+        "conditions": "Juniperus monosperma",
+        "effect_size": 0.37
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "Normalized Difference Vegetation Index",
+        "statistical_method": "R^2",
+        "conditions": "Juniperus monosperma",
+        "effect_size": 0.33
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "Normalized Difference Water Index",
+        "statistical_method": "R^2",
+        "conditions": "Juniperus monosperma",
+        "effect_size": 0.03
+      },
+      {
+        "id": 7,
+        "independent_variable": "water content",
+        "dependent_variable": "red edge position",
+        "statistical_method": "R^2",
+        "conditions": "Juniperus monosperma",
+        "effect_size": 0.11
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "Absorption Index at 970 nm",
+        "statistical_method": "R^2",
+        "conditions": "Juniperus monosperma",
+        "effect_size": 0.09
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "Absorption Index at 1200 nm",
+        "statistical_method": "R^2",
+        "conditions": "Juniperus monosperma",
+        "effect_size": 0.4
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "Normalized Difference Vegetation Index",
+        "statistical_method": "R^2",
+        "conditions": "Juniperus monosperma",
+        "effect_size": 0.68
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "Normalized Difference Water Index",
+        "statistical_method": "R^2",
+        "conditions": "Juniperus monosperma",
+        "effect_size": 0.66
+      },
+      {
+        "id": 7,
+        "independent_variable": "water potential",
+        "dependent_variable": "red edge position",
+        "statistical_method": "R^2",
+        "conditions": "Juniperus monosperma",
+        "effect_size": 0.63
+      },
+      {
+        "id": 8,
+        "independent_variable": "plant projected area (pixel count)",
+        "dependent_variable": "Leaf Area",
+        "statistical_method": "linear R^2",
+        "conditions": "Stage 1, DAS 6 to 26",
+        "effect_size": 0.986
+      },
+      {
+        "id": 8,
+        "independent_variable": "plant projected area (pixel count)",
+        "dependent_variable": "Shoot Fresh Weight",
+        "statistical_method": "linear R^2",
+        "conditions": "Stage 1, DAS 6 to 26",
+        "effect_size": 0.993
+      },
+      {
+        "id": 8,
+        "independent_variable": "plant projected area (pixel count)",
+        "dependent_variable": "Shoot Dry Weight",
+        "statistical_method": "polynomial R^2",
+        "conditions": "Stage 1, DAS 6 to 26",
+        "effect_size": 0.952
+      },
+      {
+        "id": 8,
+        "independent_variable": "leaf reflectance spectra",
+        "dependent_variable": "plant leaf water content",
+        "statistical_method": "PLSR R^2",
+        "conditions": "FFMM-A, n=22",
+        "effect_size": 0.81
+      },
+      {
+        "id": 8,
+        "independent_variable": "leaf reflectance spectra",
+        "dependent_variable": "plant leaf water content",
+        "statistical_method": "PLSR R^2",
+        "conditions": "B73, n=22",
+        "effect_size": 0.92
+      },
+      {
+        "id": 8,
+        "independent_variable": "leaf reflectance spectra",
+        "dependent_variable": "plant leaf water content",
+        "statistical_method": "PLSR R^2",
+        "conditions": "All, n=44",
+        "effect_size": 0.87
+      },
+      {
+        "id": 8,
+        "independent_variable": "Measured Leaf Water Content",
+        "dependent_variable": "Predicted Leaf Water Content",
+        "statistical_method": "linear R^2",
+        "conditions": "All genotypes combined",
+        "effect_size": 0.87
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "Normalized Difference Vegetation Index",
+        "statistical_method": "LMC R^2",
+        "conditions": "irrigated at I100, vegetative stage",
+        "effect_size": 0.5
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "statistical_method": "LMC R^2",
+        "conditions": "irrigated at I100, vegetative stage",
+        "effect_size": 0.51
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "Normalized Difference Vegetation Index",
+        "statistical_method": "LMC R^2",
+        "conditions": "irrigated at I100, full vegetative stage",
+        "effect_size": 0.52
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "statistical_method": "LMC R^2",
+        "conditions": "irrigated at I100, full vegetative stage",
+        "effect_size": 0.54
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "LMC R^2",
+        "conditions": "irrigated at I80, early stage",
+        "effect_size": 0.58
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "Normalized Difference Vegetation Index",
+        "statistical_method": "LMC R^2",
+        "conditions": "irrigated at I80, vegetative stage",
+        "effect_size": 0.54
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "statistical_method": "LMC R^2",
+        "conditions": "irrigated at I80, vegetative stage",
+        "effect_size": 0.5
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "LMC R^2",
+        "conditions": "irrigated at I80, full vegetative stage",
+        "effect_size": 0.52
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "Normalized Difference Vegetation Index",
+        "statistical_method": "LMC R^2",
+        "conditions": "irrigated at I80, full vegetative stage",
+        "effect_size": 0.57
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "statistical_method": "LMC R^2",
+        "conditions": "irrigated at I80, full vegetative stage",
+        "effect_size": 0.54
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "LMC R^2",
+        "conditions": "irrigated at I160, vegetative stage",
+        "effect_size": 0.81
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "Normalized Difference Vegetation Index",
+        "statistical_method": "LMC R^2",
+        "conditions": "irrigated at I160, vegetative stage",
+        "effect_size": 0.68
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "statistical_method": "LMC R^2",
+        "conditions": "irrigated at I160, vegetative stage",
+        "effect_size": 0.69
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "LMC R^2",
+        "conditions": "irrigated at I160, full vegetative stage",
+        "effect_size": 0.75
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "Normalized Difference Vegetation Index",
+        "statistical_method": "LMC R^2",
+        "conditions": "irrigated at I160, full vegetative stage",
+        "effect_size": 0.56
+      },
+      {
+        "id": 9,
+        "independent_variable": "leaf moisture content",
+        "dependent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "statistical_method": "LMC R^2",
+        "conditions": "irrigated at I160, full vegetative stage",
+        "effect_size": 0.61
+      },
+      {
+        "id": 9,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "eggplant yields",
+        "statistical_method": "yield r^2",
+        "conditions": "irrigated at I160, vegetative stage",
+        "effect_size": 0.53
+      },
+      {
+        "id": 9,
+        "independent_variable": "Normalized Difference Vegetation Index",
+        "dependent_variable": "eggplant yields",
+        "statistical_method": "yield r^2",
+        "conditions": "irrigated at I1100, vegetative stage",
+        "effect_size": 0.6
+      },
+      {
+        "id": 9,
+        "independent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "dependent_variable": "eggplant yields",
+        "statistical_method": "yield r^2",
+        "conditions": "irrigated at I1100, vegetative stage",
+        "effect_size": 0.57
+      },
+      {
+        "id": 9,
+        "independent_variable": "Normalized Difference Vegetation Index",
+        "dependent_variable": "eggplant yields",
+        "statistical_method": "yield r^2",
+        "conditions": "irrigated at I180, vegetative stage",
+        "effect_size": 0.73
+      },
+      {
+        "id": 9,
+        "independent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "dependent_variable": "eggplant yields",
+        "statistical_method": "yield r^2",
+        "conditions": "irrigated at I180, vegetative stage",
+        "effect_size": 0.69
+      },
+      {
+        "id": 9,
+        "independent_variable": "Normalized Difference Vegetation Index",
+        "dependent_variable": "eggplant yields",
+        "statistical_method": "yield r^2",
+        "conditions": "irrigated at I160, vegetative stage",
+        "effect_size": 0.64
+      },
+      {
+        "id": 9,
+        "independent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "dependent_variable": "eggplant yields",
+        "statistical_method": "yield r^2",
+        "conditions": "irrigated at I160, vegetative stage",
+        "effect_size": 0.63
+      },
+      {
+        "id": 9,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "eggplant yields",
+        "statistical_method": "yield r^2",
+        "conditions": "irrigated at I180, full vegetative stage",
+        "effect_size": 0.55
+      },
+      {
+        "id": 9,
+        "independent_variable": "Normalized Difference Vegetation Index",
+        "dependent_variable": "eggplant yields",
+        "statistical_method": "yield r^2",
+        "conditions": "irrigated at I180, full vegetative stage",
+        "effect_size": 0.76
+      },
+      {
+        "id": 9,
+        "independent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "dependent_variable": "eggplant yields",
+        "statistical_method": "yield r^2",
+        "conditions": "irrigated at I180, full vegetative stage",
+        "effect_size": 0.71
+      },
+      {
+        "id": 9,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "eggplant yields",
+        "statistical_method": "yield r^2",
+        "conditions": "irrigated at I160, full vegetative stage",
+        "effect_size": 0.76
+      },
+      {
+        "id": 9,
+        "independent_variable": "Normalized Difference Vegetation Index",
+        "dependent_variable": "eggplant yields",
+        "statistical_method": "yield r^2",
+        "conditions": "irrigated at I160, full vegetative stage",
+        "effect_size": 0.56
+      },
+      {
+        "id": 9,
+        "independent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "dependent_variable": "eggplant yields",
+        "statistical_method": "yield r^2",
+        "conditions": "irrigated at I160, full vegetative stage",
+        "effect_size": 0.59
+      },
+      {
+        "id": 9,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "predicted eggplant yields",
+        "statistical_method": "validation r^2",
+        "conditions": "model accuracy validation, irrigated at I160, vegetative stage",
+        "effect_size": 0.62
+      },
+      {
+        "id": 9,
+        "independent_variable": "Normalized Difference Vegetation Index",
+        "dependent_variable": "predicted eggplant yields",
+        "statistical_method": "validation r^2",
+        "conditions": "model accuracy validation, irrigated at I1100, vegetative stage",
+        "effect_size": 0.67
+      },
+      {
+        "id": 9,
+        "independent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "dependent_variable": "predicted eggplant yields",
+        "statistical_method": "validation r^2",
+        "conditions": "model accuracy validation, irrigated at I1100, vegetative stage",
+        "effect_size": 0.69
+      },
+      {
+        "id": 9,
+        "independent_variable": "Normalized Difference Vegetation Index",
+        "dependent_variable": "predicted eggplant yields",
+        "statistical_method": "validation r^2",
+        "conditions": "model accuracy validation, irrigated at I180, vegetative stage",
+        "effect_size": 0.77
+      },
+      {
+        "id": 9,
+        "independent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "dependent_variable": "predicted eggplant yields",
+        "statistical_method": "validation r^2",
+        "conditions": "model accuracy validation, irrigated at I180, vegetative stage",
+        "effect_size": 0.71
+      },
+      {
+        "id": 9,
+        "independent_variable": "Normalized Difference Vegetation Index",
+        "dependent_variable": "predicted eggplant yields",
+        "statistical_method": "validation r^2",
+        "conditions": "model accuracy validation, irrigated at I160, vegetative stage",
+        "effect_size": 0.63
+      },
+      {
+        "id": 9,
+        "independent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "dependent_variable": "predicted eggplant yields",
+        "statistical_method": "validation r^2",
+        "conditions": "model accuracy validation, irrigated at I160, vegetative stage",
+        "effect_size": 0.65
+      },
+      {
+        "id": 9,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "predicted eggplant yields",
+        "statistical_method": "validation r^2",
+        "conditions": "model accuracy validation, irrigated at I180, full vegetative stage",
+        "effect_size": 0.78
+      },
+      {
+        "id": 9,
+        "independent_variable": "Normalized Difference Vegetation Index",
+        "dependent_variable": "predicted eggplant yields",
+        "statistical_method": "validation r^2",
+        "conditions": "model accuracy validation, irrigated at I180, full vegetative stage",
+        "effect_size": 0.87
+      },
+      {
+        "id": 9,
+        "independent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "dependent_variable": "predicted eggplant yields",
+        "statistical_method": "validation r^2",
+        "conditions": "model accuracy validation, irrigated at I180, full vegetative stage",
+        "effect_size": 0.86
+      },
+      {
+        "id": 9,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "predicted eggplant yields",
+        "statistical_method": "validation r^2",
+        "conditions": "model accuracy validation, irrigated at I160, full vegetative stage",
+        "effect_size": 0.6
+      },
+      {
+        "id": 9,
+        "independent_variable": "Normalized Difference Vegetation Index",
+        "dependent_variable": "predicted eggplant yields",
+        "statistical_method": "validation r^2",
+        "conditions": "model accuracy validation, irrigated at I160, full vegetative stage",
+        "effect_size": 0.54
+      },
+      {
+        "id": 9,
+        "independent_variable": "Optimized Soil Adjusted Vegetation Index",
+        "dependent_variable": "predicted eggplant yields",
+        "statistical_method": "validation r^2",
+        "conditions": "model accuracy validation, irrigated at I160, full vegetative stage",
+        "effect_size": 0.57
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "R^2",
+        "conditions": "CWSI) (2013",
+        "effect_size": 0.63
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "R^2",
+        "conditions": "CWSI) (2015",
+        "effect_size": 0.8
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "R^2",
+        "conditions": "CWSI) (2016",
+        "effect_size": 0.8
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "R^2",
+        "conditions": "CWSI) (Three years, n = 199",
+        "effect_size": 0.64
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "maize canopy temperature",
+        "statistical_method": "R^2",
+        "conditions": "Tc) (2013",
+        "effect_size": 0.66
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "maize canopy temperature",
+        "statistical_method": "R^2",
+        "conditions": "Tc) (2015",
+        "effect_size": 0.71
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "maize canopy temperature",
+        "statistical_method": "R^2",
+        "conditions": "Tc) (2016",
+        "effect_size": 0.73
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "maize canopy temperature",
+        "statistical_method": "R^2",
+        "conditions": "Tc) (Three years, n = 199",
+        "effect_size": 0.61
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "canopy-to-air temperature difference",
+        "statistical_method": "R^2",
+        "conditions": "Tc-Ta) (2013",
+        "effect_size": 0.47
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "canopy-to-air temperature difference",
+        "statistical_method": "R^2",
+        "conditions": "Tc-Ta) (2015",
+        "effect_size": 0.69
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "canopy-to-air temperature difference",
+        "statistical_method": "R^2",
+        "conditions": "Tc-Ta) (2016",
+        "effect_size": 0.8
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "canopy-to-air temperature difference",
+        "statistical_method": "R^2",
+        "conditions": "Tc-Ta) (Three years, n = 199",
+        "effect_size": 0.5
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "maize leaf water potential",
+        "statistical_method": "R^2",
+        "conditions": "LWP) (2013",
+        "effect_size": 0.85
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "maize leaf water potential",
+        "statistical_method": "R^2",
+        "conditions": "LWP) (2015, DOY 204",
+        "effect_size": 0.87
+      },
+      {
+        "id": 10,
+        "independent_variable": "mean value of Gaussian distribution of excess green index for maize canopy (MGDEXG)",
+        "dependent_variable": "sap flow",
+        "statistical_method": "R^2",
+        "conditions": "2015",
+        "effect_size": 0.62
+      },
+      {
+        "id": 10,
+        "independent_variable": "vapor pressure deficit (VPD)",
+        "dependent_variable": "canopy-to-air temperature difference",
+        "statistical_method": "R^2",
+        "conditions": "Tc-Ta) (2016 growth season",
+        "effect_size": 0.91
+      },
+      {
+        "id": 10,
+        "independent_variable": "degrees above non-stressed",
+        "dependent_variable": "maize leaf water potential",
+        "statistical_method": "R^2",
+        "conditions": "LWP",
+        "effect_size": 0.66
+      },
+      {
+        "id": 10,
+        "independent_variable": "standard deviation of canopy temperature (CTSD)",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "R^2",
+        "conditions": "CWSI",
+        "effect_size": 0.54
+      },
+      {
+        "id": 11,
+        "independent_variable": "stem water potential",
+        "dependent_variable": "whole-tree evapotranspiration",
+        "statistical_method": "r^2",
+        "conditions": "none",
+        "effect_size": 0.69
+      },
+      {
+        "id": 11,
+        "independent_variable": "stomatal conductance",
+        "dependent_variable": "whole-tree evapotranspiration",
+        "statistical_method": "r^2",
+        "conditions": "none",
+        "effect_size": 0.72
+      },
+      {
+        "id": 11,
+        "independent_variable": "quantum yield of photosystem II photochemistry",
+        "dependent_variable": "whole-tree evapotranspiration",
+        "statistical_method": "r^2",
+        "conditions": "none",
+        "effect_size": 0.65
+      },
+      {
+        "id": 11,
+        "independent_variable": "canopy temperature",
+        "dependent_variable": "whole-tree evapotranspiration",
+        "statistical_method": "r^2",
+        "conditions": "none",
+        "effect_size": 0.46
+      },
+      {
+        "id": 11,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "whole-tree evapotranspiration",
+        "statistical_method": "r^2",
+        "conditions": "none",
+        "effect_size": 0.38
+      },
+      {
+        "id": 11,
+        "independent_variable": "area under daily pressure probe data",
+        "dependent_variable": "whole-tree evapotranspiration",
+        "statistical_method": "r^2",
+        "conditions": "none",
+        "effect_size": 0.59
+      },
+      {
+        "id": 11,
+        "independent_variable": "stomatal conductance",
+        "dependent_variable": "stem water potential",
+        "statistical_method": "r^2",
+        "conditions": "none",
+        "effect_size": 0.58
+      },
+      {
+        "id": 11,
+        "independent_variable": "quantum yield of photosystem II photochemistry",
+        "dependent_variable": "stem water potential",
+        "statistical_method": "r^2",
+        "conditions": "none",
+        "effect_size": 0.63
+      },
+      {
+        "id": 11,
+        "independent_variable": "canopy temperature",
+        "dependent_variable": "stem water potential",
+        "statistical_method": "r^2",
+        "conditions": "none",
+        "effect_size": 0.5
+      },
+      {
+        "id": 11,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "stem water potential",
+        "statistical_method": "r^2",
+        "conditions": "none",
+        "effect_size": 0.25
+      },
+      {
+        "id": 11,
+        "independent_variable": "area under daily pressure probe data",
+        "dependent_variable": "stem water potential",
+        "statistical_method": "r^2",
+        "conditions": "none",
+        "effect_size": 0.3
+      },
+      {
+        "id": 11,
+        "independent_variable": "quantum yield of photosystem II photochemistry",
+        "dependent_variable": "stomatal conductance",
+        "statistical_method": "r^2",
+        "conditions": "none",
+        "effect_size": 0.49
+      },
+      {
+        "id": 11,
+        "independent_variable": "canopy temperature",
+        "dependent_variable": "stomatal conductance",
+        "statistical_method": "r^2",
+        "conditions": "none",
+        "effect_size": 0.56
+      },
+      {
+        "id": 11,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "stomatal conductance",
+        "statistical_method": "r^2",
+        "conditions": "none",
+        "effect_size": 0.33
+      },
+      {
+        "id": 11,
+        "independent_variable": "area under daily pressure probe data",
+        "dependent_variable": "stomatal conductance",
+        "statistical_method": "r^2",
+        "conditions": "none",
+        "effect_size": 0.26
+      },
+      {
+        "id": 11,
+        "independent_variable": "canopy temperature",
+        "dependent_variable": "quantum yield of photosystem II photochemistry",
+        "statistical_method": "r^2",
+        "conditions": "none",
+        "effect_size": 0.34
+      },
+      {
+        "id": 11,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "quantum yield of photosystem II photochemistry",
+        "statistical_method": "r^2",
+        "conditions": "none",
+        "effect_size": 0.23
+      },
+      {
+        "id": 11,
+        "independent_variable": "area under daily pressure probe data",
+        "dependent_variable": "quantum yield of photosystem II photochemistry",
+        "statistical_method": "r^2",
+        "conditions": "none",
+        "effect_size": 0.26
+      },
+      {
+        "id": 11,
+        "independent_variable": "crop water stress index",
+        "dependent_variable": "canopy temperature",
+        "statistical_method": "r^2",
+        "conditions": "none",
+        "effect_size": 0.55
+      },
+      {
+        "id": 11,
+        "independent_variable": "area under daily pressure probe data",
+        "dependent_variable": "canopy temperature",
+        "statistical_method": "r^2",
+        "conditions": "none",
+        "effect_size": 0.13
+      },
+      {
+        "id": 11,
+        "independent_variable": "area under daily pressure probe data",
+        "dependent_variable": "crop water stress index",
+        "statistical_method": "r^2",
+        "conditions": "none",
+        "effect_size": 0.17
+      }
+    ]
+  },
+  {
+    "question_id": "M_C_Q1",
+    "question": "count - <statistical method>",
+    "description": "Count unique statistical methods.",
+    "answer_format": {
+      "count": "integer"
+    },
+    "answers": {
+      "count": 23
+    }
+  },
+  {
+    "question_id": "M_C_Q2",
+    "question": "count - <independent variable> <dependent variable>",
+    "description": "Count unique IV-DV pairs.",
+    "answer_format": {
+      "count": "integer"
+    },
+    "answers": {
+      "count": 82
+    }
+  },
+  {
+    "question_id": "M_C_Q3",
+    "question": "count - <independent variable> <dependent variable> <statistical method>",
+    "description": "Count unique IV-DV-method triplets.",
+    "answer_format": {
+      "count": "integer"
+    },
+    "answers": {
+      "count": 163
+    }
+  },
+  {
+    "question_id": "M_C_Q4",
+    "question": "count - (|effect size| > 0.5)",
+    "description": "Count effect sizes with |value| > 0.5.",
+    "answer_format": {
+      "count": "integer"
+    },
+    "answers": {
+      "count": 148
+    }
+  },
+  {
+    "question_id": "M_C_Q5",
+    "question": "average <effect size>",
+    "description": "Average of all reported effect sizes.",
+    "answer_format": {
+      "average_effect_size": "float"
+    },
+    "answers": {
+      "average_effect_size": 0.7051
+    }
+  }
+]

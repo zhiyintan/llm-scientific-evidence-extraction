@@ -1,0 +1,802 @@
+[
+    {
+        "question_id": "O1.1",
+        "question": "<geolocation>",
+        "description": "Extract the geographical setting or spatial context of each study.",
+        "answer_format": {
+            "id": "integer",
+            "geolocation": "string"
+        },
+        "answers": [
+            {
+                "id": 1,
+                "geolocation": "Tatura, Victoria, Australia"
+            },
+            {
+                "id": 2,
+                "geolocation": "Tatura, Victoria, Australia"
+            },
+            {
+                "id": 3,
+                "geolocation": "Greeley, Colorado, USA"
+            },
+            {
+                "id": 4,
+                "geolocation": "Xinxiang, Henan, China"
+            },
+            {
+                "id": 5,
+                "geolocation": "IBERS-Aberystwyth University, United Kingdom"
+            },
+            {
+                "id": 6,
+                "geolocation": "Raimat, Lleida, Spain"
+            },
+            {
+                "id": 7,
+                "geolocation": "Los Alamos National Laboratory, New Mexico, USA"
+            },
+            {
+                "id": 8,
+                "geolocation": "University of Nebraska-Lincoln"
+            },
+            {
+                "id": 9,
+                "geolocation": "Morogoro Region, Tanzania"
+            },
+            {
+                "id": 10,
+                "geolocation": "Greeley, Colorado, USA"
+            },
+            {
+                "id": 11,
+                "geolocation": "northwestern Negev, Israel"
+            }
+        ]
+    },
+    {
+        "question_id": "O1.2",
+        "question": "<sample size>",
+        "description": "Extract the total sample size reported for each study.",
+        "answer_format": {
+            "id": "integer",
+            "sample_size": "integer"
+        },
+        "answers": [
+            {
+                "id": 1,
+                "sample_size": 50
+            },
+            {
+                "id": 2,
+                "sample_size": 8
+            },
+            {
+                "id": 3,
+                "sample_size": 12
+            },
+            {
+                "id": 4,
+                "sample_size": 232
+            },
+            {
+                "id": 5,
+                "sample_size": 45
+            },
+            {
+                "id": 6,
+                "sample_size": 184
+            },
+            {
+                "id": 7,
+                "sample_size": 28
+            },
+            {
+                "id": 8,
+                "sample_size": 44
+            },
+            {
+                "id": 9,
+                "sample_size": 54
+            },
+            {
+                "id": 10,
+                "sample_size": 199
+            },
+            {
+                "id": 11,
+                "sample_size": 15
+            }
+        ]
+    },
+    {
+        "question_id": "O1.3",
+        "question": "<study population>",
+        "description": "Extract the study population or unit of analysis described in each study.",
+        "answer_format": {
+            "id": "integer",
+            "study_population": "string"
+        },
+        "answers": [
+            {
+                "id": 1,
+                "study_population": "potted cotton leaves"
+            },
+            {
+                "id": 2,
+                "study_population": "Nectarine and Peach trees"
+            },
+            {
+                "id": 3,
+                "study_population": "maize"
+            },
+            {
+                "id": 4,
+                "study_population": "summer maize"
+            },
+            {
+                "id": 5,
+                "study_population": "Potted grapevines"
+            },
+            {
+                "id": 6,
+                "study_population": "‘Pinot-noir’ grapevines"
+            },
+            {
+                "id": 7,
+                "study_population": "Pinus edulis"
+            },
+            {
+                "id": 7,
+                "study_population": "Juniperus monosperma"
+            },
+            {
+                "id": 8,
+                "study_population": "maize"
+            },
+            {
+                "id": 9,
+                "study_population": "African eggplant"
+            },
+            {
+                "id": 10,
+                "study_population": "Maize"
+            },
+            {
+                "id": 11,
+                "study_population": "Barnea' olive tree"
+            }
+        ]
+    },
+    {
+        "question_id": "O2.1",
+        "question": "<study population> <sample size>",
+        "description": "Extract the study population and its corresponding total sample size.",
+        "answer_format": {
+            "id": "integer",
+            "study_population": "string",
+            "sample_size": "integer"
+        },
+        "answers": [
+            {
+                "id": 1,
+                "study_population": "potted cotton leaves",
+                "sample_size": 50
+            },
+            {
+                "id": 2,
+                "study_population": "Nectarine and Peach trees",
+                "sample_size": 8
+            },
+            {
+                "id": 3,
+                "study_population": "maize",
+                "sample_size": 12
+            },
+            {
+                "id": 4,
+                "study_population": "summer maize",
+                "sample_size": 232
+            },
+            {
+                "id": 5,
+                "study_population": "Potted grapevines",
+                "sample_size": 45
+            },
+            {
+                "id": 6,
+                "study_population": "‘Pinot-noir’ grapevines",
+                "sample_size": 184
+            },
+            {
+                "id": 7,
+                "study_population": "needles Pinus edulis",
+                "sample_size": 28
+            },
+            {
+                "id": 7,
+                "study_population": "Juniperus monosperma",
+                "sample_size": 28
+            },
+            {
+                "id": 8,
+                "study_population": "maize (B73",
+                "sample_size": 44
+            },
+            {
+                "id": 8,
+                "study_population": "FFMM-A)",
+                "sample_size": 44
+            },
+            {
+                "id": 9,
+                "study_population": "African eggplant",
+                "sample_size": 54
+            },
+            {
+                "id": 10,
+                "study_population": "Maize",
+                "sample_size": 199
+            },
+            {
+                "id": 11,
+                "study_population": "Barnea' olive tree",
+                "sample_size": 15
+            }
+        ]
+    },
+    {
+        "question_id": "O2.2",
+        "question": "<study population> <geolocation>",
+        "description": "Extract the study population and its corresponding geographical setting.",
+        "answer_format": {
+            "id": "integer",
+            "study_population": "string",
+            "geolocation": "string"
+        },
+        "answers": [
+            {
+                "id": 1,
+                "study_population": "potted cotton leaves",
+                "geolocation": "Tatura, Victoria, Australia"
+            },
+            {
+                "id": 2,
+                "study_population": "Nectarine and Peach trees",
+                "geolocation": "Tatura, Victoria, Australia"
+            },
+            {
+                "id": 3,
+                "study_population": "maize",
+                "geolocation": "Greeley, Colorado, USA"
+            },
+            {
+                "id": 4,
+                "study_population": "summer maize",
+                "geolocation": "Xinxiang, Henan, China"
+            },
+            {
+                "id": 5,
+                "study_population": "Potted grapevines",
+                "geolocation": "IBERS-Aberystwyth University, United Kingdom"
+            },
+            {
+                "id": 6,
+                "study_population": "‘Pinot-noir’ grapevines",
+                "geolocation": "Raimat, Lleida, Spain"
+            },
+            {
+                "id": 7,
+                "study_population": "needles Pinus edulis",
+                "geolocation": "Los Alamos National Laboratory, New Mexico, USA"
+            },
+            {
+                "id": 7,
+                "study_population": "Juniperus monosperma",
+                "geolocation": "Los Alamos National Laboratory, New Mexico, USA"
+            },
+            {
+                "id": 8,
+                "study_population": "maize (B73",
+                "geolocation": "University of Nebraska-Lincoln"
+            },
+            {
+                "id": 8,
+                "study_population": "FFMM-A)",
+                "geolocation": "University of Nebraska-Lincoln"
+            },
+            {
+                "id": 9,
+                "study_population": "African eggplant",
+                "geolocation": "Morogoro Region, Tanzania"
+            },
+            {
+                "id": 10,
+                "study_population": "Maize",
+                "geolocation": "Greeley, Colorado, USA"
+            },
+            {
+                "id": 11,
+                "study_population": "Barnea' olive tree",
+                "geolocation": "northwestern Negev, Israel"
+            }
+        ]
+    },
+    {
+        "question_id": "O2.3",
+        "question": "<study population> <geolocation> <sample size>",
+        "description": "Extract the study population together with its corresponding geographical setting and total sample size (as a single aligned triple).",
+        "answer_format": {
+            "id": "integer",
+            "study_population": "string",
+            "geolocation": "string",
+            "sample_size": "integer"
+        },
+        "answers": [
+            {
+                "id": 1,
+                "study_population": "potted cotton leaves",
+                "geolocation": "Tatura, Victoria, Australia",
+                "sample_size": 50
+            },
+            {
+                "id": 2,
+                "study_population": "Nectarine and Peach trees",
+                "geolocation": "Tatura, Victoria, Australia",
+                "sample_size": 8
+            },
+            {
+                "id": 3,
+                "study_population": "maize",
+                "geolocation": "Greeley, Colorado, USA",
+                "sample_size": 12
+            },
+            {
+                "id": 4,
+                "study_population": "summer maize",
+                "geolocation": "Xinxiang, Henan, China",
+                "sample_size": 232
+            },
+            {
+                "id": 5,
+                "study_population": "Potted grapevines",
+                "geolocation": "IBERS-Aberystwyth University, United Kingdom",
+                "sample_size": 45
+            },
+            {
+                "id": 6,
+                "study_population": "‘Pinot-noir’ grapevines",
+                "geolocation": "Raimat, Lleida, Spain",
+                "sample_size": 184
+            },
+            {
+                "id": 7,
+                "study_population": "needles Pinus edulis and Juniperus monosperma",
+                "geolocation": "Los Alamos National Laboratory, New Mexico, USA",
+                "sample_size": 28
+            },
+            {
+                "id": 8,
+                "study_population": "maize (B73",
+                "geolocation": "University of Nebraska-Lincoln",
+                "sample_size": 44
+            },
+            {
+                "id": 8,
+                "study_population": "FFMM-A)",
+                "geolocation": "University of Nebraska-Lincoln",
+                "sample_size": 44
+            },
+            {
+                "id": 9,
+                "study_population": "African eggplant",
+                "geolocation": "Morogoro Region, Tanzania",
+                "sample_size": 54
+            },
+            {
+                "id": 10,
+                "study_population": "Maize",
+                "geolocation": "Greeley, Colorado, USA",
+                "sample_size": 199
+            },
+            {
+                "id": 11,
+                "study_population": "Barnea' olive tree",
+                "geolocation": "northwestern Negev, Israel",
+                "sample_size": 15
+            }
+        ]
+    },
+    {
+        "question_id": "OC_O1.2.1",
+        "question": "count - <sample size> (sample size > 100)",
+        "description": "Count the number of records whose sample size is greater than 100.",
+        "answer_format": {
+            "count": "integer"
+        },
+        "answers": {
+            "evidences": [
+                {
+                    "paper_id": 1,
+                    "sample_size": 50
+                },
+                {
+                    "paper_id": 2,
+                    "sample_size": 8
+                },
+                {
+                    "paper_id": 3,
+                    "sample_size": 12
+                },
+                {
+                    "paper_id": 4,
+                    "sample_size": 232
+                },
+                {
+                    "paper_id": 5,
+                    "sample_size": 45
+                },
+                {
+                    "paper_id": 6,
+                    "sample_size": 184
+                },
+                {
+                    "paper_id": 7,
+                    "sample_size": 28
+                },
+                {
+                    "paper_id": 8,
+                    "sample_size": 44
+                },
+                {
+                    "paper_id": 9,
+                    "sample_size": 54
+                },
+                {
+                    "paper_id": 10,
+                    "sample_size": 199
+                },
+                {
+                    "paper_id": 11,
+                    "sample_size": 15
+                }
+            ],
+            "final_list": [
+                "[4]",
+                "[6]",
+                "[10]"
+            ],
+            "final_answer": 3
+        }
+    },
+    {
+        "question_id": "OC_O1.2.2",
+        "question": "average sample size over study populations",
+        "description": "Compute the average of total sample size across study populations.",
+        "answer_format": {
+            "average_sample_size": "float"
+        },
+        "answers": {
+            "evidences": [
+                {
+                    "paper_id": 1,
+                    "sample_size": 50
+                },
+                {
+                    "paper_id": 2,
+                    "sample_size": 8
+                },
+                {
+                    "paper_id": 3,
+                    "sample_size": 12
+                },
+                {
+                    "paper_id": 4,
+                    "sample_size": 232
+                },
+                {
+                    "paper_id": 5,
+                    "sample_size": 45
+                },
+                {
+                    "paper_id": 6,
+                    "sample_size": 184
+                },
+                {
+                    "paper_id": 7,
+                    "sample_size": 28
+                },
+                {
+                    "paper_id": 8,
+                    "sample_size": 44
+                },
+                {
+                    "paper_id": 9,
+                    "sample_size": 54
+                },
+                {
+                    "paper_id": 10,
+                    "sample_size": 199
+                },
+                {
+                    "paper_id": 11,
+                    "sample_size": 15
+                }
+            ],
+            "final_list": [
+                "50",
+                "8",
+                "12",
+                "232",
+                "45",
+                "184",
+                "28",
+                "44",
+                "54",
+                "199",
+                "15"
+            ],
+            "final_answer": 79.18
+        }
+    },
+    {
+        "question_id": "OC_O1.2.3",
+        "question": "median sample size over study populations",
+        "description": "Compute the median of total sample size across study populations.",
+        "answer_format": {
+            "median_sample_size": "float"
+        },
+        "answers": {
+            "evidences": [
+                {
+                    "paper_id": 1,
+                    "sample_size": 50
+                },
+                {
+                    "paper_id": 2,
+                    "sample_size": 8
+                },
+                {
+                    "paper_id": 3,
+                    "sample_size": 12
+                },
+                {
+                    "paper_id": 4,
+                    "sample_size": 232
+                },
+                {
+                    "paper_id": 5,
+                    "sample_size": 45
+                },
+                {
+                    "paper_id": 6,
+                    "sample_size": 184
+                },
+                {
+                    "paper_id": 7,
+                    "sample_size": 28
+                },
+                {
+                    "paper_id": 8,
+                    "sample_size": 44
+                },
+                {
+                    "paper_id": 9,
+                    "sample_size": 54
+                },
+                {
+                    "paper_id": 10,
+                    "sample_size": 199
+                },
+                {
+                    "paper_id": 11,
+                    "sample_size": 15
+                }
+            ],
+            "final_list": [
+                "50",
+                "8",
+                "12",
+                "232",
+                "45",
+                "184",
+                "28",
+                "44",
+                "54",
+                "199",
+                "15"
+            ],
+            "final_answer": 45.0
+        }
+    },
+    {
+        "question_id": "OC_O1.1",
+        "question": "count unique geolocations (countries)",
+        "description": "Count unique countries with step-by-step extraction for error diagnosis.",
+        "answer_format": {
+            "paper_level_locations": [
+                {
+                    "paper_id": "integer",
+                    "location": "string"
+                }
+            ],
+            "country_mapping": [
+                {
+                    "country": "string",
+                    "paper_ids": [
+                        "integer"
+                    ]
+                }
+            ],
+            "excluded_locations": [
+                {
+                    "paper_id": "integer",
+                    "location": "string",
+                    "reason": "string"
+                }
+            ],
+            "count": "integer"
+        },
+        "pipeline_steps": [
+            "extract_locations",
+            "map_to_country",
+            "deduplicate",
+            "count"
+        ],
+        "answers": {
+            "paper_level_locations": [
+                {
+                    "paper_id": 1,
+                    "location": "Tatura, Victoria, Australia"
+                },
+                {
+                    "paper_id": 2,
+                    "location": "Tatura, Victoria, Australia"
+                },
+                {
+                    "paper_id": 3,
+                    "location": "Greeley, Colorado, USA"
+                },
+                {
+                    "paper_id": 4,
+                    "location": "Xinxiang, Henan, China"
+                },
+                {
+                    "paper_id": 5,
+                    "location": "IBERS-Aberystwyth University, United Kingdom"
+                },
+                {
+                    "paper_id": 6,
+                    "location": "Raimat, Lleida, Spain"
+                },
+                {
+                    "paper_id": 7,
+                    "location": "Los Alamos National Laboratory, New Mexico, USA"
+                },
+                {
+                    "paper_id": 8,
+                    "location": "University of Nebraska-Lincoln"
+                },
+                {
+                    "paper_id": 9,
+                    "location": "Morogoro Region, Tanzania"
+                },
+                {
+                    "paper_id": 10,
+                    "location": "Greeley, Colorado, USA"
+                },
+                {
+                    "paper_id": 11,
+                    "location": "northwestern Negev, Israel"
+                }
+            ],
+            "country_mapping": [
+                {
+                    "paper_id": 1,
+                    "location": "Tatura, Victoria, Australia",
+                    "country": "Australia"
+                },
+                {
+                    "paper_id": 2,
+                    "location": "Tatura, Victoria, Australia",
+                    "country": "Australia"
+                },
+                {
+                    "paper_id": 3,
+                    "location": "Greeley, Colorado, USA",
+                    "country": "USA"
+                },
+                {
+                    "paper_id": 4,
+                    "location": "Xinxiang, Henan, China",
+                    "country": "China"
+                },
+                {
+                    "paper_id": 5,
+                    "location": "IBERS-Aberystwyth University, United Kingdom",
+                    "country": "United Kingdom"
+                },
+                {
+                    "paper_id": 6,
+                    "location": "Raimat, Lleida, Spain",
+                    "country": "Spain"
+                },
+                {
+                    "paper_id": 7,
+                    "location": "Los Alamos National Laboratory, New Mexico, USA",
+                    "country": "USA"
+                },
+                {
+                    "paper_id": 8,
+                    "location": "University of Nebraska-Lincoln",
+                    "country": "USA"
+                },
+                {
+                    "paper_id": 9,
+                    "location": "Morogoro Region, Tanzania",
+                    "country": "Tanzania"
+                },
+                {
+                    "paper_id": 10,
+                    "location": "Greeley, Colorado, USA",
+                    "country": "USA"
+                },
+                {
+                    "paper_id": 11,
+                    "location": "northwestern Negev, Israel",
+                    "country": "Israel"
+                }
+            ],
+            "deduplicated_countries": [
+                {
+                    "country": "Australia",
+                    "paper_ids": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "country": "China",
+                    "paper_ids": [
+                        4
+                    ]
+                },
+                {
+                    "country": "Israel",
+                    "paper_ids": [
+                        11
+                    ]
+                },
+                {
+                    "country": "Spain",
+                    "paper_ids": [
+                        6
+                    ]
+                },
+                {
+                    "country": "Tanzania",
+                    "paper_ids": [
+                        9
+                    ]
+                },
+                {
+                    "country": "USA",
+                    "paper_ids": [
+                        3,
+                        7,
+                        8,
+                        10
+                    ]
+                },
+                {
+                    "country": "United Kingdom",
+                    "paper_ids": [
+                        5
+                    ]
+                }
+            ],
+            "excluded_locations": [],
+            "count": 7
+        }
+    }
+]

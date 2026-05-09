@@ -1,0 +1,64 @@
+{
+  "biodiversity": {
+    "1": "2009 - Egoh",
+    "2": "2010 - Eigenbrod",
+    "3": "2015 - Law",
+    "4": "2018 - Xu",
+    "5": "2018 - Lecina-Diaz",
+    "6": "2015 - Murray",
+    "7": "2015 - Armenteras",
+    "8": "2010 - Strassburg",
+    "9": "2011 - Bai",
+    "10": "2016 - Duarte"
+  },
+  "hotel": {
+    "1": "2002 - Chan and Lam (a)",
+    "2": "2002 - Chan and Lam (b)",
+    "3": "2003 - Deng",
+    "4": "2004 Chan and Mak",
+    "5": "2009 - Priyadarsini",
+    "6": "2023 - Stimac",
+    "7": "2021 - Santiago",
+    "8": "2019 - Nguyen",
+    "9": "2016 - Oluseyi",
+    "10": "2016 - Lai",
+    "11": "2016 - Tang"
+  },
+  "myopia": {
+    "1": "2013 - Chu CH",
+    "2": "2020 - Kim H",
+    "3": "2020 - Lai LJ",
+    "4": "2022 - Lee S",
+    "5": "2022 - Peled A",
+    "6": "2024 - Kuoliene K",
+    "7": "2024 - Shi XH",
+    "8": "2024 - Zheng T",
+    "9": "2025 - Yin CJ"
+  },
+  "agriculture": {
+    "1": "2024 - Huang",
+    "2": "2017 - Park",
+    "3": "2016 - Han",
+    "4": "2023 - Cheng",
+    "5": "2020 - Briglia 1",
+    "6": "2014 - Bellvert",
+    "7": "2005 - Stimson",
+    "8": "2016 - Ge",
+    "9": "2021 - Mwinuka",
+    "10": "2021 - Zhang and Zhang",
+    "11": "2010 - Ben-Gal"
+  },
+  "social": {
+    "1": "2016 - Beaumont",
+    "2": "2016 - Durkin",
+    "3": "2017 - Sousa",
+    "4": "2018 - Can",
+    "5": "2018 - Lopez",
+    "6": "2019 - Arimitsu",
+    "7": "2020 - DeStasio",
+    "8": "2021 - McDonald",
+    "9": "2022 - Caycho-Rodriguez",
+    "10": "2024 - Miyagawa",
+    "11": "2024 - Ma"
+  }
+}

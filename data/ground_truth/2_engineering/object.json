@@ -1,0 +1,1283 @@
+[
+  {
+    "question_id": "O1.1",
+    "question": "<geolocation>",
+    "description": "Extract the geographical setting or spatial context of each study.",
+    "answer_format": {
+      "paper_id": "integer",
+      "answer": [
+        {
+          "geolocation": "string"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "paper_id": 1,
+        "answer": [
+          {
+            "geolocation": "Hong Kong"
+          }
+        ]
+      },
+      {
+        "paper_id": 2,
+        "answer": [
+          {
+            "geolocation": "Hong Kong"
+          }
+        ]
+      },
+      {
+        "paper_id": 3,
+        "answer": [
+          {
+            "geolocation": "Hong Kong"
+          }
+        ]
+      },
+      {
+        "paper_id": 4,
+        "answer": [
+          {
+            "geolocation": "Hong Kong"
+          }
+        ]
+      },
+      {
+        "paper_id": 5,
+        "answer": [
+          {
+            "geolocation": "Singapore"
+          }
+        ]
+      },
+      {
+        "paper_id": 6,
+        "answer": [
+          {
+            "geolocation": "Adriatic coast, Croatia"
+          }
+        ]
+      },
+      {
+        "paper_id": 7,
+        "answer": [
+          {
+            "geolocation": "Gran Canaria, Spain"
+          }
+        ]
+      },
+      {
+        "paper_id": 8,
+        "answer": [
+          {
+            "geolocation": "Danang, Vietnam"
+          }
+        ]
+      },
+      {
+        "paper_id": 9,
+        "answer": [
+          {
+            "geolocation": "Lagos, Nigeria"
+          }
+        ]
+      },
+      {
+        "paper_id": 10,
+        "answer": [
+          {
+            "geolocation": "Hong Kong"
+          }
+        ]
+      },
+      {
+        "paper_id": 11,
+        "answer": [
+          {
+            "geolocation": "Lijiang, China"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "O1.2",
+    "question": "<sample size>",
+    "description": "Extract the total sample size reported for each study.",
+    "answer_format": {
+      "paper_id": "integer",
+      "answer": [
+        {
+          "sample_size": "integer"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "paper_id": 1,
+        "answer": [
+          {
+            "sample_size": 17
+          }
+        ]
+      },
+      {
+        "paper_id": 2,
+        "answer": [
+          {
+            "sample_size": 11
+          }
+        ]
+      },
+      {
+        "paper_id": 3,
+        "answer": [
+          {
+            "sample_size": 36
+          }
+        ]
+      },
+      {
+        "paper_id": 4,
+        "answer": [
+          {
+            "sample_size": 10
+          }
+        ]
+      },
+      {
+        "paper_id": 5,
+        "answer": [
+          {
+            "sample_size": 29
+          }
+        ]
+      },
+      {
+        "paper_id": 6,
+        "answer": [
+          {
+            "sample_size": 51
+          }
+        ]
+      },
+      {
+        "paper_id": 7,
+        "answer": [
+          {
+            "sample_size": 6
+          }
+        ]
+      },
+      {
+        "paper_id": 8,
+        "answer": [
+          {
+            "sample_size": 50
+          }
+        ]
+      },
+      {
+        "paper_id": 9,
+        "answer": [
+          {
+            "sample_size": 28
+          }
+        ]
+      },
+      {
+        "paper_id": 10,
+        "answer": [
+          {
+            "sample_size": 30
+          }
+        ]
+      },
+      {
+        "paper_id": 11,
+        "answer": [
+          {
+            "sample_size": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "O1.3",
+    "question": "<study population>",
+    "description": "Extract the study population or unit of analysis described in each study.",
+    "answer_format": {
+      "paper_id": "integer",
+      "answer": [
+        {
+          "study_population": "string"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "paper_id": 1,
+        "answer": [
+          {
+            "study_population": "hotels"
+          }
+        ]
+      },
+      {
+        "paper_id": 2,
+        "answer": [
+          {
+            "study_population": "hotels"
+          }
+        ]
+      },
+      {
+        "paper_id": 3,
+        "answer": [
+          {
+            "study_population": "quality hotels"
+          }
+        ]
+      },
+      {
+        "paper_id": 4,
+        "answer": [
+          {
+            "study_population": "hotels"
+          }
+        ]
+      },
+      {
+        "paper_id": 5,
+        "answer": [
+          {
+            "study_population": "quality hotels"
+          }
+        ]
+      },
+      {
+        "paper_id": 6,
+        "answer": [
+          {
+            "study_population": "Hotels"
+          }
+        ]
+      },
+      {
+        "paper_id": 7,
+        "answer": [
+          {
+            "study_population": "hotels and apartments"
+          }
+        ]
+      },
+      {
+        "paper_id": 8,
+        "answer": [
+          {
+            "study_population": "hotels"
+          }
+        ]
+      },
+      {
+        "paper_id": 9,
+        "answer": [
+          {
+            "study_population": "hotels"
+          }
+        ]
+      },
+      {
+        "paper_id": 10,
+        "answer": [
+          {
+            "study_population": "upmarket hotels"
+          }
+        ]
+      },
+      {
+        "paper_id": 11,
+        "answer": [
+          {
+            "study_population": "Hotel"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "O2.1",
+    "question": "<study population> <sample size>",
+    "description": "Extract the study population and its corresponding total sample size.",
+    "answer_format": {
+      "paper_id": "integer",
+      "answer": [
+        {
+          "study_population": "string",
+          "sample_size": "integer"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "paper_id": 1,
+        "answer": [
+          {
+            "study_population": "hotels",
+            "sample_size": 17
+          }
+        ]
+      },
+      {
+        "paper_id": 2,
+        "answer": [
+          {
+            "study_population": "hotels",
+            "sample_size": 11
+          }
+        ]
+      },
+      {
+        "paper_id": 3,
+        "answer": [
+          {
+            "study_population": "quality hotels",
+            "sample_size": 36
+          }
+        ]
+      },
+      {
+        "paper_id": 4,
+        "answer": [
+          {
+            "study_population": "hotels",
+            "sample_size": 10
+          }
+        ]
+      },
+      {
+        "paper_id": 5,
+        "answer": [
+          {
+            "study_population": "quality hotels",
+            "sample_size": 29
+          }
+        ]
+      },
+      {
+        "paper_id": 6,
+        "answer": [
+          {
+            "study_population": "Hotels",
+            "sample_size": 51
+          }
+        ]
+      },
+      {
+        "paper_id": 7,
+        "answer": [
+          {
+            "study_population": "hotels and apartments",
+            "sample_size": 6
+          }
+        ]
+      },
+      {
+        "paper_id": 8,
+        "answer": [
+          {
+            "study_population": "hotels",
+            "sample_size": 50
+          }
+        ]
+      },
+      {
+        "paper_id": 9,
+        "answer": [
+          {
+            "study_population": "hotels",
+            "sample_size": 28
+          }
+        ]
+      },
+      {
+        "paper_id": 10,
+        "answer": [
+          {
+            "study_population": "upmarket hotels",
+            "sample_size": 30
+          }
+        ]
+      },
+      {
+        "paper_id": 11,
+        "answer": [
+          {
+            "study_population": "Hotel",
+            "sample_size": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "O2.2",
+    "question": "<study population> <geolocation>",
+    "description": "Extract the study population and its corresponding geographical setting.",
+    "answer_format": {
+      "paper_id": "integer",
+      "answer": [
+        {
+          "study_population": "string",
+          "geolocation": "string"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "paper_id": 1,
+        "answer": [
+          {
+            "study_population": "hotels",
+            "geolocation": "Hong Kong"
+          }
+        ]
+      },
+      {
+        "paper_id": 2,
+        "answer": [
+          {
+            "study_population": "hotels",
+            "geolocation": "Hong Kong"
+          }
+        ]
+      },
+      {
+        "paper_id": 3,
+        "answer": [
+          {
+            "study_population": "quality hotels",
+            "geolocation": "Hong Kong"
+          }
+        ]
+      },
+      {
+        "paper_id": 4,
+        "answer": [
+          {
+            "study_population": "hotels",
+            "geolocation": "Hong Kong"
+          }
+        ]
+      },
+      {
+        "paper_id": 5,
+        "answer": [
+          {
+            "study_population": "quality hotels",
+            "geolocation": "Singapore"
+          }
+        ]
+      },
+      {
+        "paper_id": 6,
+        "answer": [
+          {
+            "study_population": "Hotels",
+            "geolocation": "Adriatic coast, Croatia"
+          }
+        ]
+      },
+      {
+        "paper_id": 7,
+        "answer": [
+          {
+            "study_population": "hotels and apartments",
+            "geolocation": "Gran Canaria, Spain"
+          }
+        ]
+      },
+      {
+        "paper_id": 8,
+        "answer": [
+          {
+            "study_population": "hotels",
+            "geolocation": "Danang, Vietnam"
+          }
+        ]
+      },
+      {
+        "paper_id": 9,
+        "answer": [
+          {
+            "study_population": "hotels",
+            "geolocation": "Lagos, Nigeria"
+          }
+        ]
+      },
+      {
+        "paper_id": 10,
+        "answer": [
+          {
+            "study_population": "upmarket hotels",
+            "geolocation": "Hong Kong"
+          }
+        ]
+      },
+      {
+        "paper_id": 11,
+        "answer": [
+          {
+            "study_population": "Hotel",
+            "geolocation": "Lijiang, China"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "O2.3",
+    "question": "<study population> <geolocation> <sample size>",
+    "description": "Extract the study population together with its corresponding geographical setting and total sample size (as a single aligned triple).",
+    "answer_format": {
+      "paper_id": "integer",
+      "answer": [
+        {
+          "study_population": "string",
+          "geolocation": "string",
+          "sample_size": "integer"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "paper_id": 1,
+        "answer": [
+          {
+            "study_population": "hotels",
+            "geolocation": "Hong Kong",
+            "sample_size": 17
+          }
+        ]
+      },
+      {
+        "paper_id": 2,
+        "answer": [
+          {
+            "study_population": "hotels",
+            "geolocation": "Hong Kong",
+            "sample_size": 11
+          }
+        ]
+      },
+      {
+        "paper_id": 3,
+        "answer": [
+          {
+            "study_population": "quality hotels",
+            "geolocation": "Hong Kong",
+            "sample_size": 36
+          }
+        ]
+      },
+      {
+        "paper_id": 4,
+        "answer": [
+          {
+            "study_population": "hotels",
+            "geolocation": "Hong Kong",
+            "sample_size": 10
+          }
+        ]
+      },
+      {
+        "paper_id": 5,
+        "answer": [
+          {
+            "study_population": "quality hotels",
+            "geolocation": "Singapore",
+            "sample_size": 29
+          }
+        ]
+      },
+      {
+        "paper_id": 6,
+        "answer": [
+          {
+            "study_population": "Hotels",
+            "geolocation": "Adriatic coast, Croatia",
+            "sample_size": 51
+          }
+        ]
+      },
+      {
+        "paper_id": 7,
+        "answer": [
+          {
+            "study_population": "hotels and apartments",
+            "geolocation": "Gran Canaria, Spain",
+            "sample_size": 6
+          }
+        ]
+      },
+      {
+        "paper_id": 8,
+        "answer": [
+          {
+            "study_population": "hotels",
+            "geolocation": "Danang, Vietnam",
+            "sample_size": 50
+          }
+        ]
+      },
+      {
+        "paper_id": 9,
+        "answer": [
+          {
+            "study_population": "hotels",
+            "geolocation": "Lagos, Nigeria",
+            "sample_size": 28
+          }
+        ]
+      },
+      {
+        "paper_id": 10,
+        "answer": [
+          {
+            "study_population": "upmarket hotels",
+            "geolocation": "Hong Kong",
+            "sample_size": 30
+          }
+        ]
+      },
+      {
+        "paper_id": 11,
+        "answer": [
+          {
+            "study_population": "Hotel",
+            "geolocation": "Lijiang, China",
+            "sample_size": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "question_id": "OC_O1.2.1",
+    "question": "count - <sample size> (sample size > 100)",
+    "description": "Count the number of records whose sample size is greater than 100.",
+    "answer_format": {
+      "evidences": [
+        {
+          "paper_id": "integer",
+          "sample_size": "integer"
+        }
+      ],
+      "final_list": [
+        "string"
+      ],
+      "final_answer": "integer"
+    },
+    "answers": {
+      "evidences": [
+        {
+          "paper_id": 1,
+          "answer": [
+            {
+              "sample_size": 17
+            }
+          ]
+        },
+        {
+          "paper_id": 2,
+          "answer": [
+            {
+              "sample_size": 11
+            }
+          ]
+        },
+        {
+          "paper_id": 3,
+          "answer": [
+            {
+              "sample_size": 36
+            }
+          ]
+        },
+        {
+          "paper_id": 4,
+          "answer": [
+            {
+              "sample_size": 10
+            }
+          ]
+        },
+        {
+          "paper_id": 5,
+          "answer": [
+            {
+              "sample_size": 29
+            }
+          ]
+        },
+        {
+          "paper_id": 6,
+          "answer": [
+            {
+              "sample_size": 51
+            }
+          ]
+        },
+        {
+          "paper_id": 7,
+          "answer": [
+            {
+              "sample_size": 6
+            }
+          ]
+        },
+        {
+          "paper_id": 8,
+          "answer": [
+            {
+              "sample_size": 50
+            }
+          ]
+        },
+        {
+          "paper_id": 9,
+          "answer": [
+            {
+              "sample_size": 28
+            }
+          ]
+        },
+        {
+          "paper_id": 10,
+          "answer": [
+            {
+              "sample_size": 30
+            }
+          ]
+        },
+        {
+          "paper_id": 11,
+          "answer": [
+            {
+              "sample_size": 24
+            }
+          ]
+        }
+      ],
+      "final_list": [],
+      "final_answer": 0
+    }
+  },
+  {
+    "question_id": "OC_O1.2.2",
+    "question": "average sample size over study populations",
+    "description": "Compute the average of total sample size across study populations.",
+    "answer_format": {
+      "evidences": [
+        {
+          "paper_id": "integer",
+          "sample_size": "integer"
+        }
+      ],
+      "final_list": [
+        "integer"
+      ],
+      "final_answer": "float"
+    },
+    "answers": {
+      "evidences": [
+        {
+          "paper_id": 1,
+          "answer": [
+            {
+              "sample_size": 17
+            }
+          ]
+        },
+        {
+          "paper_id": 2,
+          "answer": [
+            {
+              "sample_size": 11
+            }
+          ]
+        },
+        {
+          "paper_id": 3,
+          "answer": [
+            {
+              "sample_size": 36
+            }
+          ]
+        },
+        {
+          "paper_id": 4,
+          "answer": [
+            {
+              "sample_size": 10
+            }
+          ]
+        },
+        {
+          "paper_id": 5,
+          "answer": [
+            {
+              "sample_size": 29
+            }
+          ]
+        },
+        {
+          "paper_id": 6,
+          "answer": [
+            {
+              "sample_size": 51
+            }
+          ]
+        },
+        {
+          "paper_id": 7,
+          "answer": [
+            {
+              "sample_size": 6
+            }
+          ]
+        },
+        {
+          "paper_id": 8,
+          "answer": [
+            {
+              "sample_size": 50
+            }
+          ]
+        },
+        {
+          "paper_id": 9,
+          "answer": [
+            {
+              "sample_size": 28
+            }
+          ]
+        },
+        {
+          "paper_id": 10,
+          "answer": [
+            {
+              "sample_size": 30
+            }
+          ]
+        },
+        {
+          "paper_id": 11,
+          "answer": [
+            {
+              "sample_size": 24
+            }
+          ]
+        }
+      ],
+      "final_list": [
+        {
+          "sample_size": 17,
+          "paper_id": [
+            1
+          ]
+        },
+        {
+          "sample_size": 11,
+          "paper_id": [
+            2
+          ]
+        },
+        {
+          "sample_size": 36,
+          "paper_id": [
+            3
+          ]
+        },
+        {
+          "sample_size": 10,
+          "paper_id": [
+            4
+          ]
+        },
+        {
+          "sample_size": 29,
+          "paper_id": [
+            5
+          ]
+        },
+        {
+          "sample_size": 51,
+          "paper_id": [
+            6
+          ]
+        },
+        {
+          "sample_size": 6,
+          "paper_id": [
+            7
+          ]
+        },
+        {
+          "sample_size": 50,
+          "paper_id": [
+            8
+          ]
+        },
+        {
+          "sample_size": 28,
+          "paper_id": [
+            9
+          ]
+        },
+        {
+          "sample_size": 30,
+          "paper_id": [
+            10
+          ]
+        },
+        {
+          "sample_size": 24,
+          "paper_id": [
+            11
+          ]
+        }
+      ],
+      "final_answer": 26.55
+    }
+  },
+  {
+    "question_id": "OC_O1.2.3",
+    "question": "median sample size over study populations",
+    "description": "Compute the median of total sample size across study populations.",
+    "answer_format": {
+      "evidences": [
+        {
+          "paper_id": "integer",
+          "sample_size": "integer"
+        }
+      ],
+      "final_list": [
+        "integer"
+      ],
+      "final_answer": "float"
+    },
+    "answers": {
+      "evidences": [
+        {
+          "paper_id": 1,
+          "answer": [
+            {
+              "sample_size": 17
+            }
+          ]
+        },
+        {
+          "paper_id": 2,
+          "answer": [
+            {
+              "sample_size": 11
+            }
+          ]
+        },
+        {
+          "paper_id": 3,
+          "answer": [
+            {
+              "sample_size": 36
+            }
+          ]
+        },
+        {
+          "paper_id": 4,
+          "answer": [
+            {
+              "sample_size": 10
+            }
+          ]
+        },
+        {
+          "paper_id": 5,
+          "answer": [
+            {
+              "sample_size": 29
+            }
+          ]
+        },
+        {
+          "paper_id": 6,
+          "answer": [
+            {
+              "sample_size": 51
+            }
+          ]
+        },
+        {
+          "paper_id": 7,
+          "answer": [
+            {
+              "sample_size": 6
+            }
+          ]
+        },
+        {
+          "paper_id": 8,
+          "answer": [
+            {
+              "sample_size": 50
+            }
+          ]
+        },
+        {
+          "paper_id": 9,
+          "answer": [
+            {
+              "sample_size": 28
+            }
+          ]
+        },
+        {
+          "paper_id": 10,
+          "answer": [
+            {
+              "sample_size": 30
+            }
+          ]
+        },
+        {
+          "paper_id": 11,
+          "answer": [
+            {
+              "sample_size": 24
+            }
+          ]
+        }
+      ],
+      "final_list": [
+        {
+          "sample_size": 6,
+          "paper_id": [
+            7
+          ]
+        },
+        {
+          "sample_size": 10,
+          "paper_id": [
+            4
+          ]
+        },
+        {
+          "sample_size": 11,
+          "paper_id": [
+            2
+          ]
+        },
+        {
+          "sample_size": 17,
+          "paper_id": [
+            1
+          ]
+        },
+        {
+          "sample_size": 24,
+          "paper_id": [
+            11
+          ]
+        },
+        {
+          "sample_size": 28,
+          "paper_id": [
+            9
+          ]
+        },
+        {
+          "sample_size": 29,
+          "paper_id": [
+            5
+          ]
+        },
+        {
+          "sample_size": 30,
+          "paper_id": [
+            10
+          ]
+        },
+        {
+          "sample_size": 36,
+          "paper_id": [
+            3
+          ]
+        },
+        {
+          "sample_size": 50,
+          "paper_id": [
+            8
+          ]
+        },
+        {
+          "sample_size": 51,
+          "paper_id": [
+            6
+          ]
+        }
+      ],
+      "final_answer": 28.0
+    }
+  },
+  {
+    "question_id": "OC_O1.1",
+    "question": "count unique geolocations (countries)",
+    "description": "Count unique countries with step-by-step extraction for error diagnosis.",
+    "answer_format": {
+      "evidences": [
+        {
+          "paper_id": "integer",
+          "location": "string"
+        }
+      ],
+      "final_list": [
+        "string"
+      ],
+      "final_answer": "integer"
+    },
+    "answers": {
+      "evidences": [
+        {
+          "paper_id": 1,
+          "answer": [
+            {
+              "geolocation": "Hong Kong"
+            }
+          ]
+        },
+        {
+          "paper_id": 2,
+          "answer": [
+            {
+              "geolocation": "Hong Kong"
+            }
+          ]
+        },
+        {
+          "paper_id": 3,
+          "answer": [
+            {
+              "geolocation": "Hong Kong"
+            }
+          ]
+        },
+        {
+          "paper_id": 4,
+          "answer": [
+            {
+              "geolocation": "Hong Kong"
+            }
+          ]
+        },
+        {
+          "paper_id": 5,
+          "answer": [
+            {
+              "geolocation": "Singapore"
+            }
+          ]
+        },
+        {
+          "paper_id": 6,
+          "answer": [
+            {
+              "geolocation": "Adriatic coast, Croatia"
+            }
+          ]
+        },
+        {
+          "paper_id": 7,
+          "answer": [
+            {
+              "geolocation": "Gran Canaria, Spain"
+            }
+          ]
+        },
+        {
+          "paper_id": 8,
+          "answer": [
+            {
+              "geolocation": "Danang, Vietnam"
+            }
+          ]
+        },
+        {
+          "paper_id": 9,
+          "answer": [
+            {
+              "geolocation": "Lagos, Nigeria"
+            }
+          ]
+        },
+        {
+          "paper_id": 10,
+          "answer": [
+            {
+              "geolocation": "Hong Kong"
+            }
+          ]
+        },
+        {
+          "paper_id": 11,
+          "answer": [
+            {
+              "geolocation": "Lijiang, China"
+            }
+          ]
+        }
+      ],
+      "final_list": [
+        {
+          "country": "China",
+          "paper_id": [
+            11
+          ]
+        },
+        {
+          "country": "Croatia",
+          "paper_id": [
+            6
+          ]
+        },
+        {
+          "country": "Nigeria",
+          "paper_id": [
+            9
+          ]
+        },
+        {
+          "country": "Singapore",
+          "paper_id": [
+            5
+          ]
+        },
+        {
+          "country": "Spain",
+          "paper_id": [
+            7
+          ]
+        },
+        {
+          "country": "Vietnam",
+          "paper_id": [
+            8
+          ]
+        }
+      ],
+      "final_answer": 6
+    }
+  }
+]

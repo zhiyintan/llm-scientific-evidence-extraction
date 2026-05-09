@@ -1,0 +1,5439 @@
+[
+  {
+    "question_id": "M_L1_Q1",
+    "question": "<statistical method>",
+    "description": "Extract all statistical methods explicitly reported in the Association Test Method column. If multiple methods are reported in one study, split them into separate entries.",
+    "answer_format": {
+      "id": "integer",
+      "statistical_method": "string"
+    },
+    "answers": [
+      {
+        "id": 1,
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 2,
+        "statistical_method": "Spearman rank correlation (rho)"
+      },
+      {
+        "id": 3,
+        "statistical_method": "Spearman rank correlation (ρ)"
+      },
+      {
+        "id": 4,
+        "statistical_method": "Spearman rank correlation (r)"
+      },
+      {
+        "id": 5,
+        "statistical_method": "Pearson correlation (r)"
+      },
+      {
+        "id": 6,
+        "statistical_method": "Spearman rank correlation (r_s​)"
+      },
+      {
+        "id": 7,
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 7,
+        "statistical_method": "general linear models (Estimate)"
+      },
+      {
+        "id": 8,
+        "statistical_method": "Spearman rank correlations (r_s​)"
+      },
+      {
+        "id": 9,
+        "statistical_method": "Pearson’s correlation (r)"
+      },
+      {
+        "id": 10,
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 10,
+        "statistical_method": "Standardized regression coefficient (SRC)"
+      }
+    ]
+  },
+  {
+    "question_id": "M_L1_Q2",
+    "question": "<variables>",
+    "description": "Extract all variables explicitly reported in the Independent Variable Unit and Dependent Variable Unit columns.",
+    "answer_format": {
+      "id": "integer",
+      "variable": "string"
+    },
+    "answers": [
+      {
+        "id": 1,
+        "variable": "Surface water supply"
+      },
+      {
+        "id": 1,
+        "variable": "Water flow regulation"
+      },
+      {
+        "id": 1,
+        "variable": "Carbon storage"
+      },
+      {
+        "id": 1,
+        "variable": "Soil accumulation"
+      },
+      {
+        "id": 1,
+        "variable": "Soil retention"
+      },
+      {
+        "id": 1,
+        "variable": "Birds"
+      },
+      {
+        "id": 1,
+        "variable": "Frogs"
+      },
+      {
+        "id": 1,
+        "variable": "Butterfly"
+      },
+      {
+        "id": 1,
+        "variable": "Mammals"
+      },
+      {
+        "id": 1,
+        "variable": "Animals combined"
+      },
+      {
+        "id": 1,
+        "variable": "Threatened and endemic plants"
+      },
+      {
+        "id": 1,
+        "variable": "Threatened plants"
+      },
+      {
+        "id": 1,
+        "variable": "Endemic plants"
+      },
+      {
+        "id": 1,
+        "variable": "Vegetation diversity"
+      },
+      {
+        "id": 2,
+        "variable": "Biodiversity - data"
+      },
+      {
+        "id": 2,
+        "variable": "Biodiversity - proxy"
+      },
+      {
+        "id": 2,
+        "variable": "Carbon - data"
+      },
+      {
+        "id": 2,
+        "variable": "Carbon - proxy"
+      },
+      {
+        "id": 2,
+        "variable": "Recreation - data"
+      },
+      {
+        "id": 2,
+        "variable": "Recreation - land cover alone"
+      },
+      {
+        "id": 2,
+        "variable": "Recreation - land cover + population + access"
+      },
+      {
+        "id": 3,
+        "variable": "Carbon stocks"
+      },
+      {
+        "id": 3,
+        "variable": "Timber"
+      },
+      {
+        "id": 3,
+        "variable": "Smallholder agriculture"
+      },
+      {
+        "id": 3,
+        "variable": "Biodiversity"
+      },
+      {
+        "id": 3,
+        "variable": "Palm oil"
+      },
+      {
+        "id": 4,
+        "variable": "Water conservation"
+      },
+      {
+        "id": 4,
+        "variable": "Soil retention"
+      },
+      {
+        "id": 4,
+        "variable": "Carbon sequestration"
+      },
+      {
+        "id": 4,
+        "variable": "Biodiversity conservation"
+      },
+      {
+        "id": 4,
+        "variable": "Food supply"
+      },
+      {
+        "id": 5,
+        "variable": "Tree carbon stocks"
+      },
+      {
+        "id": 5,
+        "variable": "Bird richness"
+      },
+      {
+        "id": 5,
+        "variable": "Tree richness"
+      },
+      {
+        "id": 5,
+        "variable": "Overall biodiversity"
+      },
+      {
+        "id": 6,
+        "variable": "Organic carbon stock"
+      },
+      {
+        "id": 6,
+        "variable": "Total vertebrate richness"
+      },
+      {
+        "id": 6,
+        "variable": "Threatened vertebrate richness"
+      },
+      {
+        "id": 6,
+        "variable": "Restricted range vertebrate richness"
+      },
+      {
+        "id": 6,
+        "variable": "Total species richness + plants"
+      },
+      {
+        "id": 7,
+        "variable": "Carbon storage"
+      },
+      {
+        "id": 7,
+        "variable": "Rural density"
+      },
+      {
+        "id": 7,
+        "variable": "Pasture area"
+      },
+      {
+        "id": 7,
+        "variable": "Agricultural area"
+      },
+      {
+        "id": 7,
+        "variable": "Roads"
+      },
+      {
+        "id": 7,
+        "variable": "Forest area"
+      },
+      {
+        "id": 7,
+        "variable": "Deforestation rate"
+      },
+      {
+        "id": 7,
+        "variable": "Temperature"
+      },
+      {
+        "id": 7,
+        "variable": "Altitude"
+      },
+      {
+        "id": 7,
+        "variable": "Precipitation"
+      },
+      {
+        "id": 7,
+        "variable": "All groups"
+      },
+      {
+        "id": 7,
+        "variable": "Amphibians"
+      },
+      {
+        "id": 7,
+        "variable": "Birds"
+      },
+      {
+        "id": 7,
+        "variable": "Mammals"
+      },
+      {
+        "id": 8,
+        "variable": "Biomass C (estimates of above and below-ground biomass)"
+      },
+      {
+        "id": 8,
+        "variable": "Richness Index (number of species per cell)"
+      },
+      {
+        "id": 8,
+        "variable": "Threatened Index (number of threatened species per cell)"
+      },
+      {
+        "id": 8,
+        "variable": "Restricted range index (number of restricted-range species per cell)"
+      },
+      {
+        "id": 9,
+        "variable": "Biodiversity"
+      },
+      {
+        "id": 9,
+        "variable": "Carbon sequestration"
+      },
+      {
+        "id": 9,
+        "variable": "Nitrogen retention"
+      },
+      {
+        "id": 9,
+        "variable": "Phosphorus retention"
+      },
+      {
+        "id": 9,
+        "variable": "Pollination"
+      },
+      {
+        "id": 9,
+        "variable": "Soil retention"
+      },
+      {
+        "id": 9,
+        "variable": "Water yield"
+      },
+      {
+        "id": 10,
+        "variable": "Carbon stock"
+      },
+      {
+        "id": 10,
+        "variable": "Habitat quality"
+      },
+      {
+        "id": 10,
+        "variable": "eucalyptus"
+      },
+      {
+        "id": 10,
+        "variable": "pasture"
+      },
+      {
+        "id": 10,
+        "variable": "mining"
+      },
+      {
+        "id": 10,
+        "variable": "urban"
+      },
+      {
+        "id": 10,
+        "variable": "roads"
+      },
+      {
+        "id": 10,
+        "variable": "agriculture"
+      },
+      {
+        "id": 10,
+        "variable": "accessibility"
+      },
+      {
+        "id": 10,
+        "variable": "aboveground biomass"
+      },
+      {
+        "id": 10,
+        "variable": "soil organic carbon"
+      },
+      {
+        "id": 10,
+        "variable": "belowground biomass"
+      },
+      {
+        "id": 10,
+        "variable": "dead organic carbon"
+      },
+      {
+        "id": 10,
+        "variable": "topographic factor"
+      },
+      {
+        "id": 10,
+        "variable": "soil erodibility"
+      },
+      {
+        "id": 10,
+        "variable": "sediment filtration"
+      },
+      {
+        "id": 10,
+        "variable": "cover-management and support practice factors"
+      },
+      {
+        "id": 10,
+        "variable": "rainfall erosivity"
+      },
+      {
+        "id": 10,
+        "variable": "Sediment retention"
+      }
+    ]
+  },
+  {
+    "question_id": "M_L1_Q3",
+    "question": "<independent variables>",
+    "description": "Extract all independent variables explicitly reported in the Independent Variable Unit column.",
+    "answer_format": {
+      "id": "integer",
+      "independent_variable": "string"
+    },
+    "answers": [
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Carbon storage"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil accumulation"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil retention"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - data"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - proxy"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - data"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - proxy"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Recreation - data"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Recreation - land cover alone"
+      },
+      {
+        "id": 3,
+        "independent_variable": "Carbon stocks"
+      },
+      {
+        "id": 3,
+        "independent_variable": "Timber"
+      },
+      {
+        "id": 3,
+        "independent_variable": "Smallholder agriculture"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Water conservation"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Soil retention"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Carbon sequestration"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Biodiversity conservation"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Food supply"
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks"
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Rural density"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Pasture area"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Agricultural area"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Roads"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Forest area"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Deforestation rate"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Temperature"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Altitude"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Precipitation"
+      },
+      {
+        "id": 8,
+        "independent_variable": "Biomass C (estimates of above and below-ground biomass)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Biodiversity"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Carbon sequestration"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Nitrogen retention"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Phosphorus retention"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Pollination"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Soil retention"
+      },
+      {
+        "id": 10,
+        "independent_variable": "Carbon stock"
+      },
+      {
+        "id": 10,
+        "independent_variable": "Habitat quality"
+      },
+      {
+        "id": 10,
+        "independent_variable": "eucalyptus"
+      },
+      {
+        "id": 10,
+        "independent_variable": "pasture"
+      },
+      {
+        "id": 10,
+        "independent_variable": "mining"
+      },
+      {
+        "id": 10,
+        "independent_variable": "urban"
+      },
+      {
+        "id": 10,
+        "independent_variable": "roads"
+      },
+      {
+        "id": 10,
+        "independent_variable": "agriculture"
+      },
+      {
+        "id": 10,
+        "independent_variable": "accessibility"
+      },
+      {
+        "id": 10,
+        "independent_variable": "aboveground biomass"
+      },
+      {
+        "id": 10,
+        "independent_variable": "soil organic carbon"
+      },
+      {
+        "id": 10,
+        "independent_variable": "belowground biomass"
+      },
+      {
+        "id": 10,
+        "independent_variable": "dead organic carbon"
+      },
+      {
+        "id": 10,
+        "independent_variable": "topographic factor"
+      },
+      {
+        "id": 10,
+        "independent_variable": "soil erodibility"
+      },
+      {
+        "id": 10,
+        "independent_variable": "sediment filtration"
+      },
+      {
+        "id": 10,
+        "independent_variable": "cover-management and support practice factors"
+      },
+      {
+        "id": 10,
+        "independent_variable": "rainfall erosivity"
+      }
+    ]
+  },
+  {
+    "question_id": "M_L1_Q4",
+    "question": "<dependent variables>",
+    "description": "Extract all dependent variables explicitly reported in the Dependent Variable Unit column.",
+    "answer_format": {
+      "id": "integer",
+      "dependent_variable": "string"
+    },
+    "answers": [
+      {
+        "id": 1,
+        "dependent_variable": "Birds"
+      },
+      {
+        "id": 1,
+        "dependent_variable": "Frogs"
+      },
+      {
+        "id": 1,
+        "dependent_variable": "Butterfly"
+      },
+      {
+        "id": 1,
+        "dependent_variable": "Mammals"
+      },
+      {
+        "id": 1,
+        "dependent_variable": "Animals combined"
+      },
+      {
+        "id": 1,
+        "dependent_variable": "Threatened and endemic plants"
+      },
+      {
+        "id": 1,
+        "dependent_variable": "Threatened plants"
+      },
+      {
+        "id": 1,
+        "dependent_variable": "Endemic plants"
+      },
+      {
+        "id": 1,
+        "dependent_variable": "Vegetation diversity"
+      },
+      {
+        "id": 2,
+        "dependent_variable": "Biodiversity - proxy"
+      },
+      {
+        "id": 2,
+        "dependent_variable": "Carbon - data"
+      },
+      {
+        "id": 2,
+        "dependent_variable": "Carbon - proxy"
+      },
+      {
+        "id": 2,
+        "dependent_variable": "Recreation - data"
+      },
+      {
+        "id": 2,
+        "dependent_variable": "Recreation - land cover alone"
+      },
+      {
+        "id": 2,
+        "dependent_variable": "Recreation - land cover + population + access"
+      },
+      {
+        "id": 3,
+        "dependent_variable": "Timber"
+      },
+      {
+        "id": 3,
+        "dependent_variable": "Biodiversity"
+      },
+      {
+        "id": 3,
+        "dependent_variable": "Palm oil"
+      },
+      {
+        "id": 4,
+        "dependent_variable": "Water conservation"
+      },
+      {
+        "id": 4,
+        "dependent_variable": "Soil retention"
+      },
+      {
+        "id": 4,
+        "dependent_variable": "Carbon sequestration"
+      },
+      {
+        "id": 4,
+        "dependent_variable": "Biodiversity conservation"
+      },
+      {
+        "id": 4,
+        "dependent_variable": "Food supply"
+      },
+      {
+        "id": 5,
+        "dependent_variable": "Bird richness"
+      },
+      {
+        "id": 5,
+        "dependent_variable": "Tree richness"
+      },
+      {
+        "id": 5,
+        "dependent_variable": "Overall biodiversity"
+      },
+      {
+        "id": 6,
+        "dependent_variable": "Total vertebrate richness"
+      },
+      {
+        "id": 6,
+        "dependent_variable": "Threatened vertebrate richness"
+      },
+      {
+        "id": 6,
+        "dependent_variable": "Restricted range vertebrate richness"
+      },
+      {
+        "id": 6,
+        "dependent_variable": "Total species richness + plants"
+      },
+      {
+        "id": 7,
+        "dependent_variable": "Carbon storage"
+      },
+      {
+        "id": 7,
+        "dependent_variable": "All groups"
+      },
+      {
+        "id": 7,
+        "dependent_variable": "Amphibians"
+      },
+      {
+        "id": 7,
+        "dependent_variable": "Birds"
+      },
+      {
+        "id": 7,
+        "dependent_variable": "Mammals"
+      },
+      {
+        "id": 8,
+        "dependent_variable": "Richness Index (number of species per cell)"
+      },
+      {
+        "id": 8,
+        "dependent_variable": "Threatened Index (number of threatened species per cell)"
+      },
+      {
+        "id": 8,
+        "dependent_variable": "Restricted range index (number of restricted-range species per cell)"
+      },
+      {
+        "id": 9,
+        "dependent_variable": "Carbon sequestration"
+      },
+      {
+        "id": 9,
+        "dependent_variable": "Nitrogen retention"
+      },
+      {
+        "id": 9,
+        "dependent_variable": "Phosphorus retention"
+      },
+      {
+        "id": 9,
+        "dependent_variable": "Pollination"
+      },
+      {
+        "id": 9,
+        "dependent_variable": "Soil retention"
+      },
+      {
+        "id": 9,
+        "dependent_variable": "Water yield"
+      },
+      {
+        "id": 10,
+        "dependent_variable": "Habitat quality"
+      },
+      {
+        "id": 10,
+        "dependent_variable": "Sediment retention"
+      },
+      {
+        "id": 10,
+        "dependent_variable": "Carbon stock"
+      }
+    ]
+  },
+  {
+    "question_id": "M_L2_Q1",
+    "question": "<variables> <scale> <unit>",
+    "description": "Extract all variables together with their explicitly reported measurement scales and units.",
+    "answer_format": {
+      "id": "integer",
+      "variable": "string",
+      "scale": "string",
+      "unit": "string"
+    },
+    "answers": [
+      {
+        "id": 1,
+        "variable": "Surface water supply",
+        "scale": "not reported",
+        "unit": "runoff"
+      },
+      {
+        "id": 1,
+        "variable": "Water flow regulation",
+        "scale": "not reported",
+        "unit": "percentage contribution of groundwater to base flows"
+      },
+      {
+        "id": 1,
+        "variable": "Carbon storage",
+        "scale": "not reported",
+        "unit": "carbon storage potentials for different vegetation types"
+      },
+      {
+        "id": 1,
+        "variable": "Soil accumulation",
+        "scale": "not reported",
+        "unit": "function of soil depth and leaf litter accumulation index"
+      },
+      {
+        "id": 1,
+        "variable": "Soil retention",
+        "scale": "not reported",
+        "unit": "function of vegetation cover and erodibility"
+      },
+      {
+        "id": 1,
+        "variable": "Birds",
+        "scale": "the richest 10% of grid cells",
+        "unit": "number of species"
+      },
+      {
+        "id": 1,
+        "variable": "Frogs",
+        "scale": "the richest 10% of grid cells",
+        "unit": "number of species"
+      },
+      {
+        "id": 1,
+        "variable": "Butterfly",
+        "scale": "the richest 10% of grid cells",
+        "unit": "number of species"
+      },
+      {
+        "id": 1,
+        "variable": "Mammals",
+        "scale": "the richest 10% of grid cells",
+        "unit": "number of species"
+      },
+      {
+        "id": 1,
+        "variable": "Animals combined",
+        "scale": "the richest 10% of grid cells",
+        "unit": "number of species"
+      },
+      {
+        "id": 1,
+        "variable": "Threatened and endemic plants",
+        "scale": "the richest 10% of grid cells",
+        "unit": "number of species"
+      },
+      {
+        "id": 1,
+        "variable": "Threatened plants",
+        "scale": "the richest 10% of grid cells",
+        "unit": "number of species"
+      },
+      {
+        "id": 1,
+        "variable": "Endemic plants",
+        "scale": "the richest 10% of grid cells",
+        "unit": "number of species"
+      },
+      {
+        "id": 1,
+        "variable": "Vegetation diversity",
+        "scale": "1 to 17",
+        "unit": "number of vegetation types per QDS"
+      },
+      {
+        "id": 2,
+        "variable": "Biodiversity - data",
+        "scale": "0–30",
+        "unit": "number of BAP species"
+      },
+      {
+        "id": 2,
+        "variable": "Biodiversity - proxy",
+        "scale": "0–14",
+        "unit": "number of BAP species"
+      },
+      {
+        "id": 2,
+        "variable": "Carbon - data",
+        "scale": "3.6–76",
+        "unit": "kg C/m^2"
+      },
+      {
+        "id": 2,
+        "variable": "Carbon - proxy",
+        "scale": "7.6–39",
+        "unit": "kg C/m^2"
+      },
+      {
+        "id": 2,
+        "variable": "Recreation - data",
+        "scale": "0.04–1.8",
+        "unit": "average number of visits"
+      },
+      {
+        "id": 2,
+        "variable": "Recreation - land cover alone",
+        "scale": "0–1.6",
+        "unit": "average number of visits"
+      },
+      {
+        "id": 2,
+        "variable": "Recreation - land cover + population + access",
+        "scale": "0–1.8",
+        "unit": "average number of visits"
+      },
+      {
+        "id": 3,
+        "variable": "Carbon stocks",
+        "scale": "380–1100",
+        "unit": "Mg C/ha"
+      },
+      {
+        "id": 3,
+        "variable": "Timber",
+        "scale": "0–2300",
+        "unit": "40-yr NPV, US$/ha"
+      },
+      {
+        "id": 3,
+        "variable": "Smallholder agriculture",
+        "scale": "0–900",
+        "unit": "US$·ha^-1·yr^-1"
+      },
+      {
+        "id": 3,
+        "variable": "Biodiversity",
+        "scale": "0–830",
+        "unit": "selection frequency"
+      },
+      {
+        "id": 3,
+        "variable": "Palm oil",
+        "scale": "0–4600",
+        "unit": "25-yr NPV, US$/ha"
+      },
+      {
+        "id": 4,
+        "variable": "Water conservation",
+        "scale": "0–1000",
+        "unit": "mm"
+      },
+      {
+        "id": 4,
+        "variable": "Soil retention",
+        "scale": "<500–15000",
+        "unit": "tons ha^−1 a^−1"
+      },
+      {
+        "id": 4,
+        "variable": "Carbon sequestration",
+        "scale": "0–1000",
+        "unit": "g/m^2 ⋅a"
+      },
+      {
+        "id": 4,
+        "variable": "Biodiversity conservation",
+        "scale": "0–1.0",
+        "unit": "habitat quality index"
+      },
+      {
+        "id": 4,
+        "variable": "Food supply",
+        "scale": "0–1000",
+        "unit": "t/km^2"
+      },
+      {
+        "id": 5,
+        "variable": "Tree carbon stocks",
+        "scale": "<20–>95",
+        "unit": "Mg C/cell ha"
+      },
+      {
+        "id": 5,
+        "variable": "Bird richness",
+        "scale": "<20–>60",
+        "unit": "number of species"
+      },
+      {
+        "id": 5,
+        "variable": "Tree richness",
+        "scale": "<2.0–>6.5",
+        "unit": "number of species per plot"
+      },
+      {
+        "id": 5,
+        "variable": "Overall biodiversity",
+        "scale": "<0.6–>1.4",
+        "unit": "unitless index"
+      },
+      {
+        "id": 6,
+        "variable": "Organic carbon stock",
+        "scale": "38–1285",
+        "unit": "t CO 2​/ha"
+      },
+      {
+        "id": 6,
+        "variable": "Total vertebrate richness",
+        "scale": "1–661",
+        "unit": "number of species"
+      },
+      {
+        "id": 6,
+        "variable": "Threatened vertebrate richness",
+        "scale": "1–62",
+        "unit": "number of species"
+      },
+      {
+        "id": 6,
+        "variable": "Restricted range vertebrate richness",
+        "scale": "1–38",
+        "unit": "number of species"
+      },
+      {
+        "id": 6,
+        "variable": "Total species richness + plants",
+        "scale": "164–1278",
+        "unit": "number of species"
+      },
+      {
+        "id": 7,
+        "variable": "Carbon storage",
+        "scale": "0–1,500,000",
+        "unit": "TnC/km^2"
+      },
+      {
+        "id": 7,
+        "variable": "Rural density",
+        "scale": "not reported",
+        "unit": "people/km^2"
+      },
+      {
+        "id": 7,
+        "variable": "Pasture area",
+        "scale": "not reported",
+        "unit": "km^2"
+      },
+      {
+        "id": 7,
+        "variable": "Agricultural area",
+        "scale": "not reported",
+        "unit": "km^2"
+      },
+      {
+        "id": 7,
+        "variable": "Roads",
+        "scale": "not reported",
+        "unit": "unitless"
+      },
+      {
+        "id": 7,
+        "variable": "Forest area",
+        "scale": "not reported",
+        "unit": "km^2"
+      },
+      {
+        "id": 7,
+        "variable": "Deforestation rate",
+        "scale": "not reported",
+        "unit": "unitless"
+      },
+      {
+        "id": 7,
+        "variable": "Temperature",
+        "scale": "not reported",
+        "unit": "°C"
+      },
+      {
+        "id": 7,
+        "variable": "Altitude",
+        "scale": "0–2087",
+        "unit": "m"
+      },
+      {
+        "id": 7,
+        "variable": "Precipitation",
+        "scale": "1400–2000",
+        "unit": "mm"
+      },
+      {
+        "id": 7,
+        "variable": "All groups",
+        "scale": "not reported",
+        "unit": "number of species"
+      },
+      {
+        "id": 7,
+        "variable": "Amphibians",
+        "scale": "2–140",
+        "unit": "number of species"
+      },
+      {
+        "id": 7,
+        "variable": "Birds",
+        "scale": "251–800",
+        "unit": "number of species"
+      },
+      {
+        "id": 7,
+        "variable": "Mammals",
+        "scale": "122–200",
+        "unit": "number of species"
+      },
+      {
+        "id": 8,
+        "variable": "Biomass C (estimates of above and below-ground biomass)",
+        "scale": "0.0–217.4",
+        "unit": "t/ha"
+      },
+      {
+        "id": 8,
+        "variable": "Richness Index (number of species per cell)",
+        "scale": "0–1367",
+        "unit": "number of species"
+      },
+      {
+        "id": 8,
+        "variable": "Threatened Index (number of threatened species per cell)",
+        "scale": "0–94",
+        "unit": "number of species"
+      },
+      {
+        "id": 8,
+        "variable": "Restricted range index (number of restricted-range species per cell)",
+        "scale": "0–117",
+        "unit": "number of species"
+      },
+      {
+        "id": 9,
+        "variable": "Biodiversity",
+        "scale": "not reported",
+        "unit": "habitat quality as a proxy for biodiversity"
+      },
+      {
+        "id": 9,
+        "variable": "Carbon sequestration",
+        "scale": "not reported",
+        "unit": "estimate the amount of carbon sequestered each year"
+      },
+      {
+        "id": 9,
+        "variable": "Nitrogen retention",
+        "scale": "not reported",
+        "unit": "pollutant removal service evaluation focused on nitrogen"
+      },
+      {
+        "id": 9,
+        "variable": "Phosphorus retention",
+        "scale": "not reported",
+        "unit": "pollutant removal service evaluation focused on phosphorus"
+      },
+      {
+        "id": 9,
+        "variable": "Pollination",
+        "scale": "not reported",
+        "unit": "index of bee abundance"
+      },
+      {
+        "id": 9,
+        "variable": "Soil retention",
+        "scale": "not reported",
+        "unit": "capacity of a land parcel to retain sediment"
+      },
+      {
+        "id": 9,
+        "variable": "Water yield",
+        "scale": "not reported",
+        "unit": "annual average quantity"
+      },
+      {
+        "id": 10,
+        "variable": "Carbon stock",
+        "scale": "0–256",
+        "unit": "tons of carbon/ha"
+      },
+      {
+        "id": 10,
+        "variable": "Habitat quality",
+        "scale": "0–1",
+        "unit": "habitat quality index"
+      },
+      {
+        "id": 10,
+        "variable": "eucalyptus",
+        "scale": "not reported",
+        "unit": "land use class"
+      },
+      {
+        "id": 10,
+        "variable": "pasture",
+        "scale": "not reported",
+        "unit": "land use class"
+      },
+      {
+        "id": 10,
+        "variable": "mining",
+        "scale": "not reported",
+        "unit": "land use class"
+      },
+      {
+        "id": 10,
+        "variable": "urban",
+        "scale": "not reported",
+        "unit": "land use class"
+      },
+      {
+        "id": 10,
+        "variable": "roads",
+        "scale": "not reported",
+        "unit": "land use class"
+      },
+      {
+        "id": 10,
+        "variable": "agriculture",
+        "scale": "not reported",
+        "unit": "land use class"
+      },
+      {
+        "id": 10,
+        "variable": "accessibility",
+        "scale": "0.5–1",
+        "unit": "dimensionless"
+      },
+      {
+        "id": 10,
+        "variable": "aboveground biomass",
+        "scale": "not reported",
+        "unit": "Mg ha⁻¹"
+      },
+      {
+        "id": 10,
+        "variable": "soil organic carbon",
+        "scale": "not reported",
+        "unit": "Mg ha⁻¹"
+      },
+      {
+        "id": 10,
+        "variable": "belowground biomass",
+        "scale": "not reported",
+        "unit": "Mg ha⁻¹"
+      },
+      {
+        "id": 10,
+        "variable": "dead organic carbon",
+        "scale": "not reported",
+        "unit": "Mg ha⁻¹"
+      },
+      {
+        "id": 10,
+        "variable": "topographic factor",
+        "scale": "not reported",
+        "unit": "dimensionless"
+      },
+      {
+        "id": 10,
+        "variable": "soil erodibility",
+        "scale": "not reported",
+        "unit": "ton/MJ/ha/(mm/h)"
+      },
+      {
+        "id": 10,
+        "variable": "sediment filtration",
+        "scale": "not reported",
+        "unit": "dimensionless"
+      },
+      {
+        "id": 10,
+        "variable": "cover-management and support practice factors",
+        "scale": "not reported",
+        "unit": "dimensionless"
+      },
+      {
+        "id": 10,
+        "variable": "rainfall erosivity",
+        "scale": "not reported",
+        "unit": "MJ/ha/(mm/h)"
+      },
+      {
+        "id": 10,
+        "variable": "Sediment retention",
+        "scale": "0–62",
+        "unit": "tons/ha/year"
+      }
+    ]
+  },
+  {
+    "question_id": "M_L2_Q2",
+    "question": "<independent variable> <scale> <unit>",
+    "description": "Extract measurement scales and units for independent variables only.",
+    "answer_format": {
+      "id": "integer",
+      "independent_variable": "string",
+      "scale": "string",
+      "unit": "string"
+    },
+    "answers": [
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "scale": "not reported",
+        "unit": "runoff"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "scale": "not reported",
+        "unit": "percentage contribution of groundwater to base flows"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Carbon storage",
+        "scale": "not reported",
+        "unit": "carbon storage potentials for different vegetation types"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil accumulation",
+        "scale": "not reported",
+        "unit": "function of soil depth and leaf litter accumulation index"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil retention",
+        "scale": "not reported",
+        "unit": "function of vegetation cover and erodibility"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - data",
+        "scale": "0–30",
+        "unit": "number of BAP species"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - proxy",
+        "scale": "0–14",
+        "unit": "number of BAP species"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - data",
+        "scale": "3.6–76",
+        "unit": "kg C/m^2"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - proxy",
+        "scale": "7.6–39",
+        "unit": "kg C/m^2"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Recreation - data",
+        "scale": "0.04–1.8",
+        "unit": "average number of visits"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Recreation - land cover alone",
+        "scale": "0–1.6",
+        "unit": "average number of visits"
+      },
+      {
+        "id": 3,
+        "independent_variable": "Carbon stocks",
+        "scale": "380–1100",
+        "unit": "Mg C/ha"
+      },
+      {
+        "id": 3,
+        "independent_variable": "Timber",
+        "scale": "0–2300",
+        "unit": "40-yr NPV, US$/ha"
+      },
+      {
+        "id": 3,
+        "independent_variable": "Smallholder agriculture",
+        "scale": "0–900",
+        "unit": "US$·ha^-1·yr^-1"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Water conservation",
+        "scale": "0–1000",
+        "unit": "mm"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Soil retention",
+        "scale": "<500–15000",
+        "unit": "tons ha^−1 a^−1"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Carbon sequestration",
+        "scale": "0–1000",
+        "unit": "g/m^2 ⋅a"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Biodiversity conservation",
+        "scale": "0–1.0",
+        "unit": "habitat quality index"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Food supply",
+        "scale": "0–1000",
+        "unit": "t/km^2"
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "scale": "<20–>95",
+        "unit": "Mg C/cell ha"
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "scale": "38–1285",
+        "unit": "t CO 2​/ha"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "scale": "0–1,500,000",
+        "unit": "TnC/km^2"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Rural density",
+        "scale": "not reported",
+        "unit": "people/km^2"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Pasture area",
+        "scale": "not reported",
+        "unit": "km^2"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Agricultural area",
+        "scale": "not reported",
+        "unit": "km^2"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Roads",
+        "scale": "not reported",
+        "unit": "unitless"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Forest area",
+        "scale": "not reported",
+        "unit": "km^2"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Deforestation rate",
+        "scale": "not reported",
+        "unit": "unitless"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Temperature",
+        "scale": "not reported",
+        "unit": "°C"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Altitude",
+        "scale": "0–2087",
+        "unit": "m"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Precipitation",
+        "scale": "1400–2000",
+        "unit": "mm"
+      },
+      {
+        "id": 8,
+        "independent_variable": "Biomass C (estimates of above and below-ground biomass)",
+        "scale": "0.0–217.4",
+        "unit": "t/ha"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Biodiversity",
+        "scale": "not reported",
+        "unit": "habitat quality as a proxy for biodiversity"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Carbon sequestration",
+        "scale": "not reported",
+        "unit": "estimate the amount of carbon sequestered each year"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Nitrogen retention",
+        "scale": "not reported",
+        "unit": "pollutant removal service evaluation focused on nitrogen"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Phosphorus retention",
+        "scale": "not reported",
+        "unit": "pollutant removal service evaluation focused on phosphorus"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Pollination",
+        "scale": "not reported",
+        "unit": "index of bee abundance"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Soil retention",
+        "scale": "not reported",
+        "unit": "capacity of a land parcel to retain sediment"
+      },
+      {
+        "id": 10,
+        "independent_variable": "Carbon stock",
+        "scale": "0–256",
+        "unit": "tons of carbon/ha"
+      },
+      {
+        "id": 10,
+        "independent_variable": "Habitat quality",
+        "scale": "0–1",
+        "unit": "habitat quality index"
+      },
+      {
+        "id": 10,
+        "independent_variable": "eucalyptus",
+        "scale": "not reported",
+        "unit": "land use class"
+      },
+      {
+        "id": 10,
+        "independent_variable": "pasture",
+        "scale": "not reported",
+        "unit": "land use class"
+      },
+      {
+        "id": 10,
+        "independent_variable": "mining",
+        "scale": "not reported",
+        "unit": "land use class"
+      },
+      {
+        "id": 10,
+        "independent_variable": "urban",
+        "scale": "not reported",
+        "unit": "land use class"
+      },
+      {
+        "id": 10,
+        "independent_variable": "roads",
+        "scale": "not reported",
+        "unit": "land use class"
+      },
+      {
+        "id": 10,
+        "independent_variable": "agriculture",
+        "scale": "not reported",
+        "unit": "land use class"
+      },
+      {
+        "id": 10,
+        "independent_variable": "accessibility",
+        "scale": "0.5–1",
+        "unit": "dimensionless"
+      },
+      {
+        "id": 10,
+        "independent_variable": "aboveground biomass",
+        "scale": "not reported",
+        "unit": "Mg ha⁻¹"
+      },
+      {
+        "id": 10,
+        "independent_variable": "soil organic carbon",
+        "scale": "not reported",
+        "unit": "Mg ha⁻¹"
+      },
+      {
+        "id": 10,
+        "independent_variable": "belowground biomass",
+        "scale": "not reported",
+        "unit": "Mg ha⁻¹"
+      },
+      {
+        "id": 10,
+        "independent_variable": "dead organic carbon",
+        "scale": "not reported",
+        "unit": "Mg ha⁻¹"
+      },
+      {
+        "id": 10,
+        "independent_variable": "topographic factor",
+        "scale": "not reported",
+        "unit": "dimensionless"
+      },
+      {
+        "id": 10,
+        "independent_variable": "soil erodibility",
+        "scale": "not reported",
+        "unit": "ton/MJ/ha/(mm/h)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "sediment filtration",
+        "scale": "not reported",
+        "unit": "dimensionless"
+      },
+      {
+        "id": 10,
+        "independent_variable": "cover-management and support practice factors",
+        "scale": "not reported",
+        "unit": "dimensionless"
+      },
+      {
+        "id": 10,
+        "independent_variable": "rainfall erosivity",
+        "scale": "not reported",
+        "unit": "MJ/ha/(mm/h)"
+      }
+    ]
+  },
+  {
+    "question_id": "M_L2_Q3",
+    "question": "<dependent variable> <scale> <unit>",
+    "description": "Extract measurement scales and units for dependent variables only.",
+    "answer_format": {
+      "id": "integer",
+      "dependent_variable": "string",
+      "scale": "string",
+      "unit": "string"
+    },
+    "answers": [
+      {
+        "id": 1,
+        "dependent_variable": "Birds",
+        "scale": "the richest 10% of grid cells",
+        "unit": "number of species"
+      },
+      {
+        "id": 1,
+        "dependent_variable": "Frogs",
+        "scale": "the richest 10% of grid cells",
+        "unit": "number of species"
+      },
+      {
+        "id": 1,
+        "dependent_variable": "Butterfly",
+        "scale": "the richest 10% of grid cells",
+        "unit": "number of species"
+      },
+      {
+        "id": 1,
+        "dependent_variable": "Mammals",
+        "scale": "the richest 10% of grid cells",
+        "unit": "number of species"
+      },
+      {
+        "id": 1,
+        "dependent_variable": "Animals combined",
+        "scale": "the richest 10% of grid cells",
+        "unit": "number of species"
+      },
+      {
+        "id": 1,
+        "dependent_variable": "Threatened and endemic plants",
+        "scale": "the richest 10% of grid cells",
+        "unit": "number of species"
+      },
+      {
+        "id": 1,
+        "dependent_variable": "Threatened plants",
+        "scale": "the richest 10% of grid cells",
+        "unit": "number of species"
+      },
+      {
+        "id": 1,
+        "dependent_variable": "Endemic plants",
+        "scale": "the richest 10% of grid cells",
+        "unit": "number of species"
+      },
+      {
+        "id": 1,
+        "dependent_variable": "Vegetation diversity",
+        "scale": "1 to 17",
+        "unit": "number of vegetation types per QDS"
+      },
+      {
+        "id": 2,
+        "dependent_variable": "Biodiversity - proxy",
+        "scale": "0–14",
+        "unit": "number of BAP species"
+      },
+      {
+        "id": 2,
+        "dependent_variable": "Carbon - data",
+        "scale": "3.6–76",
+        "unit": "kg C/m^2"
+      },
+      {
+        "id": 2,
+        "dependent_variable": "Carbon - proxy",
+        "scale": "7.6–39",
+        "unit": "kg C/m^2"
+      },
+      {
+        "id": 2,
+        "dependent_variable": "Recreation - data",
+        "scale": "0.04–1.8",
+        "unit": "average number of visits"
+      },
+      {
+        "id": 2,
+        "dependent_variable": "Recreation - land cover alone",
+        "scale": "0–1.6",
+        "unit": "average number of visits"
+      },
+      {
+        "id": 2,
+        "dependent_variable": "Recreation - land cover + population + access",
+        "scale": "0–1.8",
+        "unit": "average number of visits"
+      },
+      {
+        "id": 3,
+        "dependent_variable": "Timber",
+        "scale": "0–2300",
+        "unit": "40-yr NPV, US$/ha"
+      },
+      {
+        "id": 3,
+        "dependent_variable": "Biodiversity",
+        "scale": "0–830",
+        "unit": "selection frequency"
+      },
+      {
+        "id": 3,
+        "dependent_variable": "Palm oil",
+        "scale": "0–4600",
+        "unit": "25-yr NPV, US$/ha"
+      },
+      {
+        "id": 4,
+        "dependent_variable": "Water conservation",
+        "scale": "0–1000",
+        "unit": "mm"
+      },
+      {
+        "id": 4,
+        "dependent_variable": "Soil retention",
+        "scale": "<500–15000",
+        "unit": "tons ha^−1 a^−1"
+      },
+      {
+        "id": 4,
+        "dependent_variable": "Carbon sequestration",
+        "scale": "0–1000",
+        "unit": "g/m^2 ⋅a"
+      },
+      {
+        "id": 4,
+        "dependent_variable": "Biodiversity conservation",
+        "scale": "0–1.0",
+        "unit": "habitat quality index"
+      },
+      {
+        "id": 4,
+        "dependent_variable": "Food supply",
+        "scale": "0–1000",
+        "unit": "t/km^2"
+      },
+      {
+        "id": 5,
+        "dependent_variable": "Bird richness",
+        "scale": "<20–>60",
+        "unit": "number of species"
+      },
+      {
+        "id": 5,
+        "dependent_variable": "Tree richness",
+        "scale": "<2.0–>6.5",
+        "unit": "number of species per plot"
+      },
+      {
+        "id": 5,
+        "dependent_variable": "Overall biodiversity",
+        "scale": "<0.6–>1.4",
+        "unit": "unitless index"
+      },
+      {
+        "id": 6,
+        "dependent_variable": "Total vertebrate richness",
+        "scale": "1–661",
+        "unit": "number of species"
+      },
+      {
+        "id": 6,
+        "dependent_variable": "Threatened vertebrate richness",
+        "scale": "1–62",
+        "unit": "number of species"
+      },
+      {
+        "id": 6,
+        "dependent_variable": "Restricted range vertebrate richness",
+        "scale": "1–38",
+        "unit": "number of species"
+      },
+      {
+        "id": 6,
+        "dependent_variable": "Total species richness + plants",
+        "scale": "164–1278",
+        "unit": "number of species"
+      },
+      {
+        "id": 7,
+        "dependent_variable": "Carbon storage",
+        "scale": "0–1,500,000",
+        "unit": "TnC/km^2"
+      },
+      {
+        "id": 7,
+        "dependent_variable": "All groups",
+        "scale": "not reported",
+        "unit": "number of species"
+      },
+      {
+        "id": 7,
+        "dependent_variable": "Amphibians",
+        "scale": "2–140",
+        "unit": "number of species"
+      },
+      {
+        "id": 7,
+        "dependent_variable": "Birds",
+        "scale": "251–800",
+        "unit": "number of species"
+      },
+      {
+        "id": 7,
+        "dependent_variable": "Mammals",
+        "scale": "122–200",
+        "unit": "number of species"
+      },
+      {
+        "id": 8,
+        "dependent_variable": "Richness Index (number of species per cell)",
+        "scale": "0–1367",
+        "unit": "number of species"
+      },
+      {
+        "id": 8,
+        "dependent_variable": "Threatened Index (number of threatened species per cell)",
+        "scale": "0–94",
+        "unit": "number of species"
+      },
+      {
+        "id": 8,
+        "dependent_variable": "Restricted range index (number of restricted-range species per cell)",
+        "scale": "0–117",
+        "unit": "number of species"
+      },
+      {
+        "id": 9,
+        "dependent_variable": "Carbon sequestration",
+        "scale": "not reported",
+        "unit": "estimate the amount of carbon sequestered each year"
+      },
+      {
+        "id": 9,
+        "dependent_variable": "Nitrogen retention",
+        "scale": "not reported",
+        "unit": "pollutant removal service evaluation focused on nitrogen"
+      },
+      {
+        "id": 9,
+        "dependent_variable": "Phosphorus retention",
+        "scale": "not reported",
+        "unit": "pollutant removal service evaluation focused on phosphorus"
+      },
+      {
+        "id": 9,
+        "dependent_variable": "Pollination",
+        "scale": "not reported",
+        "unit": "index of bee abundance"
+      },
+      {
+        "id": 9,
+        "dependent_variable": "Soil retention",
+        "scale": "not reported",
+        "unit": "capacity of a land parcel to retain sediment"
+      },
+      {
+        "id": 9,
+        "dependent_variable": "Water yield",
+        "scale": "not reported",
+        "unit": "annual average quantity"
+      },
+      {
+        "id": 10,
+        "dependent_variable": "Habitat quality",
+        "scale": "0–1",
+        "unit": "habitat quality index"
+      },
+      {
+        "id": 10,
+        "dependent_variable": "Sediment retention",
+        "scale": "0–62",
+        "unit": "tons/ha/year"
+      },
+      {
+        "id": 10,
+        "dependent_variable": "Carbon stock",
+        "scale": "0–256",
+        "unit": "tons of carbon/ha"
+      }
+    ]
+  },
+  {
+    "question_id": "M_L2_Q4",
+    "question": "<independent variable> <dependent variable>",
+    "description": "Extract all explicitly reported independent-dependent variable pairs. Each pair should be listed once per study, regardless of the number of statistical methods used.",
+    "answer_format": {
+      "id": "integer",
+      "independent_variable": "string",
+      "dependent_variable": "string"
+    },
+    "answers": [
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Birds"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Birds"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Birds"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil accumulation",
+        "dependent_variable": "Birds"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Frogs"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Frogs"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Frogs"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil accumulation",
+        "dependent_variable": "Frogs"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Butterfly"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Butterfly"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Butterfly"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil accumulation",
+        "dependent_variable": "Butterfly"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Butterfly"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Mammals"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Mammals"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Mammals"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil accumulation",
+        "dependent_variable": "Mammals"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Animals combined"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Animals combined"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Animals combined"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil accumulation",
+        "dependent_variable": "Animals combined"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Threatened and endemic plants"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Threatened and endemic plants"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Threatened and endemic plants"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Threatened and endemic plants"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Threatened plants"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Threatened plants"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil accumulation",
+        "dependent_variable": "Threatened plants"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Threatened plants"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Endemic plants"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Endemic plants"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Endemic plants"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Vegetation diversity"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Vegetation diversity"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Vegetation diversity"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - data",
+        "dependent_variable": "Biodiversity - proxy"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - data",
+        "dependent_variable": "Carbon - data"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - data",
+        "dependent_variable": "Carbon - proxy"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - data",
+        "dependent_variable": "Recreation - data"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - data",
+        "dependent_variable": "Recreation - land cover alone"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - data",
+        "dependent_variable": "Recreation - land cover + population + access"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - proxy",
+        "dependent_variable": "Carbon - data"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - proxy",
+        "dependent_variable": "Carbon - proxy"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - proxy",
+        "dependent_variable": "Recreation - data"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - proxy",
+        "dependent_variable": "Recreation - land cover alone"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - proxy",
+        "dependent_variable": "Recreation - land cover + population + access"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - data",
+        "dependent_variable": "Carbon - proxy"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - data",
+        "dependent_variable": "Recreation - data"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - data",
+        "dependent_variable": "Recreation - land cover alone"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - data",
+        "dependent_variable": "Recreation - land cover + population + access"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - proxy",
+        "dependent_variable": "Recreation - data"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - proxy",
+        "dependent_variable": "Recreation - land cover alone"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - proxy",
+        "dependent_variable": "Recreation - land cover + population + access"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Recreation - data",
+        "dependent_variable": "Recreation - land cover alone"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Recreation - data",
+        "dependent_variable": "Recreation - land cover + population + access"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Recreation - land cover alone",
+        "dependent_variable": "Recreation - land cover + population + access"
+      },
+      {
+        "id": 3,
+        "independent_variable": "Carbon stocks",
+        "dependent_variable": "Timber"
+      },
+      {
+        "id": 3,
+        "independent_variable": "Timber",
+        "dependent_variable": "Biodiversity"
+      },
+      {
+        "id": 3,
+        "independent_variable": "Smallholder agriculture",
+        "dependent_variable": "Palm oil"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Water conservation",
+        "dependent_variable": "Soil retention"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Water conservation",
+        "dependent_variable": "Carbon sequestration"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Water conservation",
+        "dependent_variable": "Biodiversity conservation"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Water conservation",
+        "dependent_variable": "Food supply"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Carbon sequestration"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Biodiversity conservation"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Food supply"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Carbon sequestration",
+        "dependent_variable": "Biodiversity conservation"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Carbon sequestration",
+        "dependent_variable": "Food supply"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Biodiversity conservation",
+        "dependent_variable": "Food supply"
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Bird richness"
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Tree richness"
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Overall biodiversity"
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Total vertebrate richness"
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Threatened vertebrate richness"
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Restricted range vertebrate richness"
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Total species richness + plants"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "All groups"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Amphibians"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Birds"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Mammals"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Rural density",
+        "dependent_variable": "Carbon storage"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Pasture area",
+        "dependent_variable": "Carbon storage"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Agricultural area",
+        "dependent_variable": "Carbon storage"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Roads",
+        "dependent_variable": "Carbon storage"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Forest area",
+        "dependent_variable": "Carbon storage"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Deforestation rate",
+        "dependent_variable": "Carbon storage"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Temperature",
+        "dependent_variable": "Carbon storage"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Rural density",
+        "dependent_variable": "All groups"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Pasture area",
+        "dependent_variable": "All groups"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Roads",
+        "dependent_variable": "All groups"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Forest area",
+        "dependent_variable": "All groups"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Deforestation rate",
+        "dependent_variable": "All groups"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Temperature",
+        "dependent_variable": "All groups"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Altitude",
+        "dependent_variable": "All groups"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Precipitation",
+        "dependent_variable": "All groups"
+      },
+      {
+        "id": 8,
+        "independent_variable": "Biomass C",
+        "dependent_variable": "Richness Index"
+      },
+      {
+        "id": 8,
+        "independent_variable": "Biomass C",
+        "dependent_variable": "Threatened Index"
+      },
+      {
+        "id": 8,
+        "independent_variable": "Biomass C",
+        "dependent_variable": "Restricted range index"
+      },
+      {
+        "id": 8,
+        "independent_variable": "Biomass C",
+        "dependent_variable": "Richness index"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Biodiversity",
+        "dependent_variable": "Carbon sequestration"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Biodiversity",
+        "dependent_variable": "Nitrogen retention"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Biodiversity",
+        "dependent_variable": "Phosphorus retention"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Biodiversity",
+        "dependent_variable": "Pollination"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Biodiversity",
+        "dependent_variable": "Soil retention"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Biodiversity",
+        "dependent_variable": "Water yield"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Carbon sequestration",
+        "dependent_variable": "Nitrogen retention"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Carbon sequestration",
+        "dependent_variable": "Phosphorus retention"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Carbon sequestration",
+        "dependent_variable": "Pollination"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Carbon sequestration",
+        "dependent_variable": "Soil retention"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Carbon sequestration",
+        "dependent_variable": "Water yield"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Nitrogen retention",
+        "dependent_variable": "Phosphorus retention"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Nitrogen retention",
+        "dependent_variable": "Pollination"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Nitrogen retention",
+        "dependent_variable": "Soil retention"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Nitrogen retention",
+        "dependent_variable": "Water yield"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Phosphorus retention",
+        "dependent_variable": "Pollination"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Phosphorus retention",
+        "dependent_variable": "Soil retention"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Phosphorus retention",
+        "dependent_variable": "Water yield"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Pollination",
+        "dependent_variable": "Soil retention"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Pollination",
+        "dependent_variable": "Water yield"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Water yield"
+      },
+      {
+        "id": 10,
+        "independent_variable": "Carbon stock",
+        "dependent_variable": "Habitat quality"
+      },
+      {
+        "id": 10,
+        "independent_variable": "Carbon stock",
+        "dependent_variable": "Sediment retention"
+      },
+      {
+        "id": 10,
+        "independent_variable": "Habitat quality",
+        "dependent_variable": "Sediment retention"
+      },
+      {
+        "id": 10,
+        "independent_variable": "eucalyptus",
+        "dependent_variable": "Habitat quality"
+      },
+      {
+        "id": 10,
+        "independent_variable": "pasture",
+        "dependent_variable": "Habitat quality"
+      },
+      {
+        "id": 10,
+        "independent_variable": "mining",
+        "dependent_variable": "Habitat quality"
+      },
+      {
+        "id": 10,
+        "independent_variable": "urban",
+        "dependent_variable": "Habitat quality"
+      },
+      {
+        "id": 10,
+        "independent_variable": "roads",
+        "dependent_variable": "Habitat quality"
+      },
+      {
+        "id": 10,
+        "independent_variable": "agriculture",
+        "dependent_variable": "Habitat quality"
+      },
+      {
+        "id": 10,
+        "independent_variable": "accessibility",
+        "dependent_variable": "Habitat quality"
+      },
+      {
+        "id": 10,
+        "independent_variable": "aboveground biomass",
+        "dependent_variable": "Carbon stock"
+      },
+      {
+        "id": 10,
+        "independent_variable": "soil organic carbon",
+        "dependent_variable": "Carbon stock"
+      },
+      {
+        "id": 10,
+        "independent_variable": "belowground biomass",
+        "dependent_variable": "Carbon stock"
+      },
+      {
+        "id": 10,
+        "independent_variable": "dead organic carbon",
+        "dependent_variable": "Carbon stock"
+      },
+      {
+        "id": 10,
+        "independent_variable": "topographic factor",
+        "dependent_variable": "Sediment retention"
+      },
+      {
+        "id": 10,
+        "independent_variable": "soil erodibility",
+        "dependent_variable": "Sediment retention"
+      },
+      {
+        "id": 10,
+        "independent_variable": "sediment filtration",
+        "dependent_variable": "Sediment retention"
+      },
+      {
+        "id": 10,
+        "independent_variable": "cover-management and support practice factors",
+        "dependent_variable": "Sediment retention"
+      },
+      {
+        "id": 10,
+        "independent_variable": "rainfall erosivity",
+        "dependent_variable": "Sediment retention"
+      }
+    ]
+  },
+  {
+    "question_id": "M_L2_Q5",
+    "question": "<independent variable> <dependent variable> <statistical method>",
+    "description": "Extract all atomic relationships between independent variables and dependent variables, each paired with a single explicitly reported statistical method. If the same variable pair is analyzed with multiple methods, extract multiple records.",
+    "answer_format": {
+      "id": "integer",
+      "independent_variable": "string",
+      "dependent_variable": "string",
+      "statistical_method": "string"
+    },
+    "answers": [
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Mammals",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Endemic plants",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Frogs",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Endemic plants",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Animals combined",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Birds",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Threatened and endemic plants",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Butterfly",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Butterfly",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil accumulation",
+        "dependent_variable": "Butterfly",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Vegetation diversity",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Endemic plants",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Mammals",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Vegetation diversity",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil accumulation",
+        "dependent_variable": "Frogs",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Animals combined",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil accumulation",
+        "dependent_variable": "Animals combined",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Frogs",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil accumulation",
+        "dependent_variable": "Birds",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Threatened plants",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Butterfly",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil accumulation",
+        "dependent_variable": "Threatened plants",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Birds",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Threatened plants",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Threatened and endemic plants",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Threatened and endemic plants",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Vegetation diversity",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Frogs",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Mammals",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil accumulation",
+        "dependent_variable": "Mammals",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Animals combined",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Birds",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Threatened plants",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Butterfly",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Threatened and endemic plants",
+        "statistical_method": "Spearman rank correlations (r)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - data",
+        "dependent_variable": "Biodiversity - proxy",
+        "statistical_method": "Spearman rank correlation (rho)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - data",
+        "dependent_variable": "Recreation - land cover + population + access",
+        "statistical_method": "Spearman rank correlation (rho)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - data",
+        "dependent_variable": "Recreation - data",
+        "statistical_method": "Spearman rank correlation (rho)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - proxy",
+        "dependent_variable": "Recreation - land cover + population + access",
+        "statistical_method": "Spearman rank correlation (rho)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - proxy",
+        "dependent_variable": "Carbon - proxy",
+        "statistical_method": "Spearman rank correlation (rho)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - proxy",
+        "dependent_variable": "Carbon - data",
+        "statistical_method": "Spearman rank correlation (rho)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - data",
+        "dependent_variable": "Recreation - land cover + population + access",
+        "statistical_method": "Spearman rank correlation (rho)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Recreation - land cover alone",
+        "dependent_variable": "Recreation - land cover + population + access",
+        "statistical_method": "Spearman rank correlation (rho)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - proxy",
+        "dependent_variable": "Recreation - data",
+        "statistical_method": "Spearman rank correlation (rho)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - data",
+        "dependent_variable": "Recreation - land cover alone",
+        "statistical_method": "Spearman rank correlation (rho)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - proxy",
+        "dependent_variable": "Recreation - land cover alone",
+        "statistical_method": "Spearman rank correlation (rho)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Recreation - data",
+        "dependent_variable": "Recreation - land cover + population + access",
+        "statistical_method": "Spearman rank correlation (rho)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - proxy",
+        "dependent_variable": "Recreation - land cover + population + access",
+        "statistical_method": "Spearman rank correlation (rho)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - data",
+        "dependent_variable": "Recreation - land cover alone",
+        "statistical_method": "Spearman rank correlation (rho)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - data",
+        "dependent_variable": "Carbon - proxy",
+        "statistical_method": "Spearman rank correlation (rho)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Recreation - data",
+        "dependent_variable": "Recreation - land cover alone",
+        "statistical_method": "Spearman rank correlation (rho)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - data",
+        "dependent_variable": "Carbon - data",
+        "statistical_method": "Spearman rank correlation (rho)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - proxy",
+        "dependent_variable": "Recreation - land cover alone",
+        "statistical_method": "Spearman rank correlation (rho)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - data",
+        "dependent_variable": "Recreation - data",
+        "statistical_method": "Spearman rank correlation (rho)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - proxy",
+        "dependent_variable": "Recreation - data",
+        "statistical_method": "Spearman rank correlation (rho)"
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - data",
+        "dependent_variable": "Carbon - proxy",
+        "statistical_method": "Spearman rank correlation (rho)"
+      },
+      {
+        "id": 3,
+        "independent_variable": "Smallholder agriculture",
+        "dependent_variable": "Palm oil",
+        "statistical_method": "Spearman rank correlation (ρ)"
+      },
+      {
+        "id": 3,
+        "independent_variable": "Carbon stocks",
+        "dependent_variable": "Timber",
+        "statistical_method": "Spearman rank correlation (ρ)"
+      },
+      {
+        "id": 3,
+        "independent_variable": "Timber",
+        "dependent_variable": "Biodiversity",
+        "statistical_method": "Spearman rank correlation (ρ)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Carbon sequestration",
+        "dependent_variable": "Food supply",
+        "statistical_method": "Spearman rank correlation (r)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Carbon sequestration",
+        "statistical_method": "Spearman rank correlation (r)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Biodiversity conservation",
+        "dependent_variable": "Food supply",
+        "statistical_method": "Spearman rank correlation (r)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Biodiversity conservation",
+        "statistical_method": "Spearman rank correlation (r)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Carbon sequestration",
+        "dependent_variable": "Biodiversity conservation",
+        "statistical_method": "Spearman rank correlation (r)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Food supply",
+        "statistical_method": "Spearman rank correlation (r)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Water conservation",
+        "dependent_variable": "Soil retention",
+        "statistical_method": "Spearman rank correlation (r)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Water conservation",
+        "dependent_variable": "Carbon sequestration",
+        "statistical_method": "Spearman rank correlation (r)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Water conservation",
+        "dependent_variable": "Food supply",
+        "statistical_method": "Spearman rank correlation (r)"
+      },
+      {
+        "id": 4,
+        "independent_variable": "Water conservation",
+        "dependent_variable": "Biodiversity conservation",
+        "statistical_method": "Spearman rank correlation (r)"
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Overall biodiversity",
+        "statistical_method": "Pearson correlation (r)"
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Tree richness",
+        "statistical_method": "Pearson correlation (r)"
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Bird richness",
+        "statistical_method": "Pearson correlation (r)"
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Total species richness + plants",
+        "statistical_method": "Spearman rank correlation (r_s​)"
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Restricted range vertebrate richness",
+        "statistical_method": "Spearman rank correlation (r_s​)"
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Threatened vertebrate richness",
+        "statistical_method": "Spearman rank correlation (r_s​)"
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Total vertebrate richness",
+        "statistical_method": "Spearman rank correlation (r_s​)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Forest area",
+        "dependent_variable": "Carbon storage",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Forest area",
+        "dependent_variable": "Carbon storage",
+        "statistical_method": "general linear models (Estimate)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Rural density",
+        "dependent_variable": "All groups",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Rural density",
+        "dependent_variable": "All groups",
+        "statistical_method": "general linear models (Estimate)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "All groups",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "All groups",
+        "statistical_method": "general linear models (Estimate)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Precipitation",
+        "dependent_variable": "All groups",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Precipitation",
+        "dependent_variable": "All groups",
+        "statistical_method": "general linear models (Estimate)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Temperature",
+        "dependent_variable": "Carbon storage",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Temperature",
+        "dependent_variable": "Carbon storage",
+        "statistical_method": "general linear models (Estimate)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Pasture area",
+        "dependent_variable": "Carbon storage",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Pasture area",
+        "dependent_variable": "Carbon storage",
+        "statistical_method": "general linear models (Estimate)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Roads",
+        "dependent_variable": "Carbon storage",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Roads",
+        "dependent_variable": "Carbon storage",
+        "statistical_method": "general linear models (Estimate)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Deforestation rate",
+        "dependent_variable": "All groups",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Deforestation rate",
+        "dependent_variable": "All groups",
+        "statistical_method": "general linear models (Estimate)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Agricultural area",
+        "dependent_variable": "Carbon storage",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Agricultural area",
+        "dependent_variable": "Carbon storage",
+        "statistical_method": "general linear models (Estimate)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Roads",
+        "dependent_variable": "All groups",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Roads",
+        "dependent_variable": "All groups",
+        "statistical_method": "general linear models (Estimate)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Birds",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Birds",
+        "statistical_method": "general linear models (Estimate)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Rural density",
+        "dependent_variable": "Carbon storage",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Rural density",
+        "dependent_variable": "Carbon storage",
+        "statistical_method": "general linear models (Estimate)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Forest area",
+        "dependent_variable": "All groups",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Forest area",
+        "dependent_variable": "All groups",
+        "statistical_method": "general linear models (Estimate)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Amphibians",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Amphibians",
+        "statistical_method": "general linear models (Estimate)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Mammals",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Mammals",
+        "statistical_method": "general linear models (Estimate)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Altitude",
+        "dependent_variable": "All groups",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Altitude",
+        "dependent_variable": "All groups",
+        "statistical_method": "general linear models (Estimate)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Temperature",
+        "dependent_variable": "All groups",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Temperature",
+        "dependent_variable": "All groups",
+        "statistical_method": "general linear models (Estimate)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Deforestation rate",
+        "dependent_variable": "Carbon storage",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Deforestation rate",
+        "dependent_variable": "Carbon storage",
+        "statistical_method": "general linear models (Estimate)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Pasture area",
+        "dependent_variable": "All groups",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 7,
+        "independent_variable": "Pasture area",
+        "dependent_variable": "All groups",
+        "statistical_method": "general linear models (Estimate)"
+      },
+      {
+        "id": 8,
+        "independent_variable": "Biomass C",
+        "dependent_variable": "Richness Index",
+        "statistical_method": "Spearman rank correlations (r_s​)"
+      },
+      {
+        "id": 8,
+        "independent_variable": "Biomass C",
+        "dependent_variable": "Restricted range index",
+        "statistical_method": "Spearman rank correlations (r_s​)"
+      },
+      {
+        "id": 8,
+        "independent_variable": "Biomass C",
+        "dependent_variable": "Threatened Index",
+        "statistical_method": "Spearman rank correlations (r_s​)"
+      },
+      {
+        "id": 8,
+        "independent_variable": "Biomass C",
+        "dependent_variable": "Richness index",
+        "statistical_method": "Spearman rank correlations (r_s​)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Phosphorus retention",
+        "dependent_variable": "Pollination",
+        "statistical_method": "Pearson’s correlation (r)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Pollination",
+        "dependent_variable": "Water yield",
+        "statistical_method": "Pearson’s correlation (r)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Pollination",
+        "dependent_variable": "Soil retention",
+        "statistical_method": "Pearson’s correlation (r)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Carbon sequestration",
+        "dependent_variable": "Water yield",
+        "statistical_method": "Pearson’s correlation (r)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Carbon sequestration",
+        "dependent_variable": "Soil retention",
+        "statistical_method": "Pearson’s correlation (r)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Biodiversity",
+        "dependent_variable": "Pollination",
+        "statistical_method": "Pearson’s correlation (r)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Carbon sequestration",
+        "dependent_variable": "Phosphorus retention",
+        "statistical_method": "Pearson’s correlation (r)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Biodiversity",
+        "dependent_variable": "Nitrogen retention",
+        "statistical_method": "Pearson’s correlation (r)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Biodiversity",
+        "dependent_variable": "Carbon sequestration",
+        "statistical_method": "Pearson’s correlation (r)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Water yield",
+        "statistical_method": "Pearson’s correlation (r)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Carbon sequestration",
+        "dependent_variable": "Pollination",
+        "statistical_method": "Pearson’s correlation (r)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Nitrogen retention",
+        "dependent_variable": "Water yield",
+        "statistical_method": "Pearson’s correlation (r)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Nitrogen retention",
+        "dependent_variable": "Soil retention",
+        "statistical_method": "Pearson’s correlation (r)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Phosphorus retention",
+        "dependent_variable": "Water yield",
+        "statistical_method": "Pearson’s correlation (r)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Phosphorus retention",
+        "dependent_variable": "Soil retention",
+        "statistical_method": "Pearson’s correlation (r)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Carbon sequestration",
+        "dependent_variable": "Nitrogen retention",
+        "statistical_method": "Pearson’s correlation (r)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Nitrogen retention",
+        "dependent_variable": "Phosphorus retention",
+        "statistical_method": "Pearson’s correlation (r)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Biodiversity",
+        "dependent_variable": "Water yield",
+        "statistical_method": "Pearson’s correlation (r)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Biodiversity",
+        "dependent_variable": "Soil retention",
+        "statistical_method": "Pearson’s correlation (r)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Biodiversity",
+        "dependent_variable": "Phosphorus retention",
+        "statistical_method": "Pearson’s correlation (r)"
+      },
+      {
+        "id": 9,
+        "independent_variable": "Nitrogen retention",
+        "dependent_variable": "Pollination",
+        "statistical_method": "Pearson’s correlation (r)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "aboveground biomass",
+        "dependent_variable": "Carbon stock",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "aboveground biomass",
+        "dependent_variable": "Carbon stock",
+        "statistical_method": "Standardized regression coefficient (SRC)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "cover-management and support practice factors",
+        "dependent_variable": "Sediment retention",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "cover-management and support practice factors",
+        "dependent_variable": "Sediment retention",
+        "statistical_method": "Standardized regression coefficient (SRC)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "Carbon stock",
+        "dependent_variable": "Habitat quality",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "Carbon stock",
+        "dependent_variable": "Habitat quality",
+        "statistical_method": "Standardized regression coefficient (SRC)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "rainfall erosivity",
+        "dependent_variable": "Sediment retention",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "rainfall erosivity",
+        "dependent_variable": "Sediment retention",
+        "statistical_method": "Standardized regression coefficient (SRC)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "pasture",
+        "dependent_variable": "Habitat quality",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "pasture",
+        "dependent_variable": "Habitat quality",
+        "statistical_method": "Standardized regression coefficient (SRC)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "soil erodibility",
+        "dependent_variable": "Sediment retention",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "soil erodibility",
+        "dependent_variable": "Sediment retention",
+        "statistical_method": "Standardized regression coefficient (SRC)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "urban",
+        "dependent_variable": "Habitat quality",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "urban",
+        "dependent_variable": "Habitat quality",
+        "statistical_method": "Standardized regression coefficient (SRC)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "belowground biomass",
+        "dependent_variable": "Carbon stock",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "belowground biomass",
+        "dependent_variable": "Carbon stock",
+        "statistical_method": "Standardized regression coefficient (SRC)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "soil organic carbon",
+        "dependent_variable": "Carbon stock",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "soil organic carbon",
+        "dependent_variable": "Carbon stock",
+        "statistical_method": "Standardized regression coefficient (SRC)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "agriculture",
+        "dependent_variable": "Habitat quality",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "agriculture",
+        "dependent_variable": "Habitat quality",
+        "statistical_method": "Standardized regression coefficient (SRC)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "eucalyptus",
+        "dependent_variable": "Habitat quality",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "eucalyptus",
+        "dependent_variable": "Habitat quality",
+        "statistical_method": "Standardized regression coefficient (SRC)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "sediment filtration",
+        "dependent_variable": "Sediment retention",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "sediment filtration",
+        "dependent_variable": "Sediment retention",
+        "statistical_method": "Standardized regression coefficient (SRC)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "dead organic carbon",
+        "dependent_variable": "Carbon stock",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "dead organic carbon",
+        "dependent_variable": "Carbon stock",
+        "statistical_method": "Standardized regression coefficient (SRC)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "Habitat quality",
+        "dependent_variable": "Sediment retention",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "Habitat quality",
+        "dependent_variable": "Sediment retention",
+        "statistical_method": "Standardized regression coefficient (SRC)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "Carbon stock",
+        "dependent_variable": "Sediment retention",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "Carbon stock",
+        "dependent_variable": "Sediment retention",
+        "statistical_method": "Standardized regression coefficient (SRC)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "topographic factor",
+        "dependent_variable": "Sediment retention",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "topographic factor",
+        "dependent_variable": "Sediment retention",
+        "statistical_method": "Standardized regression coefficient (SRC)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "accessibility",
+        "dependent_variable": "Habitat quality",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "accessibility",
+        "dependent_variable": "Habitat quality",
+        "statistical_method": "Standardized regression coefficient (SRC)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "roads",
+        "dependent_variable": "Habitat quality",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "roads",
+        "dependent_variable": "Habitat quality",
+        "statistical_method": "Standardized regression coefficient (SRC)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "mining",
+        "dependent_variable": "Habitat quality",
+        "statistical_method": "Pearson's correlation (r)"
+      },
+      {
+        "id": 10,
+        "independent_variable": "mining",
+        "dependent_variable": "Habitat quality",
+        "statistical_method": "Standardized regression coefficient (SRC)"
+      }
+    ]
+  },
+  {
+    "question_id": "M_L2_Q6",
+    "question": "<independent variable> <dependent variable> <statistical method> <conditions> <effect size>",
+    "description": "Extract all reported effect sizes with IV, DV, method, and conditions.",
+    "answer_format": {
+      "id": "integer",
+      "independent_variable": "string",
+      "dependent_variable": "string",
+      "statistical_method": "string",
+      "conditions": "string",
+      "effect_size": "float"
+    },
+    "answers": [
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Birds",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.22
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Birds",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.1
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Birds",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.1
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil accumulation",
+        "dependent_variable": "Birds",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.14
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Frogs",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.1
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Frogs",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.23
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Frogs",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.19
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil accumulation",
+        "dependent_variable": "Frogs",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.23
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Butterfly",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.19
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Butterfly",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.15
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Butterfly",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.16
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil accumulation",
+        "dependent_variable": "Butterfly",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.15
+      },
+      {
+        "id": 1,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Butterfly",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.1
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Mammals",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.17
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Mammals",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.18
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Mammals",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.19
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil accumulation",
+        "dependent_variable": "Mammals",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.27
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Animals combined",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.18
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Animals combined",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.16
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Animals combined",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.18
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil accumulation",
+        "dependent_variable": "Animals combined",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.24
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Threatened and endemic plants",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.18
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Threatened and endemic plants",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.18
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Threatened and endemic plants",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.11
+      },
+      {
+        "id": 1,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Threatened and endemic plants",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.11
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Threatened plants",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.1
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Threatened plants",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.1
+      },
+      {
+        "id": 1,
+        "independent_variable": "Soil accumulation",
+        "dependent_variable": "Threatened plants",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": -0.08
+      },
+      {
+        "id": 1,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Threatened plants",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.06
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Endemic plants",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.14
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Endemic plants",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.18
+      },
+      {
+        "id": 1,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Endemic plants",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.23
+      },
+      {
+        "id": 1,
+        "independent_variable": "Water flow regulation",
+        "dependent_variable": "Vegetation diversity",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.18
+      },
+      {
+        "id": 1,
+        "independent_variable": "Surface water supply",
+        "dependent_variable": "Vegetation diversity",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.13
+      },
+      {
+        "id": 1,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Vegetation diversity",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.26
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - data",
+        "dependent_variable": "Biodiversity - proxy",
+        "statistical_method": "rho",
+        "conditions": "none",
+        "effect_size": 0.37
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - data",
+        "dependent_variable": "Carbon - data",
+        "statistical_method": "rho",
+        "conditions": "none",
+        "effect_size": -0.19
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - data",
+        "dependent_variable": "Carbon - proxy",
+        "statistical_method": "rho",
+        "conditions": "none",
+        "effect_size": -0.23
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - data",
+        "dependent_variable": "Recreation - data",
+        "statistical_method": "rho",
+        "conditions": "none",
+        "effect_size": 0.18
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - data",
+        "dependent_variable": "Recreation - land cover alone",
+        "statistical_method": "rho",
+        "conditions": "none",
+        "effect_size": -0.13
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - data",
+        "dependent_variable": "Recreation - land cover + population + access",
+        "statistical_method": "rho",
+        "conditions": "none",
+        "effect_size": 0.26
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - proxy",
+        "dependent_variable": "Carbon - data",
+        "statistical_method": "rho",
+        "conditions": "none",
+        "effect_size": -0.36
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - proxy",
+        "dependent_variable": "Carbon - proxy",
+        "statistical_method": "rho",
+        "conditions": "none",
+        "effect_size": -0.62
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - proxy",
+        "dependent_variable": "Recreation - data",
+        "statistical_method": "rho",
+        "conditions": "none",
+        "effect_size": -0.02
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - proxy",
+        "dependent_variable": "Recreation - land cover alone",
+        "statistical_method": "rho",
+        "conditions": "none",
+        "effect_size": -0.12
+      },
+      {
+        "id": 2,
+        "independent_variable": "Biodiversity - proxy",
+        "dependent_variable": "Recreation - land cover + population + access",
+        "statistical_method": "rho",
+        "conditions": "none",
+        "effect_size": 0.08
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - data",
+        "dependent_variable": "Carbon - proxy",
+        "statistical_method": "rho",
+        "conditions": "none",
+        "effect_size": 0.57
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - data",
+        "dependent_variable": "Recreation - data",
+        "statistical_method": "rho",
+        "conditions": "none",
+        "effect_size": -0.19
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - data",
+        "dependent_variable": "Recreation - land cover alone",
+        "statistical_method": "rho",
+        "conditions": "none",
+        "effect_size": -0.24
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - data",
+        "dependent_variable": "Recreation - land cover + population + access",
+        "statistical_method": "rho",
+        "conditions": "none",
+        "effect_size": -0.33
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - proxy",
+        "dependent_variable": "Recreation - data",
+        "statistical_method": "rho",
+        "conditions": "none",
+        "effect_size": -0.15
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - proxy",
+        "dependent_variable": "Recreation - land cover alone",
+        "statistical_method": "rho",
+        "conditions": "none",
+        "effect_size": -0.15
+      },
+      {
+        "id": 2,
+        "independent_variable": "Carbon - proxy",
+        "dependent_variable": "Recreation - land cover + population + access",
+        "statistical_method": "rho",
+        "conditions": "none",
+        "effect_size": -0.32
+      },
+      {
+        "id": 2,
+        "independent_variable": "Recreation - data",
+        "dependent_variable": "Recreation - land cover alone",
+        "statistical_method": "rho",
+        "conditions": "none",
+        "effect_size": 0.42
+      },
+      {
+        "id": 2,
+        "independent_variable": "Recreation - data",
+        "dependent_variable": "Recreation - land cover + population + access",
+        "statistical_method": "rho",
+        "conditions": "none",
+        "effect_size": 0.5
+      },
+      {
+        "id": 2,
+        "independent_variable": "Recreation - land cover alone",
+        "dependent_variable": "Recreation - land cover + population + access",
+        "statistical_method": "rho",
+        "conditions": "none",
+        "effect_size": 0.81
+      },
+      {
+        "id": 3,
+        "independent_variable": "Carbon stocks",
+        "dependent_variable": "Timber",
+        "statistical_method": "ρ",
+        "conditions": "none",
+        "effect_size": 0.36
+      },
+      {
+        "id": 3,
+        "independent_variable": "Timber",
+        "dependent_variable": "Biodiversity",
+        "statistical_method": "ρ",
+        "conditions": "none",
+        "effect_size": 0.35
+      },
+      {
+        "id": 3,
+        "independent_variable": "Smallholder agriculture",
+        "dependent_variable": "Palm oil",
+        "statistical_method": "ρ",
+        "conditions": "none",
+        "effect_size": 0.55
+      },
+      {
+        "id": 4,
+        "independent_variable": "Water conservation",
+        "dependent_variable": "Soil retention",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.78
+      },
+      {
+        "id": 4,
+        "independent_variable": "Water conservation",
+        "dependent_variable": "Carbon sequestration",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": -0.058
+      },
+      {
+        "id": 4,
+        "independent_variable": "Water conservation",
+        "dependent_variable": "Biodiversity conservation",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": -0.345
+      },
+      {
+        "id": 4,
+        "independent_variable": "Water conservation",
+        "dependent_variable": "Food supply",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": -0.105
+      },
+      {
+        "id": 4,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Carbon sequestration",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.141
+      },
+      {
+        "id": 4,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Biodiversity conservation",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": -0.086
+      },
+      {
+        "id": 4,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Food supply",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": -0.097
+      },
+      {
+        "id": 4,
+        "independent_variable": "Carbon sequestration",
+        "dependent_variable": "Biodiversity conservation",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.513
+      },
+      {
+        "id": 4,
+        "independent_variable": "Carbon sequestration",
+        "dependent_variable": "Food supply",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.102
+      },
+      {
+        "id": 4,
+        "independent_variable": "Biodiversity conservation",
+        "dependent_variable": "Food supply",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.235
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Bird richness",
+        "statistical_method": "r",
+        "conditions": "Spain",
+        "effect_size": 0.53
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Tree richness",
+        "statistical_method": "r",
+        "conditions": "Spain",
+        "effect_size": 0.47
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Overall biodiversity",
+        "statistical_method": "r",
+        "conditions": "Spain",
+        "effect_size": 0.59
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Bird richness",
+        "statistical_method": "r",
+        "conditions": "Quebec",
+        "effect_size": 0.14
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Tree richness",
+        "statistical_method": "r",
+        "conditions": "Quebec",
+        "effect_size": 0.53
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Overall biodiversity",
+        "statistical_method": "r",
+        "conditions": "Quebec",
+        "effect_size": 0.29
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Bird richness",
+        "statistical_method": "r",
+        "conditions": "Steppe",
+        "effect_size": 0.47
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Tree richness",
+        "statistical_method": "r",
+        "conditions": "Steppe",
+        "effect_size": 0.34
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Overall biodiversity",
+        "statistical_method": "r",
+        "conditions": "Steppe",
+        "effect_size": 0.52
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Bird richness",
+        "statistical_method": "r",
+        "conditions": "Dry Mediterranean",
+        "effect_size": 0.41
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Tree richness",
+        "statistical_method": "r",
+        "conditions": "Dry Mediterranean",
+        "effect_size": 0.25
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Overall biodiversity",
+        "statistical_method": "r",
+        "conditions": "Dry Mediterranean",
+        "effect_size": 0.41
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Bird richness",
+        "statistical_method": "r",
+        "conditions": "Humid Mediterranean",
+        "effect_size": 0.36
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Tree richness",
+        "statistical_method": "r",
+        "conditions": "Humid Mediterranean",
+        "effect_size": 0.46
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Overall biodiversity",
+        "statistical_method": "r",
+        "conditions": "Humid Mediterranean",
+        "effect_size": 0.51
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Bird richness",
+        "statistical_method": "r",
+        "conditions": "Temperate",
+        "effect_size": 0.08
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Tree richness",
+        "statistical_method": "r",
+        "conditions": "Temperate",
+        "effect_size": 0.42
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Overall biodiversity",
+        "statistical_method": "r",
+        "conditions": "Temperate",
+        "effect_size": 0.23
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Bird richness",
+        "statistical_method": "r",
+        "conditions": "Boreal",
+        "effect_size": 0.24
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Tree richness",
+        "statistical_method": "r",
+        "conditions": "Boreal",
+        "effect_size": 0.59
+      },
+      {
+        "id": 5,
+        "independent_variable": "Tree carbon stocks",
+        "dependent_variable": "Overall biodiversity",
+        "statistical_method": "r",
+        "conditions": "Boreal",
+        "effect_size": 0.5
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Total vertebrate richness",
+        "statistical_method": "r_s​",
+        "conditions": "Kalimantan",
+        "effect_size": 0.14
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Total vertebrate richness",
+        "statistical_method": "r_s​",
+        "conditions": "Sumatra",
+        "effect_size": 0.01
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Total vertebrate richness",
+        "statistical_method": "r_s​",
+        "conditions": "Java",
+        "effect_size": 0.23
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Total vertebrate richness",
+        "statistical_method": "r_s​​",
+        "conditions": "Papua",
+        "effect_size": 0.0
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Total vertebrate richness",
+        "statistical_method": "r_s​​",
+        "conditions": "Sulawesi",
+        "effect_size": 0.22
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Total vertebrate richness",
+        "statistical_method": "r_s​​",
+        "conditions": "Indonesia",
+        "effect_size": -0.06
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Threatened vertebrate richness",
+        "statistical_method": "r_s​",
+        "conditions": "Kalimantan",
+        "effect_size": 0.04
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Threatened vertebrate richness",
+        "statistical_method": "r_s​",
+        "conditions": "Sumatra",
+        "effect_size": 0.14
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Threatened vertebrate richness",
+        "statistical_method": "r_s​​",
+        "conditions": "Java",
+        "effect_size": 0.29
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Threatened vertebrate richness",
+        "statistical_method": "r_s​​",
+        "conditions": "Papua",
+        "effect_size": -0.13
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Threatened vertebrate richness",
+        "statistical_method": "r_s​​",
+        "conditions": "Sulawesi",
+        "effect_size": 0.31
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Threatened vertebrate richness",
+        "statistical_method": "r_s​​",
+        "conditions": "Indonesia",
+        "effect_size": -0.08
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Restricted range vertebrate richness",
+        "statistical_method": "r_s​​",
+        "conditions": "Kalimantan",
+        "effect_size": -0.08
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Restricted range vertebrate richness",
+        "statistical_method": "r_s​​",
+        "conditions": "Sumatra",
+        "effect_size": 0.34
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Restricted range vertebrate richness",
+        "statistical_method": "r_s​",
+        "conditions": "Java",
+        "effect_size": 0.61
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Restricted range vertebrate richness",
+        "statistical_method": "r_s​​",
+        "conditions": "Papua",
+        "effect_size": -0.22
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Restricted range vertebrate richness",
+        "statistical_method": "r_s​​",
+        "conditions": "Sulawesi",
+        "effect_size": 0.42
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Restricted range vertebrate richness",
+        "statistical_method": "r_s​",
+        "conditions": "Indonesia",
+        "effect_size": -0.06
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Total species richness + plants",
+        "statistical_method": "r_s​",
+        "conditions": "Kalimantan",
+        "effect_size": -0.306
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Total species richness + plants",
+        "statistical_method": "r_s​",
+        "conditions": "Sumatra",
+        "effect_size": -0.516
+      },
+      {
+        "id": 6,
+        "independent_variable": "Organic carbon stock",
+        "dependent_variable": "Total species richness + plants",
+        "statistical_method": "r_s​",
+        "conditions": "Java",
+        "effect_size": 0.244
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "All groups",
+        "statistical_method": "r",
+        "conditions": "Colombia",
+        "effect_size": 0.54
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "All groups",
+        "statistical_method": "r",
+        "conditions": "Andes",
+        "effect_size": 0.28
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "All groups",
+        "statistical_method": "r",
+        "conditions": "Caribbean",
+        "effect_size": 0.52
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "All groups",
+        "statistical_method": "r",
+        "conditions": "Orinoquia",
+        "effect_size": 0.31
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Amphibians",
+        "statistical_method": "r",
+        "conditions": "Colombia",
+        "effect_size": 0.67
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Amphibians",
+        "statistical_method": "r",
+        "conditions": "Andes",
+        "effect_size": 0.36
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Amphibians",
+        "statistical_method": "r",
+        "conditions": "Caribbean",
+        "effect_size": 0.32
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Amphibians",
+        "statistical_method": "r",
+        "conditions": "Orinoquia",
+        "effect_size": 0.24
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Amphibians",
+        "statistical_method": "r",
+        "conditions": "Pacific",
+        "effect_size": 0.27
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Amphibians",
+        "statistical_method": "r",
+        "conditions": "Amazon",
+        "effect_size": 0.22
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Birds",
+        "statistical_method": "r",
+        "conditions": "Colombia",
+        "effect_size": 0.43
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Birds",
+        "statistical_method": "r",
+        "conditions": "Andes",
+        "effect_size": 0.25
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Birds",
+        "statistical_method": "r",
+        "conditions": "Caribbean",
+        "effect_size": 0.54
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Birds",
+        "statistical_method": "r",
+        "conditions": "Orinoquia",
+        "effect_size": 0.3
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Birds",
+        "statistical_method": "r",
+        "conditions": "Amazon",
+        "effect_size": -0.05
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Mammals",
+        "statistical_method": "r",
+        "conditions": "Colombia",
+        "effect_size": 0.5
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Mammals",
+        "statistical_method": "r",
+        "conditions": "Andes",
+        "effect_size": 0.22
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Mammals",
+        "statistical_method": "r",
+        "conditions": "Caribbean",
+        "effect_size": 0.22
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Mammals",
+        "statistical_method": "r",
+        "conditions": "Orinoquia",
+        "effect_size": 0.33
+      },
+      {
+        "id": 7,
+        "independent_variable": "Carbon storage",
+        "dependent_variable": "Mammals",
+        "statistical_method": "r",
+        "conditions": "Amazon",
+        "effect_size": -0.06
+      },
+      {
+        "id": 7,
+        "independent_variable": "Rural density",
+        "dependent_variable": "Carbon storage",
+        "statistical_method": "Estimate",
+        "conditions": "Colombia; GLM",
+        "effect_size": -0.297
+      },
+      {
+        "id": 7,
+        "independent_variable": "Pasture area",
+        "dependent_variable": "Carbon storage",
+        "statistical_method": "Estimate",
+        "conditions": "Colombia; GLM",
+        "effect_size": 0.001
+      },
+      {
+        "id": 7,
+        "independent_variable": "Agricultural area",
+        "dependent_variable": "Carbon storage",
+        "statistical_method": "Estimate",
+        "conditions": "Colombia; GLM",
+        "effect_size": -0.001
+      },
+      {
+        "id": 7,
+        "independent_variable": "Roads",
+        "dependent_variable": "Carbon storage",
+        "statistical_method": "Estimate",
+        "conditions": "Colombia; GLM",
+        "effect_size": -0.0
+      },
+      {
+        "id": 7,
+        "independent_variable": "Forest area",
+        "dependent_variable": "Carbon storage",
+        "statistical_method": "Estimate",
+        "conditions": "Colombia; GLM",
+        "effect_size": 0.12
+      },
+      {
+        "id": 7,
+        "independent_variable": "Deforestation rate",
+        "dependent_variable": "Carbon storage",
+        "statistical_method": "Estimate",
+        "conditions": "Colombia; GLM",
+        "effect_size": -0.007
+      },
+      {
+        "id": 7,
+        "independent_variable": "Temperature",
+        "dependent_variable": "Carbon storage",
+        "statistical_method": "Estimate",
+        "conditions": "Colombia; GLM",
+        "effect_size": 0.001
+      },
+      {
+        "id": 7,
+        "independent_variable": "Rural density",
+        "dependent_variable": "All groups",
+        "statistical_method": "Estimate",
+        "conditions": "Colombia; GLM",
+        "effect_size": 0.303
+      },
+      {
+        "id": 7,
+        "independent_variable": "Pasture area",
+        "dependent_variable": "All groups",
+        "statistical_method": "Estimate",
+        "conditions": "Colombia; GLM",
+        "effect_size": 0.001
+      },
+      {
+        "id": 7,
+        "independent_variable": "Roads",
+        "dependent_variable": "All groups",
+        "statistical_method": "Estimate",
+        "conditions": "Colombia; GLM",
+        "effect_size": -0.0
+      },
+      {
+        "id": 7,
+        "independent_variable": "Forest area",
+        "dependent_variable": "All groups",
+        "statistical_method": "Estimate",
+        "conditions": "Colombia; GLM",
+        "effect_size": 0.059
+      },
+      {
+        "id": 7,
+        "independent_variable": "Deforestation rate",
+        "dependent_variable": "All groups",
+        "statistical_method": "Estimate",
+        "conditions": "Colombia; GLM",
+        "effect_size": -0.008
+      },
+      {
+        "id": 7,
+        "independent_variable": "Temperature",
+        "dependent_variable": "All groups",
+        "statistical_method": "Estimate",
+        "conditions": "Colombia; GLM",
+        "effect_size": -0.019
+      },
+      {
+        "id": 7,
+        "independent_variable": "Altitude",
+        "dependent_variable": "All groups",
+        "statistical_method": "Estimate",
+        "conditions": "Colombia; GLM",
+        "effect_size": -0.0
+      },
+      {
+        "id": 7,
+        "independent_variable": "Precipitation",
+        "dependent_variable": "All groups",
+        "statistical_method": "Estimate",
+        "conditions": "Colombia; GLM",
+        "effect_size": -0.0
+      },
+      {
+        "id": 8,
+        "independent_variable": "Biomass C",
+        "dependent_variable": "Richness Index",
+        "statistical_method": "r_s",
+        "conditions": "none",
+        "effect_size": 0.82
+      },
+      {
+        "id": 8,
+        "independent_variable": "Biomass C",
+        "dependent_variable": "Threatened Index",
+        "statistical_method": "r_s",
+        "conditions": "none",
+        "effect_size": 0.55
+      },
+      {
+        "id": 8,
+        "independent_variable": "Biomass C",
+        "dependent_variable": "Restricted range index",
+        "statistical_method": "r_s",
+        "conditions": "none",
+        "effect_size": 0.42
+      },
+      {
+        "id": 8,
+        "independent_variable": "Biomass C",
+        "dependent_variable": "Richness index",
+        "statistical_method": "r_s",
+        "conditions": "Amphibians",
+        "effect_size": 0.84
+      },
+      {
+        "id": 8,
+        "independent_variable": "Biomass C",
+        "dependent_variable": "Threatened Index",
+        "statistical_method": "r_s",
+        "conditions": "Amphibians",
+        "effect_size": 0.37
+      },
+      {
+        "id": 8,
+        "independent_variable": "Biomass C",
+        "dependent_variable": "Restricted range index",
+        "statistical_method": "r_s",
+        "conditions": "Amphibians",
+        "effect_size": 0.24
+      },
+      {
+        "id": 8,
+        "independent_variable": "Biomass C",
+        "dependent_variable": "Richness index",
+        "statistical_method": "r_s",
+        "conditions": "Birds",
+        "effect_size": 0.8
+      },
+      {
+        "id": 8,
+        "independent_variable": "Biomass C",
+        "dependent_variable": "Threatened Index",
+        "statistical_method": "r_s",
+        "conditions": "Birds",
+        "effect_size": 0.43
+      },
+      {
+        "id": 8,
+        "independent_variable": "Biomass C",
+        "dependent_variable": "Restricted range index",
+        "statistical_method": "r_s",
+        "conditions": "Birds",
+        "effect_size": 0.38
+      },
+      {
+        "id": 8,
+        "independent_variable": "Biomass C",
+        "dependent_variable": "Richness index",
+        "statistical_method": "r_s",
+        "conditions": "Mammals",
+        "effect_size": 0.79
+      },
+      {
+        "id": 8,
+        "independent_variable": "Biomass C",
+        "dependent_variable": "Threatened Index",
+        "statistical_method": "r_s",
+        "conditions": "Mammals",
+        "effect_size": 0.52
+      },
+      {
+        "id": 8,
+        "independent_variable": "Biomass C",
+        "dependent_variable": "Restricted range index",
+        "statistical_method": "r_s",
+        "conditions": "Mammals",
+        "effect_size": 0.31
+      },
+      {
+        "id": 9,
+        "independent_variable": "Biodiversity",
+        "dependent_variable": "Carbon sequestration",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.554
+      },
+      {
+        "id": 9,
+        "independent_variable": "Biodiversity",
+        "dependent_variable": "Nitrogen retention",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": -0.206
+      },
+      {
+        "id": 9,
+        "independent_variable": "Biodiversity",
+        "dependent_variable": "Phosphorus retention",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": -0.237
+      },
+      {
+        "id": 9,
+        "independent_variable": "Biodiversity",
+        "dependent_variable": "Pollination",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": -0.256
+      },
+      {
+        "id": 9,
+        "independent_variable": "Biodiversity",
+        "dependent_variable": "Soil retention",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.813
+      },
+      {
+        "id": 9,
+        "independent_variable": "Biodiversity",
+        "dependent_variable": "Water yield",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.535
+      },
+      {
+        "id": 9,
+        "independent_variable": "Carbon sequestration",
+        "dependent_variable": "Nitrogen retention",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": -0.087
+      },
+      {
+        "id": 9,
+        "independent_variable": "Carbon sequestration",
+        "dependent_variable": "Phosphorus retention",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": -0.112
+      },
+      {
+        "id": 9,
+        "independent_variable": "Carbon sequestration",
+        "dependent_variable": "Pollination",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": -0.062
+      },
+      {
+        "id": 9,
+        "independent_variable": "Carbon sequestration",
+        "dependent_variable": "Soil retention",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.668
+      },
+      {
+        "id": 9,
+        "independent_variable": "Carbon sequestration",
+        "dependent_variable": "Water yield",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.288
+      },
+      {
+        "id": 9,
+        "independent_variable": "Nitrogen retention",
+        "dependent_variable": "Phosphorus retention",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.93
+      },
+      {
+        "id": 9,
+        "independent_variable": "Nitrogen retention",
+        "dependent_variable": "Pollination",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.896
+      },
+      {
+        "id": 9,
+        "independent_variable": "Nitrogen retention",
+        "dependent_variable": "Soil retention",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": -0.195
+      },
+      {
+        "id": 9,
+        "independent_variable": "Nitrogen retention",
+        "dependent_variable": "Water yield",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.501
+      },
+      {
+        "id": 9,
+        "independent_variable": "Phosphorus retention",
+        "dependent_variable": "Pollination",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.905
+      },
+      {
+        "id": 9,
+        "independent_variable": "Phosphorus retention",
+        "dependent_variable": "Soil retention",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": -0.226
+      },
+      {
+        "id": 9,
+        "independent_variable": "Phosphorus retention",
+        "dependent_variable": "Water yield",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.506
+      },
+      {
+        "id": 9,
+        "independent_variable": "Pollination",
+        "dependent_variable": "Soil retention",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": -0.237
+      },
+      {
+        "id": 9,
+        "independent_variable": "Pollination",
+        "dependent_variable": "Water yield",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.541
+      },
+      {
+        "id": 9,
+        "independent_variable": "Soil retention",
+        "dependent_variable": "Water yield",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.494
+      },
+      {
+        "id": 10,
+        "independent_variable": "Carbon stock",
+        "dependent_variable": "Habitat quality",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.55
+      },
+      {
+        "id": 10,
+        "independent_variable": "Carbon stock",
+        "dependent_variable": "Sediment retention",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": -0.07
+      },
+      {
+        "id": 10,
+        "independent_variable": "Habitat quality",
+        "dependent_variable": "Sediment retention",
+        "statistical_method": "r",
+        "conditions": "none",
+        "effect_size": 0.1
+      },
+      {
+        "id": 10,
+        "independent_variable": "eucalyptus",
+        "dependent_variable": "Habitat quality",
+        "statistical_method": "SRC",
+        "conditions": "none",
+        "effect_size": -0.31
+      },
+      {
+        "id": 10,
+        "independent_variable": "pasture",
+        "dependent_variable": "Habitat quality",
+        "statistical_method": "SRC",
+        "conditions": "none",
+        "effect_size": -0.44
+      },
+      {
+        "id": 10,
+        "independent_variable": "mining",
+        "dependent_variable": "Habitat quality",
+        "statistical_method": "SRC",
+        "conditions": "none",
+        "effect_size": -0.25
+      },
+      {
+        "id": 10,
+        "independent_variable": "urban",
+        "dependent_variable": "Habitat quality",
+        "statistical_method": "SRC",
+        "conditions": "none",
+        "effect_size": -0.37
+      },
+      {
+        "id": 10,
+        "independent_variable": "roads",
+        "dependent_variable": "Habitat quality",
+        "statistical_method": "SRC",
+        "conditions": "none",
+        "effect_size": -0.09
+      },
+      {
+        "id": 10,
+        "independent_variable": "agriculture",
+        "dependent_variable": "Habitat quality",
+        "statistical_method": "SRC",
+        "conditions": "none",
+        "effect_size": -0.02
+      },
+      {
+        "id": 10,
+        "independent_variable": "accessibility",
+        "dependent_variable": "Habitat quality",
+        "statistical_method": "SRC",
+        "conditions": "none",
+        "effect_size": -0.06
+      },
+      {
+        "id": 10,
+        "independent_variable": "aboveground biomass",
+        "dependent_variable": "Carbon stock",
+        "statistical_method": "SRC",
+        "conditions": "none",
+        "effect_size": 0.72
+      },
+      {
+        "id": 10,
+        "independent_variable": "soil organic carbon",
+        "dependent_variable": "Carbon stock",
+        "statistical_method": "SRC",
+        "conditions": "none",
+        "effect_size": 0.34
+      },
+      {
+        "id": 10,
+        "independent_variable": "belowground biomass",
+        "dependent_variable": "Carbon stock",
+        "statistical_method": "SRC",
+        "conditions": "none",
+        "effect_size": 0.11
+      },
+      {
+        "id": 10,
+        "independent_variable": "dead organic carbon",
+        "dependent_variable": "Carbon stock",
+        "statistical_method": "SRC",
+        "conditions": "none",
+        "effect_size": 0.02
+      },
+      {
+        "id": 10,
+        "independent_variable": "topographic factor",
+        "dependent_variable": "Sediment retention",
+        "statistical_method": "SRC",
+        "conditions": "none",
+        "effect_size": 0.3
+      },
+      {
+        "id": 10,
+        "independent_variable": "soil erodibility",
+        "dependent_variable": "Sediment retention",
+        "statistical_method": "SRC",
+        "conditions": "none",
+        "effect_size": 0.2
+      },
+      {
+        "id": 10,
+        "independent_variable": "sediment filtration",
+        "dependent_variable": "Sediment retention",
+        "statistical_method": "SRC",
+        "conditions": "none",
+        "effect_size": 0.17
+      },
+      {
+        "id": 10,
+        "independent_variable": "cover-management and support practice factors",
+        "dependent_variable": "Sediment retention",
+        "statistical_method": "SRC",
+        "conditions": "none",
+        "effect_size": 0.11
+      },
+      {
+        "id": 10,
+        "independent_variable": "rainfall erosivity",
+        "dependent_variable": "Sediment retention",
+        "statistical_method": "SRC",
+        "conditions": "none",
+        "effect_size": 0.03
+      }
+    ]
+  },
+  {
+    "question_id": "M_C_Q1",
+    "question": "count - <statistical method>",
+    "description": "Count unique statistical methods.",
+    "answer_format": {
+      "count": "integer"
+    },
+    "answers": {
+      "count": 11
+    }
+  },
+  {
+    "question_id": "M_C_Q2",
+    "question": "count - <independent variable> <dependent variable>",
+    "description": "Count unique IV-DV pairs.",
+    "answer_format": {
+      "count": "integer"
+    },
+    "answers": {
+      "count": 139
+    }
+  },
+  {
+    "question_id": "M_C_Q3",
+    "question": "count - <independent variable> <dependent variable> <statistical method>",
+    "description": "Count unique IV-DV-method triplets.",
+    "answer_format": {
+      "count": "integer"
+    },
+    "answers": {
+      "count": 177
+    }
+  },
+  {
+    "question_id": "M_C_Q4",
+    "question": "count - (|effect size| > 0.5)",
+    "description": "Count effect sizes with |value| > 0.5.",
+    "answer_format": {
+      "count": "integer"
+    },
+    "answers": {
+      "count": 36
+    }
+  },
+  {
+    "question_id": "M_C_Q5",
+    "question": "average <effect size>",
+    "description": "Average of all reported effect sizes.",
+    "answer_format": {
+      "average_effect_size": "float"
+    },
+    "answers": {
+      "average_effect_size": 0.1917
+    }
+  }
+]
